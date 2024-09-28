@@ -14,8 +14,14 @@
 </ul>
 <p>Once we find the right table, click <strong>Load</strong> button.</p>
 <hr/>
-
 <h3>Data Cleaning</h3>
 <p>The second step was requiring cleaning the data, such as removing extra columns if they existed, fixing column header, identifying outliers, and more. After clicking <strong>Transform Data</strong> button, I filled the empty cells in the "Rank" column with the necessary values, corrected the "NOC" column, and deleted the last record since it could have interfered with the calculations.</p>
 <p>After making the required changes, I clicked <strong>Load</strong> button to load this data into my Excel sheet.</p>
 <hr/>
+<h3>File Saving</h3>
+<ul>
+  <li>After the data is imported and cleaned, go to <strong>File -> Save As</strong>.</li>
+  <li>Choose the location where we want to save the file.</li>
+  <li>In the <strong>Save as type</strong>dropdown, select "CSV" or (*.csv).</li>
+  <li>Give the file a name and click <strong>Save</strong> button.</li>
+</ul>
