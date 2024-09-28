@@ -13,8 +13,9 @@
   <li>If the table doesn't appear right away, then check under "Document" or "Web View".</li>
 </ul>
 <p>Once we find the right table, click <strong>Load</strong> button.</p>
-</hr>
+<hr/>
+
 <h3>Data Cleaning</h3>
 <p>The second step was requiring cleaning the data, such as removing extra columns if they existed, fixing column header, identifying outliers, and more. After clicking <strong>Transform Data</strong> button, I filled the empty cells in the "Rank" column with the necessary values, corrected the "NOC" column, and deleted the last record since it could have interfered with the calculations.</p>
 <p>After making the required changes, I clicked <strong>Load</strong> button to load this data into my Excel sheet.</p>
-</hr>
+<hr/>
