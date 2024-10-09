@@ -1,4 +1,16 @@
 Country,Medal,Name,Sport,Event,Date
+Albania,Bronze,Chermen Valiev,Wrestling,Men's freestyle 74 kg,8/10/2024
+Albania,Bronze,Islam Dudaev,Wrestling,Men's freestyle 65 kg,8/11/2024
+Algeria,Gold,Kaylia Nemour,Gymnastics,Women's uneven bars,8/4/2024
+Algeria,Gold,Imane Khelif,Boxing,Women's 66 kg,8/9/2024
+Algeria,Bronze,Djamel Sedjati,Athletics,Men's 800 m,8/10/2024
+Argentina,Gold,José Torres,Cycling,Men's BMX freestyle,7/31/2024
+Argentina,Silver,Mateo MajdalaniEugenia Bosco,Sailing,Mixed Nacra 17,8/8/2024
+Argentina,Bronze,Argentina women's national field hockey team  Sofía ToccalinoAgustina GorzelanyValentina RaposoAgostina AlonsoAgustina AlbertarioMaría José GranattoCristina CosentinoRocío Sánchez MocciaVictoria SauzeSofía CairóEugenia TrinchinettiLara CasasJuana CastellaroPilar CampoyJulieta JankunasZoe Díaz,Field hockey,Women's tournament,8/9/2024
+Armenia,Silver,Artur Davtyan,Gymnastics,Men's vault,8/4/2024
+Armenia,Silver,Artur Aleksanyan,Wrestling,Men's Greco-Roman 97 kg,8/7/2024
+Armenia,Silver,Varazdat Lalayan,Weightlifting,Men's +102 kg,8/11/2024
+Armenia,Bronze,Malkhas Amoyan,Wrestling,Men's Greco-Roman 77 kg,8/7/2024
 Australia,Gold,Ariarne Titmus,Swimming,Women's 400 m freestyle,7/27/2024
 Australia,Silver,Ariarne Titmus,Swimming,Women's 200 m freestyle,7/29/2024
 Australia,Silver,Ariarne Titmus,Swimming,Women's 800 m freestyle,8/3/2024
@@ -127,6 +139,22 @@ Australia,Gold,Noemie Fox,Canoeing,Women's kayak cross,8/5/2024
 Australia,Bronze,Penny Smith,Shooting,Women's trap,7/31/2024
 Australia,Gold,Saya Sakakibara,Cycling,Women's BMX racing,8/2/2024
 Australia,Silver,Zac Stubblety-Cook,Swimming,Men's 200 m breaststroke,7/31/2024
+Austria,Gold,Lara VadlauLukas Mähr,Sailing,Mixed 470,8/8/2024
+Austria,Gold,Valentin Bontus,Sailing,Men's Formula Kite,8/9/2024
+Austria,Bronze,Michaela Polleres,Judo,Women's 70 kg,7/31/2024
+Austria,Bronze,Jakob Schubert,Sport climbing,Men's combined,8/9/2024
+Austria,Bronze,Jessica Pilz,Sport climbing,Women's combined,8/10/2024
+Azerbaijan,Gold,Hidayat Heydarov,Judo,Men's ?73 kg,7/29/2024
+Azerbaijan,Gold,Zelym Kotsoiev,Judo,Men's ?100 kg,8/1/2024
+Azerbaijan,Silver,Gashim Magomedov,Taekwondo,Men's 58 kg,8/7/2024
+Azerbaijan,Silver,Loren Alfonso,Boxing,Men's heavyweight,8/9/2024
+Azerbaijan,Bronze,Hasrat Jafarov,Wrestling,Men's Greco-Roman 67 kg,8/8/2024
+Azerbaijan,Bronze,Giorgi Meshvildishvili,Wrestling,Men's freestyle 125 kg,8/10/2024
+Azerbaijan,Bronze,Magomedkhan Magomedov,Wrestling,Men's freestyle 97 kg,8/11/2024
+Bahrain,Gold,Winfred Yavi,Athletics,Women's 3000 m steeplechase,8/6/2024
+Bahrain,Gold,Akhmed Tazhudinov,Wrestling,Men's ?97 kg,8/11/2024
+Bahrain,Silver,Salwa Eid Naser,Athletics,Women's 400 m,8/9/2024
+Bahrain,Bronze,Gor Minasyan,Weightlifting,Men's +102 kg,8/10/2024
 Belgium,Silver,Bashir Abdi,Athletics,Men's marathon,8/10/2024
 Belgium,Bronze,Fabio Van den Bossche,Cycling,Men's omnium,8/8/2024
 Belgium,Bronze,Gabriella Willems,Judo,Women's 70 kg,7/31/2024
@@ -137,6 +165,65 @@ Belgium,Gold,Remco Evenepoel,Cycling,Men's road time trial,7/27/2024
 Belgium,Gold,Remco Evenepoel,Cycling,Men's road race,8/3/2024
 Belgium,Bronze,Sarah Chaâri,Taekwondo,Women's 67 kg,8/9/2024
 Belgium,Bronze,Wout van Aert,Cycling,Men's road time trial,7/27/2024
+Bostwana,Gold,Letsile Tebogo,Athletics,Men's 200 m,8/8/2024
+Bostwana,Silver,Busang KebinatshipiBayapo NdoriAnthony PeselaLetsile Tebogo,Athletics,Men's 4 × 400 m relay,8/10/2024
+Brazil,Gold,Beatriz Souza,Judo,Women's +78 kg,8/2/2024
+Brazil,Gold,Rebeca Andrade,Gymnastics,Women's floor exercise,8/5/2024
+Brazil,Gold,Ana Patrícia RamosDuda Lisboa,Volleyball,Women's beach volleyball,8/9/2024
+Brazil,Silver,Willian Lima,Judo,Men's 66 kg,7/28/2024
+Brazil,Silver,Caio Bonfim,Athletics,Men's 20 km walk,8/1/2024
+Brazil,Silver,Rebeca Andrade,Gymnastics,Women's artistic individual all-around,8/1/2024
+Brazil,Silver,Rebeca Andrade,Gymnastics,Women's vault,8/3/2024
+Brazil,Silver,Tatiana Weston-Webb,Surfing,Women's shortboard,8/6/2024
+Brazil,Silver,Isaquias Queiroz,Canoeing,Men's C–1 1000 m,8/9/2024
+Brazil,Silver,Brazil women's national football teamLorena SilvaAntônia SilvaTarciane LimaRafaelle SouzaDuda SampaioTamires DiasKerolin FerrazVitória YayaAdriana SilvaMarta SilvaJheniffer CordinaliTainá BorgesYasmim RibeiroLudmila SilvaThaís FerreiraGabi NunesAna VitóriaGabi PortilhoPriscila SilvaAngelina ConstantinoLauren LealLuciana Dionizio,Football,Women's tournament,8/10/2024
+Brazil,Bronze,Larissa Pimenta,Judo,Women's 52 kg,7/28/2024
+Brazil,Bronze,Rayssa Leal,Skateboarding,Women's street,7/28/2024
+Brazil,Bronze,Rebeca AndradeJade BarbosaLorrane OliveiraFlávia SaraivaJúlia Soares,Gymnastics,Women's artistic team all-around,7/30/2024
+Brazil,Bronze,Daniel CargninLeonardo GonçalvesWillian LimaRafael MacedoGuilherme SchimidtRafael SilvaLarissa PimentaKetleyn QuadrosRafaela SilvaBeatriz Souza,Judo,Mixed team,8/3/2024
+Brazil,Bronze,Beatriz Ferreira,Boxing,Women's 60 kg,8/3/2024
+Brazil,Bronze,Gabriel Medina,Surfing,Men's shortboard,8/6/2024
+Brazil,Bronze,Augusto Akio,Skateboarding,Men's park,8/7/2024
+Brazil,Bronze,Edival Pontes,Taekwondo,Men's 68 kg,8/8/2024
+Brazil,Bronze,Alison dos Santos,Athletics,Men's 400 m hurdles,8/9/2024
+Brazil,Bronze,Brazil women's national volleyball teamNyeme CostaDiana DuarteMacris CarneiroThaísa DaherRosamaria MontibellerRoberta RatzkeGabriela GuimarãesAna Cristina de SouzaNatália AraújoAna Carolina da SilvaJúlia BergmannTainara SantosLorenne Teixeira,Volleyball,Women's tournament,8/10/2024
+Bulgaria,Gold,Semen Novikov,Wrestling,Men's Greco-Roman 87 kg,8/8/2024
+Bulgaria,Gold,Karlos Nasar,Weightlifting,Men's 89 kg,8/9/2024
+Bulgaria,Gold,Magomed Ramazanov,Wrestling,Men's freestyle 86 kg,8/9/2024
+Bulgaria,Silver,Boryana Kaleyn,Gymnastics,Rhythmic individual all-around,8/9/2024
+Bulgaria,Bronze,Kimia Alizadeh,Taekwondo,Women's 57 kg,8/8/2024
+Bulgaria,Bronze,Bozhidar Andreev,Weightlifting,Men's 73 kg,8/8/2024
+Bulgaria,Bronze,Javier Ibáñez,Boxing,Men's featherweight,8/8/2024
+Canada,Gold,Christa Deguchi,Judo,Women's 57 kg,7/29/2024
+Canada,Gold,Summer McIntosh,Swimming,Women's 400 m individual medley,7/29/2024
+Canada,Gold,Summer McIntosh,Swimming,Women's 200 m butterfly,8/1/2024
+Canada,Gold,Summer McIntosh,Swimming,Women's 200 m individual medley,8/3/2024
+Canada,Gold,Ethan Katzberg,Athletics,Men's hammer throw,8/4/2024
+Canada,Gold,Camryn Rogers,Athletics,Women's hammer throw,8/6/2024
+Canada,Gold,Jerome BlakeAaron BrownAndre De GrasseBrendon Rodney,Athletics,Men's 4 × 100 m relay,8/9/2024
+Canada,Gold,Katie Vincent,Canoeing,Women's C-1 200 m,8/10/2024
+Canada,Gold,Philip Kim,Breaking,B-Boys,8/10/2024
+Canada,Silver,Summer McIntosh,Swimming,Women's 400 m freestyle,7/27/2024
+Canada,Silver,Canada women's national rugby sevens teamCaroline CrossleyOlivia AppsAlysha CorriganAsia Hogan-RochesterChloe DanielsCharity WilliamsFlorence SymondsCarissa NorstenKrissy ScurfieldFancy BermudezPiper LoganKeyara Wardley,Rugby sevens,Women's tournament,7/30/2024
+Canada,Silver,Abigail DentCaileigh FilmerKasia Gruchalla-WesierskiMaya MeschkuleitSydney PayneJessica SevickKristina WalkerAvalon WasteneysKristen Kit (cox),Rowing,Women's eight,8/3/2024
+Canada,Silver,Josh Liendo,Swimming,Men's 100 m butterfly,8/3/2024
+Canada,Silver,Maude Charron,Weightlifting,Women's 59 kg,8/8/2024
+Canada,Silver,Melissa Humana-ParedesBrandie Wilkerson,Beach volleyball,Women's tournament,8/9/2024
+Canada,Silver,Marco Arop,Athletics,Men's 800 m,8/10/2024
+Canada,Bronze,Eleanor Harvey,Fencing,Women's foil,7/28/2024
+Canada,Bronze,Rylan WiensNathan Zsombor-Murray,Diving,Men's synchronized 10 m platform,7/29/2024
+Canada,Bronze,Ilya Kharun,Swimming,Men's 200 m butterfly,7/31/2024
+Canada,Bronze,Sophiane Méthot,Gymnastics,Women's trampoline,8/2/2024
+Canada,Bronze,Félix Auger-AliassimeGabriela Dabrowski,Tennis,Mixed doubles,8/2/2024
+Canada,Bronze,Kylie Masse,Swimming,Women's 200 m backstroke,8/2/2024
+Canada,Bronze,Ilya Kharun,Swimming,Men's 100 m butterfly,8/3/2024
+Canada,Bronze,Wyatt Sanford,Boxing,Men’s 63.5 kg,8/4/2024
+Canada,Bronze,Alysha Newman,Athletics,Women's pole vault,8/7/2024
+Canada,Bronze,Skylar Park,Taekwondo,Women's 57 kg,8/8/2024
+Canada,Bronze,Sloan MacKenzieKatie Vincent,Canoeing,Women's C-2 500 m,8/9/2024
+Cape Verde,Bronze,Daniel Varela de Pina,Boxing,Men's 51 kg,8/4/2024
+Chile,Gold,Francisca Crovetto,Shooting,Women's skeet,8/4/2024
+Chile,Silver,Yasmani Acosta,Wrestling,Men's Greco-Roman 130 kg,8/6/2024
 China,,Cao Liguo,Wrestling,Men's Greco-Roman 60 kg,8/6/2024
 China,,Cao Yuan,Diving,Men's 10 m platform,8/10/2024
 China,,Chang Yani,Diving,Women's 3 m springboard,8/9/2024
@@ -254,7 +341,84 @@ China,,Zheng Qinwen,Tennis,Women's singles,8/3/2024
 China,,Zhou Yaqin,Gymnastics,Women's balance beam,8/5/2024
 China,,Zou Jingyuan,Gymnastics,Men's parallel bars,8/5/2024
 China,,Zou Jingyuan,Gymnastics,Men's rings,8/4/2024
+Chinese Taipei,Gold,Lee YangWang Chi-lin,Badminton,Men's doubles,8/4/2024
+Chinese Taipei,Gold,Lin Yu-ting,Boxing,Women's 57 kg,8/10/2024
+Chinese Taipei,Bronze,Lee Meng-yuan,Shooting,Men's skeet,8/3/2024
+Chinese Taipei,Bronze,Wu Shih-yi,Boxing,Women's 60 kg,8/3/2024
+Chinese Taipei,Bronze,Tang Chia-hung,Gymnastics,Men's horizontal bar,8/5/2024
+Chinese Taipei,Bronze,Chen Nien-chin,Boxing,Women's 66 kg,8/6/2024
+Chinese Taipei,Bronze,Kuo Hsing-chun,Weightlifting,Women's 59 kg,8/8/2024
+Columbia,Silver,Ángel Barajas,Gymnastics,Men's horizontal bar,8/5/2024
+Columbia,Silver,Yeison López,Weightlifting,Men's 89 kg,8/9/2024
+Columbia,Silver,Mari Sánchez,Weightlifting,Women's 71 kg,8/9/2024
+Columbia,Bronze,Tatiana Rentería,Wrestling,Women's freestyle 76 kg,8/11/2024
 Column1,Medal,Name,Sport,Event,Date
+Country,Medal,Name,Sport,Event,Date
+Country,Medal,Name,Sport,Event,Date
+Country,Medal,Name,Sport,Event,Date
+Country,Medal,Name,Sport,Event,Date
+Country,Medal,Name,Sport,Event,Date
+Croatia,Gold,Barbara Mati?,Judo,Women's 70 kg,7/31/2024
+Croatia,Gold,Valent Sinkovi?Martin Sinkovi?,Rowing,Men's coxless pair,8/2/2024
+Croatia,Silver,Donna Veki?,Tennis,Women's singles,8/3/2024
+Croatia,Silver,Croatia men's national water polo teamMarko Bija?Rino Buri?Loren Fatovi?Luka Lon?arMaro Jokovi?Luka Buki?Ante Vuki?evi?Marko ŽuvelaJerko Marini? Kragi?Josip Vrli?Matias BiljakaKonstantin KharkovToni Popadi?,Water polo,Men's tournament,8/11/2024
+Croatia,Bronze,Miran Mari?i?,Shooting,Men's 10 m air rifle,7/29/2024
+Croatia,Bronze,Sandra Elkasevi?,Athletics,Women's discus throw,8/5/2024
+Croatia,Bronze,Lena Stojkovi?,Taekwondo,Women's 49 kg,8/7/2024
+Cuba,Gold,Mijaín López,Wrestling,Men's Greco-Roman 130 kg,8/6/2024
+Cuba,Gold,Erislandy Álvarez,Boxing,Men's 63.5 kg,8/7/2024
+Cuba,Silver,Yusneylys Guzmán,Wrestling,Women's freestyle 50 kg,8/7/2024
+Cuba,Bronze,Arlen López,Boxing,Men's 80 kg,8/4/2024
+Cuba,Bronze,Gabriel Rosillo,Wrestling,Men's Greco-Roman 97 kg,8/7/2024
+Cuba,Bronze,Luis Orta,Wrestling,Men's Greco-Roman 67 kg,8/8/2024
+Cuba,Bronze,Yarisleidis Cirilo,Canoeing,Women's C-1 200 m,8/10/2024
+Cuba,Bronze,Rafael Alba,Taekwondo,Men's +80 kg,8/10/2024
+Cuba,Bronze,Milaimys Marín,Wrestling,Women's freestyle 76 kg,8/11/2024
+Cyprus,Silver,Pavlos Kontides,Sailing,Men's ILCA 7,8/7/2024
+Czech Republic,Gold,Kate?ina SiniakováTomáš Machá?,Tennis,Mixed Doubles,8/2/2024
+Czech Republic,Gold,Martin Fuksa,Canoeing,Men's C1 1000 m,8/9/2024
+Czech Republic,Gold,Josef Dostál,Canoeing,Men's K1 1000 m,8/10/2024
+Czech Republic,Bronze,Ji?í BeranJakub JurkaMartin RubešMichal ?upr,Fencing,Men's team épée,8/2/2024
+Czech Republic,Bronze,Nikola Ogrodníková,Athletics,Javelin throw,8/10/2024
+Denmark,Gold,Viktor Axelsen,Badminton,Men's singles,8/5/2024
+Denmark,Gold,Denmark men's national handball teamLasse AnderssonThomas ArnoldsenMathias GidselSimon HaldMikkel HansenEmil JakobsenLukas JørgensenNiclas KirkeløkkeMagnus LandinNiklas LandinRasmus LaugeHans LindbergHenrik MøllgaardEmil NielsenSimon PytlickMagnus Saugstrup,Handball,Men's tournament,8/11/2024
+Denmark,Silver,Cathrine DufourNanna Skodborg MerraldDaniel Bachmann Andersen,Equestrian,Team dressage,8/3/2024
+Denmark,Silver,Anne-Marie Rindom,Sailing,ILCA 6,8/7/2024
+Denmark,Bronze,Turpal Bisultanov,Wrestling,Men's Greco-Roman 87 kg,8/8/2024
+Denmark,Bronze,Edi Hrnic,Taekwondo,Men's 80 kg,8/9/2024
+Denmark,Bronze,Denmark women's national handball teamLouise BurgaardHelena ElverEmma FriisAnne Mette HansenLine HaugstedKathrine HeindahlMie HøjlundRikke IversenSarah IversenKristina JørgensenMichala MøllerTrine ØstergaardAlthea ReinhardtMette TranborgSandra Toft,Handball,Women's tournament,8/10/2024
+Denmark,Bronze,Emma Aastrand Jørgensen,Canoeing,Women's K-1 500 m,8/10/2024
+Denmark,Bronze,Michael MørkøvNiklas Larsen,Cycling,Men's Madison,8/10/2024
+Dominica,Gold,Thea LaFond,Athletics,Women's triple jump,8/3/2024
+Dominica,Gold,Thea LaFond,Athletics,Women's triple jump,8/3/2024
+Dominican Republic,Gold,Marileidy Paulino,Athletics,Women's 400 m,8/9/2024
+Dominican Republic,Bronze,Junior Alcántara,Boxing,Men's 51 kg,8/4/2024
+Dominican Republic,Bronze,Cristian Pinales,Boxing,Men's 80 kg,8/4/2024
+Ecuador,Gold,Brian Pintado,Athletics,Men's 20 km walk,8/1/2024
+Ecuador,Silver,Brian PintadoGlenda Morejón,Athletics,Mixed marathon walk relay,8/7/2024
+Ecuador,Silver,Lucía Yépez,Wrestling,Women's freestyle 53 kg,8/8/2024
+Ecuador,Bronze,Angie Palacios,Weightlifting,Women's 71 kg,8/9/2024
+Ecuador,Bronze,Neisi Dajomes,Weightlifting,Women's 81 kg,8/10/2024
+Egypt,Gold,Ahmed El-Gendy,Modern pentathlon,Men's individual,8/10/2024
+Egypt,Silver,Sara Ahmed,Weightlifting,Women's 81 kg,8/10/2024
+Egypt,Bronze,Mohamed El-Sayed,Fencing,Men's épée,7/28/2024
+Ethiopia,Gold,Tamirat Tola,Athletics,Men's marathon,8/10/2024
+Ethiopia,Silver,Berihu Aregawi,Athletics,Men's 10000 m,8/2/2024
+Ethiopia,Silver,Tsige Duguma,Athletics,Women's 800 m,8/5/2024
+Ethiopia,Silver,Tigst Assefa,Athletics,Women's marathon,8/11/2024
+Fiji,Silver,"Fiji national rugby sevens team
+Ponepati Loganimasi
+Iosefo MasiJerry Matana
+Sevuloni Mocenacagi
+Waisea NacuquJoji Nasova
+Josaia Raisuqe
+Kaminieli Rasaku
+Selestino Ravutaumada
+Filipe Sauturaga
+Joseva Talacolo
+Terio Tamani
+Iowane Teba
+Jerry Tuwai",Rugby sevens,Men's tournament,7/27/2024
 France,Gold,Althéa Laurin,Taekwondo,Women's +67 kg,8/10/2024
 France,Bronze,Amandine Buchard,Judo,Women's 52 kg,7/28/2024
 France,Silver,Anastasiya Kirpichnikova,Swimming,Women's 1500 m freestyle,7/31/2024
@@ -530,6 +694,271 @@ Georgia,Gold,Lasha Bekauri,Judo,Men's 90 kg,7/31/2024
 Georgia,Bronze,Lasha Guruli,Boxing,Men's lightweight,8/4/2024
 Georgia,Gold,Lasha Talakhadze,Weightlifting,Men's +102 kg,8/11/2024
 Georgia,Silver,Tato Grigalashvili,Judo,Men's 81 kg,7/30/2024
+Germany,Gold,Lukas Märtens,Swimming,Men's 400 m freestyle,7/27/2024
+Germany,Gold,Michael Jung,Equestrian,Individual eventing,7/29/2024
+Germany,Gold,Oliver Zeidler,Rowing,Men's single sculls,8/3/2024
+Germany,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Equestrian,Team dressage,8/3/2024
+Germany,Gold,Jessica von Bredow-Werndl,Equestrian,Individual dressage,8/4/2024
+Germany,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Triathlon,Mixed relay triathlon,8/5/2024
+Germany,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Basketball,Women's 3x3 tournament,8/5/2024
+Germany,Gold,Christian Kukuk,Equestrian,Individual jumping,8/6/2024
+Germany,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Canoeing,Men's K-4 500 m,8/8/2024
+Germany,Gold,Max LemkeJacob Schopf,Canoeing,Men's K-2 500 m,8/9/2024
+Germany,Gold,Darja Varfolomeev,Gymnastics,Women's rhythmic individual all-around,8/9/2024
+Germany,Gold,Yemisi Ogunleye,Athletics,Women's shot put,8/9/2024
+Germany,Silver,Miriam Butkereit,Judo,Women's 70 kg,7/31/2024
+Germany,Silver,Elena Lilik,Canoeing,Women's slalom C-1,7/31/2024
+Germany,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Archery,Mixed team,8/2/2024
+Germany,Silver,Leo Neugebauer,Athletics,Men's decathlon,8/3/2024
+Germany,Silver,Isabell Werth,Equestrian,Individual dressage,8/4/2024
+Germany,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Canoeing,Women's K-4 500 m,8/8/2024
+Germany,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Field hockey,Men's tournament,8/8/2024
+Germany,Silver,Malaika Mihambo,Athletics,Women's long jump,8/8/2024
+Germany,Silver,Oliver Klemet,Swimming,Men's marathon 10 km,8/9/2024
+Germany,Silver,Esther Henseleit,Golf,Women's individual,8/10/2024
+Germany,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Volleyball,Men's beach,8/10/2024
+Germany,Silver,Lea Sophie Friedrich,Cycling,Women's sprint,8/11/2024
+Germany,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Handball,Men's tournament,8/11/2024
+Germany,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Rowing,Women's quadruple sculls,7/31/2024
+Germany,Bronze,Isabel Gose,Swimming,Women's 1500 m freestyle,7/31/2024
+Germany,Bronze,Noah Hegge,Canoeing,Men's slalom kayak cross,8/5/2024
+Germany,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Cycling,Women's team sprint,8/5/2024
+Germany,Bronze,Nelvie Tiafack,Boxing,Men's +92 kg,8/7/2024
+Germany,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Canoeing,Women's K-2 500 m,8/9/2024
+Germany,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Football,Women's tournament,8/9/2024
+Germany,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Athletics,Women's 4 × 100 m relay,8/9/2024
+Great Britain,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Equestrian,Team eventing,7/29/2024
+Great Britain,Gold,Tom Pidcock,Cycling,Men's cross-country,7/29/2024
+Great Britain,Gold,Nathan Hales,Shooting,Men's trap,7/30/2024
+Great Britain,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Swimming,Men's 4 × 200 m freestyle relay,7/30/2024
+Great Britain,Gold,Alex Yee,Triathlon,Men's triathlon,7/31/2024
+Great Britain,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Rowing,Women's quadruple sculls,7/31/2024
+Great Britain,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Rowing,Women's lightweight double sculls,8/2/2024
+Great Britain,Gold,Bryony Page,Gymnastics,Women's trampoline,8/2/2024
+Great Britain,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Equestrian,Team jumping,8/2/2024
+Great Britain,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Rowing,Men's eight,8/3/2024
+Great Britain,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Cycling,Women's team sprint,8/5/2024
+Great Britain,Gold,Keely Hodgkinson,Athletics,Women's 800 m,8/5/2024
+Great Britain,Gold,Ellie Aldridge,Sailing,Women's kite,8/8/2024
+Great Britain,Gold,Toby Roberts,Sport climbing,Men's combined,8/9/2024
+Great Britain,Silver,Anna Henderson,Cycling,Women's road time trial,7/27/2024
+Great Britain,Silver,Adam Peaty,Swimming,Men's 100 m breaststroke,7/28/2024
+Great Britain,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Diving,Men's synchronized 10 m platform,7/29/2024
+Great Britain,Silver,Adam Burgess,Canoeing,Men's slalom C-1,7/29/2024
+Great Britain,Silver,Matt Richards,Swimming,Men's 200 m freestyle,7/29/2024
+Great Britain,Silver,Kieran Reilly,Cycling,Men's BMX freestyle,7/31/2024
+Great Britain,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Rowing,Women's four,8/1/2024
+Great Britain,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Rowing,Men's pair,8/2/2024
+Great Britain,Silver,Ben Proud,Swimming,Men's 50 m freestyle,8/2/2024
+Great Britain,Silver,Duncan Scott,Swimming,Men's 200 m individual medley,8/2/2024
+Great Britain,Silver,Amber Rutter,Shooting,Women's skeet,8/4/2024
+Great Britain,Silver,Tommy Fleetwood,Golf,Men's individual,8/4/2024
+Great Britain,Silver,Joe Clarke,Canoeing,Men's KX-1,8/5/2024
+Great Britain,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Cycling,Men's team sprint,8/6/2024
+Great Britain,Silver,Josh Kerr,Athletics,Men's 1500 m,8/6/2024
+Great Britain,Silver,Matthew Hudson-Smith,Athletics,Men's 400 m,8/7/2024
+Great Britain,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Cycling,Men's team pursuit,8/7/2024
+Great Britain,Silver,Elinor Barker Neah Evans,Cycling,Women's madison,8/9/2024
+Great Britain,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Athletics,Women's 4 × 100 m relay,8/9/2024
+Great Britain,Silver,Katarina Johnson-Thompson,Athletics,Women's heptathlon,8/9/2024
+Great Britain,Silver,Kate Shortman Isabelle Thorpe,Artistic swimming,Women's duet,8/10/2024
+Great Britain,Silver,Caden Cunningham,Taekwondo,Men's +80 kg,8/10/2024
+Great Britain,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Diving,Women's 3 m synchronized springboard,7/27/2024
+Great Britain,Bronze,Kimberley Woods,Canoeing,Women's slalom K-1,7/28/2024
+Great Britain,Bronze,Laura Collett,Equestrian,Individual eventing,7/29/2024
+Great Britain,Bronze,Beth Potter,Triathlon,Women's triathlon,7/31/2024
+Great Britain,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Diving,Women's 10 m synchronized platform,7/31/2024
+Great Britain,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Rowing,Women's double sculls,8/1/2024
+Great Britain,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Rowing,Men's four,8/1/2024
+Great Britain,Bronze,Anthony HardingJack Laugher,Diving,Men's 3 m synchronized springboard,8/2/2024
+Great Britain,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Rowing,Women's eight,8/3/2024
+Great Britain,Bronze,Emma Wilson,Sailing,Women's iQFoil,8/3/2024
+Great Britain,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Equestrian,Team dressage,8/3/2024
+Great Britain,Bronze,Jake Jarman,Gymnastics,Men's floor,8/3/2024
+Great Britain,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Athletics,Mixed 4 x 400 m relay,8/3/2024
+Great Britain,Bronze,Lottie Fry,Equestrian,Individual dressage,8/4/2024
+Great Britain,Bronze,Harry Hepworth,Gymnastics,Men's vault,8/4/2024
+Great Britain,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Triathlon,Mixed relay triathlon,8/5/2024
+Great Britain,Bronze,Kimberley Woods,Canoeing,Women's KX-1,8/5/2024
+Great Britain,Bronze,Sky Brown,Skateboarding,Women's park,8/6/2024
+Great Britain,Bronze,Lewis Richardson,Boxing,Men's welterweight,8/6/2024
+Great Britain,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Cycling,Women's team pursuit,8/7/2024
+Great Britain,Bronze,Emma Finucane,Cycling,Women's keirin,8/8/2024
+Great Britain,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Athletics,Men's 4 × 100 m relay,8/9/2024
+Great Britain,Bronze,Jack Carlin,Cycling,Men's sprint,8/9/2024
+Great Britain,Bronze,Noah Williams,Diving,Men's 10 m platform,8/10/2024
+Great Britain,Bronze,Georgia Bell,Athletics,Women's 1500 m,8/10/2024
+Great Britain,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Athletics,Men's 4 × 400m relay,8/10/2024
+Great Britain,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Athletics,Women's 4 × 400m relay,8/10/2024
+Great Britain,Bronze,Emma Finucane,Cycling,Women's sprint,8/11/2024
+Great Britain,Bronze,Emily Campbell,Weightlifting,Women's +81 kg,8/11/2024
+Greece,Gold,Miltiadis Tentoglou,Athletics,Men's long jump,8/6/2024
+Greece,Silver,Apostolos Christou,Swimming,Men's 200 m backstroke,8/1/2024
+Greece,Bronze,Theodoros Tselidis,Judo,Men's –90 kg,7/31/2024
+Greece,Bronze,Antonios Papakonstantinou Petros Gkaidatzis,Rowing,Men's lightweight double sculls,8/2/2024
+Greece,Bronze,Zoi Fitsiou Milena Kontou,Rowing,Women's lightweight double sculls,8/2/2024
+Greece,Bronze,Eleftherios Petrounias,Gymnastics,Men's rings,8/4/2024
+Greece,Bronze,Emmanouil Karalis,Athletics,Men's pole vault,8/5/2024
+Greece,Bronze,Dauren Kurugliev,Wrestling,Men's freestyle –86 kg,8/9/2024
+Grenada,Bronze,Lindon Victor,Athletics,Men's decathlon,8/3/2024
+Grenada,Bronze,Anderson Peters,Athletics,"Men's javelin throw
+",8/8/2024
+Guatemala,Gold,Adriana Ruano,Shooting,Women's trap,7/31/2024
+Guatemala,Bronze,Jean Pierre Brol,Shooting,Men's trap,7/30/2024
+Hong Kong,Gold,Vivian Kong,Fencing,Women's épée,7/27/2024
+Hong Kong,Gold,Cheung Ka Long,Fencing,Men's foil,7/29/2024
+Hong Kong,Bronze,Siobhán Haughey,Swimming,Women's 200 m freestyle,7/29/2024
+Hong Kong,Bronze,Siobhán Haughey,Swimming,Women's 100 m freestyle,7/31/2024
+Hungary,Gold,Hubert Kós,Swimming,Men's 200 m backstroke,8/1/2024
+Hungary,Gold,Tibor AndrásfiMáté Tamás KochGergely SiklósiDávid Nagy,Fencing,Men's team épée,8/2/2024
+Hungary,Gold,Kristóf Milák,Swimming,Men's 100 m butterfly,8/3/2024
+Hungary,Gold,Kristóf Rasovszky,Swimming,Men's marathon 10 km,8/9/2024
+Hungary,Gold,Viviana Márton,Taekwondo,Women's 67 kg,8/9/2024
+Hungary,Gold,Michelle Gulyás,Modern pentathlon,Women's individual,8/11/2024
+Hungary,Silver,Kristóf Milák,Swimming,Men's 200 m butterfly,7/31/2024
+Hungary,Silver,Csanád GémesiKrisztián RabbAndrás SzatmáriÁron Szilágyi,Fencing,Men's team sabre,7/31/2024
+Hungary,Silver,Bence Halász,Athletics,Men's hammer throw,8/4/2024
+Hungary,Silver,Tamara CsipesAlida Dóra Gazsó,Canoeing,Women's K-2 500 m,8/9/2024
+Hungary,Silver,Bence NádasSándor Tótka,Canoeing,Men's K-2 500 m,8/9/2024
+Hungary,Silver,Tamara Csipes,Canoeing,Women's K-1 500 m,8/10/2024
+Hungary,Silver,Ádám Varga,Canoeing,Men's K-1 1000 m,8/10/2024
+Hungary,Bronze,Eszter Muhari,Fencing,Women's épée,7/27/2024
+Hungary,Bronze,Veronika Major,Shooting,Women's 25 m pistol,8/3/2024
+Hungary,Bronze,Tamara CsipesSára FojtAlida Dóra GazsóNoémi Pupp,Canoeing,Women's K-4 500 m,8/8/2024
+Hungary,Bronze,Dávid Betlehem,Swimming,Men's marathon 10 km,8/9/2024
+Hungary,Bronze,Sára FojtNoémi Pupp,Canoeing,Women's K-2 500 m,8/9/2024
+Hungary,Bronze,Bálint Kopasz,Canoeing,Men's K-1 1000 m,8/10/2024
+India,Silver,Neeraj Chopra,Athletics,Men's javelin throw,8/8/2024
+India,Bronze,Manu Bhaker,Shooting,Women's 10 m air pistol,7/28/2024
+India,Bronze,Manu BhakerSarabjot Singh,,Mixed 10 m air pistol team,7/30/2024
+India,Bronze,Swapnil Kusale,,Men's 50 m rifle three positions,8/1/2024
+India,Bronze,India men's national field hockey team  Jarmanpreet SinghAbhishek NainManpreet SinghHardik SinghGurjant SinghSanjay RanaMandeep SinghHarmanpreet Singh (C)Lalit UpadhyayP. R. SreejeshSumit WalmikiShamsher SinghRaj Kumar PalAmit RohidasVivek PrasadSukhjeet Singh,Field hockey,Men's tournament,8/8/2024
+India,Bronze,Aman Sehrawat,Wrestling,Men's freestyle 57 kg,8/9/2024
+Individual Neutral Athletes,Gold,Ivan Litvinovich,Gymnastics,Men's trampoline,8/2/2024
+Individual Neutral Athletes,Silver,Viyaleta Bardzilouskaya,Gymnastics,Women's trampoline,8/2/2024
+Individual Neutral Athletes,Silver,Yauheni Zalaty,Rowing,Men's single sculls,8/3/2024
+Individual Neutral Athletes,Silver,Mirra AndreevaDiana Shnaider,Tennis,Women's doubles,8/4/2024
+Individual Neutral Athletes,Bronze,Yauheni Tsikhantsou,Weightlifting,Men's – 102 kg,8/10/2024
+Indonesia,Gold,Veddriq Leonardo,Sport climbing,Men's speed,8/8/2024
+Indonesia,Gold,Rizki Juniansyah,Weightlifting,Men's ?73 kg,8/8/2024
+Indonesia,Bronze,Gregoria Mariska Tunjung,Badminton,Women's singles,8/5/2024
 Iran,Silver,Alireza Mohmadi,Wrestling,Men's Greco-Roman 87 kg,8/8/2024
 Iran,Bronze,Amin Mirzazadeh,Wrestling,Men's Greco-Roman 130 kg,8/6/2024
 Iran,Bronze,Amir Ali Azarpira,Wrestling,Men's freestyle 97 kg,8/11/2024
@@ -542,6 +971,115 @@ Iran,Gold,Mohammad Hadi Saravi,Wrestling,Men's Greco-Roman 97 kg,8/7/2024
 Iran,Silver,Nahid Kiani,Taekwondo,Women's 57 kg,8/8/2024
 Iran,Silver,Rahman Amouzad,Wrestling,Men's freestyle 65 kg,8/11/2024
 Iran,Gold,Saeid Esmaeili,Wrestling,Men's Greco-Roman 67 kg,8/8/2024
+Ireland,Gold,Daniel Wiffen,Swimming,Men's 800 m freestyle,7/30/2024
+Ireland,Gold,Fintan McCarthyPaul O'Donovan,Rowing,Men's lightweight double sculls,8/2/2024
+Ireland,Gold,Rhys McClenaghan,Gymnastics,Men's pommel horse,8/3/2024
+Ireland,Gold,Kellie Harrington,Boxing,Women's lightweight,8/6/2024
+Ireland,Bronze,Mona McSharry,Swimming,Women's 100 m breaststroke,7/29/2024
+Ireland,Bronze,Daire LynchPhilip Doyle,Rowing,Men's double sculls,8/1/2024
+Ireland,Bronze,Daniel Wiffen,Swimming,Men's 1500 m freestyle,8/4/2024
+Israel,Gold,Tom Reuveny,Sailing,Men's iQFoil,8/3/2024
+Israel,Silver,Inbar Lanir,Judo,Women's ?78 kg,8/1/2024
+Israel,Silver,Raz Hershko,Judo,Women's +78 kg,8/2/2024
+Israel,Silver,Sharon Kantor,Sailing,Women's iQFoil,8/3/2024
+Israel,Silver,Artem Dolgopyat,Gymnastics,Men's floor,8/3/2024
+Israel,Silver,Ofir ShahamDiana SvertsovAdar FriedmannRomi ParitzkiShani Bakanov,Gymnastics,Women's rhythmic group all-around,8/10/2024
+Israel,Bronze,Peter Paltchik,Judo,Men's ?100 kg,8/1/2024
+Italy,Gold,Nicolò Martinenghi,Swimming,Men's 100 m breaststroke,7/28/2024
+Italy,Gold,Thomas Ceccon,Swimming,Men's 100 m backstroke,7/29/2024
+Italy,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Fencing,Women's team épée,7/30/2024
+Italy,Gold,Giovanni De Gennaro,Canoeing,Men's slalom K-1,8/1/2024
+Italy,Gold,Alice Bellandi,Judo,Women's 78 kg,8/1/2024
+Italy,Gold,Marta Maggetti,Sailing,Women's IQFoil,8/3/2024
+Italy,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Tennis,Women's doubles,8/4/2024
+Italy,Gold,Alice D'Amato,Gymnastics,Women's balance beam,8/5/2024
+Italy,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Shooting,Mixed skeet team,8/5/2024
+Italy,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Sailing,Mixed Nacra 17,8/8/2024
+Italy,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Cycling,Women's madison,8/9/2024
+Italy,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Volleyball,Women's tournament,8/11/2024
+Italy,Silver,Filippo Ganna,Cycling,Men's road time trial,7/27/2024
+Italy,Silver,Federico Nilo Maldini,Shooting,Men's 10 m air pistol,7/28/2024
+Italy,Silver,Filippo Macchi,Fencing,Men's foil,7/29/2024
+Italy,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Gymnastics,Women's artistic team all-around,7/30/2024
+Italy,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Rowing,Men's quadruple sculls,7/31/2024
+Italy,Silver,Silvana Stanco,Shooting,Women's trap,7/31/2024
+Italy,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Fencing,Women's team foil,8/1/2024
+Italy,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Rowing,Men's lightweight double sculls,8/2/2024
+Italy,Silver,Gregorio Paltrinieri,Swimming,Men's 1500 m freestyle,8/4/2024
+Italy,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Fencing,Men's team foil,8/4/2024
+Italy,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Canoeing,Men's C-2 500 m,8/8/2024
+Italy,Silver,Nadia Battocletti,Athletics,"Women's 10,000 m",8/9/2024
+Italy,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Cycling,Men's madison,8/10/2024
+Italy,Bronze,Luigi Samele,Fencing,Men's sabre,7/27/2024
+Italy,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Swimming,Men's 4 × 100 m freestyle relay,7/27/2024
+Italy,Bronze,Paolo Monna,Shooting,Men's 10 m air pistol,7/28/2024
+Italy,Bronze,Gregorio Paltrinieri,Swimming,Men's 800 m freestyle,7/30/2024
+Italy,Bronze,Lorenzo Musetti,Tennis,Men's singles,8/3/2024
+Italy,Bronze,Manila Esposito,Gymnastics,Women's balance beam,8/5/2024
+Italy,Bronze,Mattia Furlani,Athletics,Men's long jump,8/6/2024
+Italy,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Cycling,Men's team pursuit,8/7/2024
+Italy,Bronze,Ginevra Taddeucci,Swimming,Women's 10 km open water,8/8/2024
+Italy,Bronze,Antonino Pizzolato,Weightlifting,Men's 89 kg,8/9/2024
+Italy,Bronze,Sofia Raffaeli,Gymnastics,Women's rhythmic individual all-around,8/9/2024
+Italy,Bronze,Simone Alessio,Taekwondo,Men's 80 kg,8/9/2024
+Italy,Bronze,Andy Díaz,Athletics,Men's triple jump,8/9/2024
+Italy,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Gymnastics,Women's rhythmic group all-around,8/10/2024
+Italy,Bronze,Giorgio Malan,Modern pentathlon,Men's individual,8/10/2024
+Ivory Coast,Bronze,Cheick Sallah Cissé,Taekwondo,Men's +80 kg,8/10/2024
+Jamaica,Gold,Rojé Stona,Athletics,Men's Discus throw,8/7/2024
+Jamaica,Silver,Shanieka Ricketts,Athletics,Women's triple jump,8/3/2024
+Jamaica,Silver,Kishane Thompson,Athletics,Men's 100 m,8/4/2024
+Jamaica,Silver,Wayne Pinnock,Athletics,Men's long jump,8/6/2024
+Jamaica,Bronze,Rajindra Campbell,Athletics,Men's shot put,8/3/2024
+Jamaica,Bronze,Rasheed Broadbell,Athletics,Men's 110 m hurdles,8/8/2024
 Japon,,Akari Fujinami,Wrestling,Women's freestyle 53 kg,8/8/2024
 Japon,,Ami Yuasa,Breaking,B-Girls,8/9/2024
 Japon,,Coco Yoshizawa,Skateboarding,Women's street,7/28/2024
@@ -631,6 +1169,14 @@ Japon,,Tsugumi Sakurai,Wrestling,Women's freestyle 57 kg,8/9/2024
 Japon,,Yui Susaki,Wrestling,Women's freestyle 50 kg,8/7/2024
 Japon,,Yuka Kagami,Wrestling,Women's freestyle 76 kg,8/11/2024
 Japon,,Yuto Horigome,Skateboarding,Men's street,7/29/2024
+Jordan,Silver,Zaid Kareem,Taekwondo,Men's 68 kg,8/8/2024
+Kazakhstan,Gold,Yeldos Smetov,Judo,Men's 60 kg,7/27/2024
+Kazakhstan,Silver,Nariman Kurbanov,Gymnastics,Men's pommel horse,8/3/2024
+Kazakhstan,Silver,Demeu Zhadrayev,Wrestling,Men's Greco-Roman ?77 kg,8/7/2024
+Kazakhstan,Silver,Nurbek Oralbay,Boxing,Middleweight,8/7/2024
+Kazakhstan,Bronze,Alexandra LeIslam Satpayev,Shooting,Mixed 10 m air rifle team,7/27/2024
+Kazakhstan,Bronze,Gusman Kyrgyzbayev,Judo,Men's 66 kg,7/28/2024
+Kazakhstan,Bronze,Nazym Kyzaibay,Boxing,Women's 50 kg,8/6/2024
 Kenya,Bronze,Abraham Kibiwot,Athletics,Men's 3000 m steeplechase,8/7/2024
 Kenya,Gold,Beatrice Chebet,Athletics,Women's 5000 m,8/5/2024
 Kenya,Gold,Beatrice Chebet,Athletics,Women's 10000 m,8/9/2024
@@ -642,6 +1188,421 @@ Kenya,Silver,Faith Kipyegon,Athletics,Women's 5000 m,8/5/2024
 Kenya,Bronze,Hellen Obiri,Athletics,Women's marathon,8/11/2024
 Kenya,Bronze,Mary Moraa,Athletics,Women's 800 m,8/5/2024
 Kenya,Silver,Ronald Kwemoi,Athletics,Men's 5000 m,8/10/2024
+Kosovo,Silver,Distria Krasniqi,Judo,Women's 52 kg,7/28/2024
+Kosovo,Bronze,Laura Fazliu,Judo,Women's 63 kg,7/30/2024
+Krygyzstan,Silver,Meerim Zhumanazarova,Wrestling,Woman's Freestyle –68 kg,8/6/2024
+Krygyzstan,Silver,Munarbek Seiitbek Uulu,Boxing,Men's 57 kg,8/10/2024
+Krygyzstan,Bronze,Zholaman Sharshenbekov,Wrestling,Men's Greco-Roman –60 kg,8/6/2024
+Krygyzstan,Bronze,Akzhol Makhmudov,Wrestling,Men's Greco-Roman –77 kg,8/7/2024
+Krygyzstan,Bronze,Uzur Dzhuzupbekov,Wrestling,Men's Greco-Roman –97 kg,8/7/2024
+Krygyzstan,Bronze,Aisuluu Tynybekova,Wrestling,Women's Freestyle –62 kg,8/10/2024
+Lithuania,Silver,Mykolas Alekna,Athletics,Men's discus throw,8/7/2024
+Lithuania,Silver,Dominika Banevi?,Breaking,B-Girls,8/9/2024
+Lithuania,Bronze,Viktorija Senkut?,Rowing,Women's single sculls,8/3/2024
+Lithuania,Bronze,Evaldas DžiaugysGintautas MatulisAurelijus PukelisŠar?nas Vingelis,Basketball,Men's 3x3,8/5/2024
+Lithuania,Silver,Mykolas Alekna,Athletics,Men's discus throw,8/7/2024
+Lithuania,Silver,Dominika Banevi?,Breaking,B-Girls,8/9/2024
+Lithuania,Bronze,Viktorija Senkut?,Rowing,Women's single sculls,8/3/2024
+Lithuania,Bronze,Evaldas DžiaugysGintautas MatulisAurelijus PukelisŠar?nas Vingelis,Basketball,Men's 3x3,8/5/2024
+Malaysia,Bronze,Aaron ChiaSoh Wooi Yik,Badminton,Men's doubles,8/4/2024
+Malaysia,Bronze,Lee Zii Jia,Badminton,Men's singles,8/5/2024
+Mexico,Silver,Prisca Awiti Alcaraz,Judo,Women's 63 kg,7/30/2024
+Mexico,Silver,Osmar OlveraJuan Celaya,Diving,Men's synchronized 3 m springboard,8/2/2024
+Mexico,Silver,Marco Verde,Boxing,Men's 71 kg,8/9/2024
+Mexico,Bronze,Ángela RuizAlejandra ValenciaAna Paula Vázquez,Archery,Women's team,7/28/2024
+Mexico,Bronze,Osmar Olvera,Diving,Men's 3 m springboard,8/8/2024
+Moldova,Silver,Anastasia Nichita,Wrestling,Women's  –57 kg,8/9/2024
+Moldova,Bronze,Denis Vieru,Judo,Men's –66 kg,7/28/2024
+Moldova,Bronze,Adil Osmanov,Judo,Men's –73 kg,7/29/2024
+Moldova,Bronze,Serghei Tarnovschi,Canoeing,Men's C-1 1000 m,8/9/2024
+Mongolia,Silver,Bavuudorjiin Baasankhüü,Judo,Women's –48 kg,7/27/2024
+Morocco,Gold,Soufiane El Bakkali,Athletics,Men's 3000 m steeplechase,8/7/2024
+Morocco,Bronze,Morocco national under-23 football teamIlias AkhomachEliesse Ben SeghirBenjamin BouchouariMehdi BoukamirOussama El AzzouziBilal El KhannousZakaria El OuahdiAbde EzzalzouliRachid GhanimiAchraf HakimiYassine KechtaHaytam ManaoutEl Mehdi MaouhoubMunir MohamediAkram NakachSoufiane RahimiAmir RichardsonAdil TahifOussama Targhalline,Football,Men's tournament,8/8/2024
+Netherlands,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Rowing,Men's quadruple sculls,7/31/2024
+Netherlands,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Rowing,Women's coxless four,8/1/2024
+Netherlands,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Rowing,Women's coxless pair,8/2/2024
+Netherlands,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Sailing,Women's 49er FX,8/2/2024
+Netherlands,Gold,Karolien Florijn,Rowing,Women's single sculls,8/3/2024
+Netherlands,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Athletics,Mixed 4 × 400 metres relay,8/3/2024
+Netherlands,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Basketball,Men's 3x3 tournament,8/5/2024
+Netherlands,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Cycling,Men's team sprint,8/6/2024
+Netherlands,Gold,Marit Bouwmeester,Sailing,ILCA 6,8/7/2024
+Netherlands,Gold,Sharon van Rouwendaal,Swimming,10 km open water,8/8/2024
+Netherlands,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Field hockey,Men's tournament,8/8/2024
+Netherlands,Gold,Harrie Lavreysen,Cycling,Men's sprint,8/9/2024
+Netherlands,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Field hockey,Women's tournament,8/9/2024
+Netherlands,Gold,Sifan Hassan,Athletics,Women's marathon,8/11/2024
+Netherlands,Gold,Harrie Lavreysen,Cycling,Men's keirin,8/11/2024
+Netherlands,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Rowing,Women's quadruple sculls,7/31/2024
+Netherlands,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Rowing,Men's double sculls,8/1/2024
+Netherlands,Silver,Manon Veenstra,Cycling,Women's BMX,8/2/2024
+Netherlands,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Rowing,Men's eight,8/3/2024
+Netherlands,Silver,Marianne Vos,Cycling,Women's individual road race,8/4/2024
+Netherlands,Silver,Hetty van de Wouw,Cycling,Women's keirin,8/8/2024
+Netherlands,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Athletics,Women's 4 × 400 metres relay,8/10/2024
+Netherlands,Bronze,Caspar Corbeau,Swimming,Men's 200 metre breaststroke,7/31/2024
+Netherlands,Bronze,Tes Schouten,Swimming,Women's 200 metre breaststroke,8/1/2024
+Netherlands,Bronze,Simon van Dorp,Rowing,Men's single sculls,8/3/2024
+Netherlands,Bronze,Luuc van Opzeeland,Sailing,Men's IQFoil,8/3/2024
+Netherlands,Bronze,Sifan Hassan,Athletics,Women's 5000 metres,8/5/2024
+Netherlands,Bronze,Maikel van der Vleuten,Equestrian,Individual jumping,8/6/2024
+Netherlands,Bronze,Annelous Lammerts,Sailing,Women's Formula Kite,8/8/2024
+Netherlands,Bronze,Femke Bol,Athletics,Women's 400 metres hurdles,8/8/2024
+Netherlands,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Cycling,Women's madison,8/9/2024
+Netherlands,Bronze,Sifan Hassan,Athletics,"Women's 10,000 metres",8/9/2024
+Netherlands,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Water polo,Women's tournament,8/10/2024
+Netherlands,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Artistic swimming,Women's duet,8/10/2024
+New Zealand,Gold,"New Zealand women's national rugby sevens team
+Michaela Blyde
+Jazmin Hotham
+Sarah Hirini(c)
+Tyla King
+Jorja Miller
+Manaia Nuku
+Mahina Paul
+Risi Pouri-Lane
+Alena Saili
+Theresa Fitzpatrick
+Stacey Waaka
+Portia Woodman",Rugby sevens,Women's tournament,7/30/2024
+New Zealand,Gold,"Brooke Francis
+Lucy Spoors",Rowing,Women's double sculls,8/1/2024
+New Zealand,Gold,Finn Butcher,Canoeing,Men's kayak cross,8/5/2024
+New Zealand,Gold,"Olivia Brett
+Lisa Carrington
+Alicia Hoskin
+Tara Vaughan",Canoeing,K-4 500 m,8/8/2024
+New Zealand,Gold,Ellesse Andrews,Cycling,Women's keirin,8/8/2024
+New Zealand,Gold,"Lisa Carrington
+Alicia Hoskin",Canoeing,K-2 500 m,8/9/2024
+New Zealand,Gold,Hamish Kerr,Athletics,Men's high jump,8/10/2024
+New Zealand,Gold,Lisa Carrington,Canoeing,K-1 500 m,8/10/2024
+New Zealand,Gold,Lydia Ko,Golf,Women's tournament,8/10/2024
+New Zealand,Gold,Ellesse Andrews,Cycling,Women's sprint,8/11/2024
+New Zealand,Silver,Hayden Wilde,Triathlon,Men's individual,7/31/2024
+New Zealand,Silver,"Matt Macdonald
+Oliver Maclean
+Tom Murray
+Logan Ullrich",Rowing,Men's four,8/1/2024
+New Zealand,Silver,"Isaac McHardie
+William McKenzie",Sailing,49er,8/2/2024
+New Zealand,Silver,Emma Twigg,Rowing,Women's single sculls,8/3/2024
+New Zealand,Silver,"Ellesse Andrews
+Shaane Fulton
+Rebecca Petch",Cycling,Women's team sprint,8/5/2024
+New Zealand,Silver,"Ally Wollaston
+Bryony Botha
+Emily Shearman
+Nicole Shields",Cycling,Women's team pursuit,8/7/2024
+New Zealand,Silver,Maddi Wesche,Athletics,Women's shot put,8/9/2024
+New Zealand,Bronze,"Jackie Gowler
+Phoebe Spoors
+Davina Waddy
+Kerri Williams",Rowing,Women's four,8/1/2024
+New Zealand,Bronze,"Micah Wilkinson
+Erica Dawson",Sailing,Mixed Nacra 17,8/8/2024
+New Zealand,Bronze,Ally Wollaston,Cycling,Women's omnium,8/11/2024
+North Korea,Silver,Ri Jong-sikKim Kum-yong,Table tennis,Mixed doubles,7/30/2024
+North Korea,Silver,Kim Mi-raeJo Jin-mi,Diving,Women's synchronized 10 m platform,7/31/2024
+North Korea,Bronze,Pang Chol-mi,Boxing,Women's 54 kg,8/4/2024
+North Korea,Bronze,Kim Mi-rae,Diving,Women's 10 m platform,8/6/2024
+North Korea,Bronze,Ri Se-ung,Wrestling,Men's Greco-Roman –60 kg,8/6/2024
+North Korea,Bronze,Choe Hyo-gyong,Wrestling,Women's freestyle –53 kg,8/8/2024
+Pakistan,Gold,Arshad Nadeem,Athletics,Men's javelin throw,8/8/2024
+Panama,Silver,Atheyna Bylon,Boxing,Women's 75 kg,8/10/2024
+Peru,Bronze,Stefano Peschiera,Sailing,Men's ILCA 7,8/7/2024
+Philippines,Gold,Carlos Yulo,Gymnastics,Men's floor,8/3/2024
+Philippines,Gold,Carlos Yulo,Gymnastics,Men's vault,8/4/2024
+Philippines,Bronze,Aira Villegas,Boxing,Women's flyweight,8/6/2024
+Philippines,Bronze,Nesthy Petecio,Boxing,Women's featherweight,8/7/2024
+Poland,Gold,Aleksandra Miros?aw,Sport climbing,Women's speed,8/7/2024
+Poland,Silver,Klaudia Zwoli?ska,Canoeing,Women's slalom K-1,7/28/2024
+Poland,Silver,Poland men's national volleyball teamMateusz BieniekBart?omiej Bo??d?Tomasz FornalNorbert HuberMarcin Janusz?ukasz KaczmarekBartosz KurekJakub KochanowskiWilfredo LeónGrzegorz ?omaczKamil SemeniukAleksander ?liwkaPawe? Zatorski,Volleyball,Men's tournament,8/10/2024
+Poland,Silver,Julia Szeremeta,Boxing,Women's 57 kg,8/10/2024
+Poland,Silver,Daria Pikulik,Cycling,Women's omnium,8/11/2024
+Poland,Bronze,Aleksandra JareckaAlicja KlasikRenata Knapik-MiazgaMartyna Swatowska-Wenglarczyk,Fencing,Women's team épée,7/30/2024
+Poland,Bronze,Fabian Bara?skiMateusz BiskupDominik CzajaMiros?aw Zi?tarski,Rowing,Men's quadruple sculls,7/31/2024
+Poland,Bronze,Iga ?wi?tek,Tennis,Women's singles,8/2/2024
+Poland,Bronze,Aleksandra Ka?ucka,Sport climbing,Women's speed,8/7/2024
+Poland,Bronze,Natalia Kaczmarek,Athletics,Women's 400 m,8/9/2024
+Portugal,Gold,Iúri LeitãoRui Oliveira,Cycling,Men's Madison,8/10/2024
+Portugal,Silver,Iúri Leitão,Cycling,Men's omnium,8/8/2024
+Portugal,Silver,Pedro Pichardo,Athletics,Men's triple jump,8/9/2024
+Portugal,Bronze,Patrícia Sampaio,Judo,Women's –78 kg,8/1/2024
+Puerto Rico,Bronze,Jasmine Camacho-Quinn,Athletics,Women's 100 m hurdles,8/10/2024
+Puerto Rico,Bronze,Sebastian Rivera,Wrestling,Men's freestyle 65 kg,8/11/2024
+Qatar,Bronze,Mutaz Essa Barshim,Athletics,Men's high jump,8/10/2024
+Refugee Olympic Team,Bronze,Cindy Ngamba,Boxing,Women's middleweight,8/8/2024
+Saint Lucia,Silver,Julien Alfred,Athletics,Women's 100 m,8/3/2024
+Saint Lucia,Silver,Julien Alfred,Athletics,Women's 200 m,8/6/2024
+Serbia,Gold,Zorana Arunovi?Damir Mikec,Shooting,Mixed 10 m air pistol team,7/30/2024
+Serbia,Gold,Novak Djokovic,Tennis,Men's singles,8/4/2024
+Serbia,Gold,Serbia men's national water polo teamRadoslav Filipovi?Dušan Mandi?Strahinja Rašovi?Sava Ran?elovi?Miloš ?ukNikola Dedovi?Radomir Drašovi?Nikola Jakši?Nemanja Ubovi?Nemanja VicoPetar Jakši?Viktor Rašovi?Vladimir Mišovi?,Water polo,Men's tournament,8/11/2024
+Serbia,Silver,Aleksandra Periši?,Taekwondo,Women's –67 kg,8/9/2024
+Serbia,Bronze,Serbia men's national basketball teamUroš Plavši?Filip PetruševNikola Jovi?Bogdan Bogdanovi?Vanja Marinkovi?Ognjen Dobri?Nikola Joki?Vasilije Mici?Marko Guduri?Dejan DavidovacAleksa Avramovi?Nikola Milutinov,Basketball,Men's tournament,8/10/2024
+Singapore,Max Maeder,Sailing,Men's Formula Kite,Bronze,8/9/2024
+Slovakia,Bronze,Matej Be?uš,Canoeing,Men's slalom C-1,7/29/2024
+Slovenia,Gold,Andreja Leški,Judo,Women's 63 kg,7/30/2024
+Slovenia,Gold,Janja Garnbret,Sport climbing,Women's combined,8/10/2024
+Slovenia,Silver,Toni Vodišek,Sailing,Men's Formula Kite,8/9/2024
+South Africa,Gold,Tatjana Smith,Swimming,Women's 100 m breaststroke,7/29/2024
+South Africa,Silver,Tatjana Smith,Swimming,Women's 200 m breaststroke,8/1/2024
+South Africa,Silver,Bayanda WalazaShaun MaswanganyiBradley NkoanaAkani Simbine,Athletics,Men's 4 × 100 m relay,8/9/2024
+South Africa,Silver,Jo-Ane van Dyk,Athletics,Women's javelin throw,8/10/2024
+South Africa,Bronze,South Africa national rugby sevens teamChristie GrobbelaarRyan OosthuizenImpi VisserZain DavidsQuewin NortjeTiaan PretoriusTristan LeydsSelvyn DavidsShaun WilliamsRosko SpecmanSiviwe SoyizwapiShilton van WykRonald Brown,Rugby sevens,Men's tournament,7/27/2024
+South Africa,Bronze,Alan Hatherly,Cycling,Men's cross-country,7/29/2024
+South Korea,Gold,Oh Sang-uk,Fencing,Men's individual sabre,7/27/2024
+South Korea,Gold,Oh Ye-jin,Shooting,Women's 10 m air pistol,7/28/2024
+South Korea,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Archery,Women's team,7/28/2024
+South Korea,Gold,Ban Hyo-jin,Shooting,Women's 10 m air rifle,7/29/2024
+South Korea,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Archery,Men's team,7/29/2024
+South Korea,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Fencing,Men's team sabre,7/31/2024
+South Korea,Gold,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Archery,Mixed team,8/2/2024
+South Korea,Gold,Yang Ji-in,Shooting,Women's 25 m pistol,8/3/2024
+South Korea,Gold,Lim Si-hyeon,Archery,Women's individual,8/3/2024
+South Korea,Gold,Kim Woo-jin,Archery,Men's individual,8/4/2024
+South Korea,Gold,An Se-young,Badminton,Women's singles,8/5/2024
+South Korea,Gold,Park Tae-joon,Taekwondo,Men's 58 kg,8/7/2024
+South Korea,Gold,Kim Yu-jin,Taekwondo,Women's 57 kg,8/8/2024
+South Korea,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Shooting,Mixed 10 m air rifle team,7/27/2024
+South Korea,Silver,Kim Ye-ji,Shooting,Women's 10 m air pistol,7/28/2024
+South Korea,Silver,Huh Mi-mi,Judo,Women's ?57 kg,7/29/2024
+South Korea,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Badminton,Mixed doubles,8/2/2024
+South Korea,Silver,Kim Min-jong,Judo,Men's +100 kg,8/2/2024
+South Korea,Silver,Nam Su-hyeon,Archery,Women's individual,8/3/2024
+South Korea,Silver,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Fencing,Women's team sabre,8/3/2024
+South Korea,Silver,Cho Yeong-jae,Shooting,Men's 25 m rapid fire pistol,8/5/2024
+South Korea,Silver,Park Hye-jeong,Weightlifting,Women's +81 kg,8/11/2024
+South Korea,Bronze,Kim Woo-min,Swimming,Men's 400 m freestyle,7/27/2024
+South Korea,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Table tennis,Mixed doubles,7/30/2024
+South Korea,Bronze,Lee Joon-hwan,Judo,Men's 81 kg,7/30/2024
+South Korea,Bronze,Kim Ha-yun,Judo,Women's +78 kg,8/2/2024
+South Korea,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Judo,Mixed team,8/3/2024
+South Korea,Bronze,Lee Woo-seok,Archery,Men's individual,8/4/2024
+South Korea,Bronze,Im Ae-ji,Boxing,Women's 54 kg,8/4/2024
+South Korea,Bronze,"Lennart van Lierop
+Finn Florijn
+Tone Wieten
+Koen Metsemakers",Table tennis,Women's team,8/10/2024
+South Korea,Bronze,Lee Da-bin,Taekwondo,Women's +67 kg,8/10/2024
+South Korea,Bronze,Seong Seung-min,Modern pentathlon,Women's,8/11/2024
+Spain,Gold,"Diego Botín
+Florián Trittel",Sailing,Men's 49er,8/2/2024
+Spain,Gold,"Álvaro Martín
+María Pérez",Athletics,Mixed marathon walk relay,8/7/2024
+Spain,Gold,"Spain national under-23 football team
+Álex Baena
+Pablo Barrios
+Adrián Bernabé
+Sergio Camello
+Pau Cubarsí
+Eric García
+Joan García
+Sergio Gómez
+Miguel Gutiérrez
+Alejandro Iturbe
+Diego López
+Fermín López
+Juan Miranda
+Cristhian Mosquera
+Samu Omorodion
+Aimar Oroz
+Jon Pacheco
+Marc Pubill
+Abel Ruiz
+Juanlu Sánchez
+Arnau Tenas
+Beñat Turrientes",Football,Men's tournament,8/9/2024
+Spain,Gold,Jordan Díaz,Athletics,Men's triple jump,8/9/2024
+Spain,Gold,"Spain women's national water polo team
+Paula Camus
+Paula Crespí
+Anni Espar
+Laura Ester
+Judith Forca
+Maica García
+Paula Leitón
+Beatriz Ortiz
+Pili Peña
+Nona Pérez
+Isabel Piralkova
+Elena Ruiz
+Martina Terré",Water polo,Women's tournament,8/10/2024
+Spain,Silver,María Pérez,Athletics,Women's 20 km walk,8/1/2024
+Spain,Silver,Carlos Alcaraz,Tennis,Men's singles,8/4/2024
+Spain,Silver,"Spain women's national 3x3 team
+Gracia Alonso de Armiño
+Juana Camilión
+Vega Gimeno
+Sandra Ygueravide",Basketball,Women's 3×3 tournament,8/5/2024
+Spain,Silver,Ayoub Ghadfa,Boxing,Men's super heavyweight,8/10/2024
+Spain,Bronze,Francisco Garrigós,Judo,Men's –60 kg,7/27/2024
+Spain,Bronze,Álvaro Martín,Athletics,Men's 20 km walk,8/1/2024
+Spain,Bronze,Pau Echaniz,Canoeing,Men's slalom K-1,8/1/2024
+Spain,Bronze,"Cristina Buc?a
+Sara Sorribes",Tennis,Women's doubles,8/4/2024
+Spain,Bronze,Enmanuel Reyes,Boxing,Men's heavyweight,8/4/2024
+Spain,Bronze,"Meritxell Ferré
+Marina García Polo
+Lilou Lluis
+Meritxell Mas
+Alisa Ozhogina
+Paula Ramírez
+Iris Tió
+Blanca Toledano",Artistic swimming,Team event,8/7/2024
+Spain,Bronze,"Diego Domínguez
+Joan Antoni Moreno",Canoeing,Men's C-2 500 m,8/8/2024
+Spain,Bronze,"Carlos Arévalo
+Saúl Craviotto
+Rodrigo Germade
+Marcus Walz",Canoeing,Men's K-4 500 m,8/8/2024
+Spain,Bronze,"Spain men's national handball team
+Agustín Casado
+Rodrigo Corrales
+Alex Dujshebaev
+Daniel Dujshebaev
+Daniel Fernández
+Adrià Figueras
+Imanol Garciandia
+Aleix GómezJorge Maqueda
+Kauldi Odriozola
+Gonzalo Pérez de Vargas
+Javier Rodríguez
+Miguel Sánchez-Migallón
+Abel SerdioIan Tarrafeta",Handball,Men's tournament,8/11/2024
+Sweden,Gold,Sarah Sjöström,Swimming,Women's 100 m freestyle,7/31/2024
+Sweden,Gold,Sarah Sjöström,Swimming,Women's 50 m freestyle,8/4/2024
+Sweden,Gold,Armand Duplantis,Athletics,Men's pole vault,8/5/2024
+Sweden,Gold,"Jonatan Hellvig
+David Åhman",Beach volleyball,Men's tournament,8/10/2024
+Sweden,Silver,Victor Lindgren,Shooting,Men's 10 m air rifle,7/29/2024
+Sweden,Silver,"Vilma Bobeck
+Rebecca Netzler",Sailing,Women's 49erFX,8/2/2024
+Sweden,Silver,Truls Möregårdh,Table tennis,Men's singles,8/4/2024
+Sweden,Silver,"Anton Källberg
+Kristian Karlsson
+Truls Möregårdh",Table tennis,Men's team,8/9/2024
+Sweden,Bronze,Tara Babulfath,Judo,Women's –48 kg,7/27/2024
+Sweden,Bronze,Jenny Rissveds,Cycling,Women's cross-country,7/28/2024
+Sweden,Bronze,"Anton Dahlberg
+Lovisa Karlsson",Sailing,Mixed 470,8/8/2024
+Switzerland,Gold,Chiara Leone,Shooting,Women's 50 m rifle three positions,8/2/2024
+Switzerland,Silver,Julie Derron,Triathlon,Women's,7/31/2024
+Switzerland,Silver,Steve Guerdat,Equestrian,Individual jumping,8/6/2024
+Switzerland,Bronze,Audrey Gogniat,Shooting,Women's 10 m air rifle,7/29/2024
+Switzerland,Bronze,Roman Mityukov,Swimming,Men's 200 m backstroke,8/1/2024
+Switzerland,Bronze,Roman Röösli / Andrin Gulich,Rowing,Men's coxless pair,8/2/2024
+Switzerland,Bronze,Zoé Claessens,Cycling,Women's BMX racing,8/2/2024
+Switzerland,Bronze,Tanja HüberliNina Brunner,Volleyball,Women's Beach Volleyball,8/9/2024
+Tajikistan,Bronze,Somon Makhmadbekov,Judo,Men's 81 kg,7/30/2024
+Tajikistan,Bronze,Temur Rakhimov,Judo,Men's +100 kg,8/2/2024
+Tajikistan,Bronze,Davlat Boltaev,Boxing,Men's 92 kg,8/4/2024
+Thailand,Gold,Panipak Wongpattanakit,Taekwondo,Women's ?49 kg,8/7/2024
+Thailand,Silver,Kunlavut Vitidsarn,Badminton,Men's singles,8/5/2024
+Thailand,Silver,Theerapong Silachai,Weightlifting,Men's ?61 kg,8/7/2024
+Thailand,Silver,Weeraphon Wichuma,Weightlifting,Men's ?73 kg,8/8/2024
+Thailand,Bronze,Janjaem Suwannapheng,Boxing,Women's Welterweight,8/6/2024
+Thailand,Bronze,Surodchana Khambao,Weightlifting,Women's ?49 kg,8/7/2024
+Tunisia,Gold,Firas Katoussi,Taekwondo,Men's 80 kg,8/9/2024
+Tunisia,Silver,Farès Ferjani,Fencing,Men's sabre,7/27/2024
+Tunisia,Bronze,Mohamed Khalil Jendoubi,Taekwondo,Men's 58 kg,8/7/2024
+Turkey,Silver,Yusuf Dikeç?evval ?layda Tarhan,Shooting,Mixed 10 m air pistol team,7/30/2024
+Turkey,Silver,Hatice Akba?,Boxing,Women's 54 kg,8/8/2024
+Turkey,Silver,Buse Naz Çak?ro?lu,Boxing,Women's 50 kg,8/9/2024
+Turkey,Bronze,Mete GazozBerkim TümerAbdullah Y?ld?rm??,Archery,Men's team,7/29/2024
+Turkey,Bronze,Buse Tosun Çavu?o?lu,Wrestling,Women's 68 kg,8/6/2024
+Turkey,Bronze,Esra Y?ld?z,Boxing,Women's 57 kg,8/7/2024
+Turkey,Bronze,Taha Akgül,Wrestling,Men's freestyle 125 kg,8/10/2024
+Turkey,Bronze,Nafia Ku?,Taekwondo,Women's +67kg,8/10/2024
+Uganda,Gold,Joshua Cheptegei,Athletics,Men's 10000 m,8/2/2024
+Uganda,Silver,Peruth Chemutai,Athletics,Women's 3000 m steeplechase,8/6/2024
+Ukraine,Gold,Olga KharlanAlina KomashchukOlena KravatskaYuliya Bakastova,Fencing,Women's team sabre,8/3/2024
+Ukraine,Gold,Yaroslava Mahuchikh,Athletics,Women's high jump,8/4/2024
+Ukraine,Gold,Oleksandr Khyzhniak,Boxing,Men's middleweight,8/7/2024
+Ukraine,Silver,Serhiy Kulish,Shooting,Men's 50 m air rifle three positions,8/1/2024
+Ukraine,Silver,Illia Kovtun,Gymnastics,Men's parallel bars,8/5/2024
+Ukraine,Silver,Parviz Nasibov,Wrestling,Men's Greco-Roman 67 kg,8/8/2024
+Ukraine,Silver,Liudmyla LuzanAnastasiia Rybachok,Canoeing,Women's C-2 500 m,8/9/2024
+Ukraine,Silver,Iryna Koliadenko,Wrestling,Women's freestyle 62 kg,8/10/2024
+Ukraine,Bronze,Olga Kharlan,Fencing,Women's sabre,7/29/2024
+Ukraine,Bronze,Iryna Herashchenko,Athletics,Women's high jump,8/4/2024
+Ukraine,Bronze,Mykhaylo Kokhan,Athletics,Men's hammer throw,8/4/2024
+Ukraine,Bronze,Zhan Beleniuk,Wrestling,Men's Greco-Roman 87 kg,8/8/2024
 USA,Bronze,Aaron Brooks,Wrestling,Men's freestyle 86 kg,8/9/2024
 USA,Gold,Amit Elor,Wrestling,Women's freestyle 68 kg,8/6/2024
 USA,Silver,Anna Cockrell,Athletics,Women's 400 m hurdles,8/8/2024
@@ -951,694 +1912,5 @@ Uzbekistan,Bronze,Muzaffarbek Turoboyev,Judo,Men's 100 kg,8/1/2024
 Uzbekistan,Gold,Razambek Zhamalov,Wrestling,Men's freestyle 74 kg,8/10/2024
 Uzbekistan,Silver,Svetlana Osipova,Taekwondo,Women's +67 kg,8/10/2024
 Uzbekistan,Gold,Ulugbek Rashitov,Taekwondo,Men's 68 kg,8/8/2024
-Country,Medal,Name,Sport,Event,Date
-Netherlands,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Rowing,Men's quadruple sculls,7/31/2024
-Netherlands,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Rowing,Women's coxless four,8/1/2024
-Netherlands,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Rowing,Women's coxless pair,8/2/2024
-Netherlands,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Sailing,Women's 49er FX,8/2/2024
-Netherlands,Gold,Karolien Florijn,Rowing,Women's single sculls,8/3/2024
-Netherlands,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Athletics,Mixed 4 × 400 metres relay,8/3/2024
-Netherlands,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Basketball,Men's 3x3 tournament,8/5/2024
-Netherlands,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Cycling,Men's team sprint,8/6/2024
-Netherlands,Gold,Marit Bouwmeester,Sailing,ILCA 6,8/7/2024
-Netherlands,Gold,Sharon van Rouwendaal,Swimming,10 km open water,8/8/2024
-Netherlands,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Field hockey,Men's tournament,8/8/2024
-Netherlands,Gold,Harrie Lavreysen,Cycling,Men's sprint,8/9/2024
-Netherlands,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Field hockey,Women's tournament,8/9/2024
-Netherlands,Gold,Sifan Hassan,Athletics,Women's marathon,8/11/2024
-Netherlands,Gold,Harrie Lavreysen,Cycling,Men's keirin,8/11/2024
-Netherlands,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Rowing,Women's quadruple sculls,7/31/2024
-Netherlands,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Rowing,Men's double sculls,8/1/2024
-Netherlands,Silver,Manon Veenstra,Cycling,Women's BMX,8/2/2024
-Netherlands,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Rowing,Men's eight,8/3/2024
-Netherlands,Silver,Marianne Vos,Cycling,Women's individual road race,8/4/2024
-Netherlands,Silver,Hetty van de Wouw,Cycling,Women's keirin,8/8/2024
-Netherlands,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Athletics,Women's 4 × 400 metres relay,8/10/2024
-Netherlands,Bronze,Caspar Corbeau,Swimming,Men's 200 metre breaststroke,7/31/2024
-Netherlands,Bronze,Tes Schouten,Swimming,Women's 200 metre breaststroke,8/1/2024
-Netherlands,Bronze,Simon van Dorp,Rowing,Men's single sculls,8/3/2024
-Netherlands,Bronze,Luuc van Opzeeland,Sailing,Men's IQFoil,8/3/2024
-Netherlands,Bronze,Sifan Hassan,Athletics,Women's 5000 metres,8/5/2024
-Netherlands,Bronze,Maikel van der Vleuten,Equestrian,Individual jumping,8/6/2024
-Netherlands,Bronze,Annelous Lammerts,Sailing,Women's Formula Kite,8/8/2024
-Netherlands,Bronze,Femke Bol,Athletics,Women's 400 metres hurdles,8/8/2024
-Netherlands,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Cycling,Women's madison,8/9/2024
-Netherlands,Bronze,Sifan Hassan,Athletics,"Women's 10,000 metres",8/9/2024
-Netherlands,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Water polo,Women's tournament,8/10/2024
-Netherlands,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Artistic swimming,Women's duet,8/10/2024
-Country,Medal,Name,Sport,Event,Date
-Great Britain,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Equestrian,Team eventing,7/29/2024
-Great Britain,Gold,Tom Pidcock,Cycling,Men's cross-country,7/29/2024
-Great Britain,Gold,Nathan Hales,Shooting,Men's trap,7/30/2024
-Great Britain,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Swimming,Men's 4 × 200 m freestyle relay,7/30/2024
-Great Britain,Gold,Alex Yee,Triathlon,Men's triathlon,7/31/2024
-Great Britain,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Rowing,Women's quadruple sculls,7/31/2024
-Great Britain,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Rowing,Women's lightweight double sculls,8/2/2024
-Great Britain,Gold,Bryony Page,Gymnastics,Women's trampoline,8/2/2024
-Great Britain,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Equestrian,Team jumping,8/2/2024
-Great Britain,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Rowing,Men's eight,8/3/2024
-Great Britain,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Cycling,Women's team sprint,8/5/2024
-Great Britain,Gold,Keely Hodgkinson,Athletics,Women's 800 m,8/5/2024
-Great Britain,Gold,Ellie Aldridge,Sailing,Women's kite,8/8/2024
-Great Britain,Gold,Toby Roberts,Sport climbing,Men's combined,8/9/2024
-Great Britain,Silver,Anna Henderson,Cycling,Women's road time trial,7/27/2024
-Great Britain,Silver,Adam Peaty,Swimming,Men's 100 m breaststroke,7/28/2024
-Great Britain,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Diving,Men's synchronized 10 m platform,7/29/2024
-Great Britain,Silver,Adam Burgess,Canoeing,Men's slalom C-1,7/29/2024
-Great Britain,Silver,Matt Richards,Swimming,Men's 200 m freestyle,7/29/2024
-Great Britain,Silver,Kieran Reilly,Cycling,Men's BMX freestyle,7/31/2024
-Great Britain,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Rowing,Women's four,8/1/2024
-Great Britain,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Rowing,Men's pair,8/2/2024
-Great Britain,Silver,Ben Proud,Swimming,Men's 50 m freestyle,8/2/2024
-Great Britain,Silver,Duncan Scott,Swimming,Men's 200 m individual medley,8/2/2024
-Great Britain,Silver,Amber Rutter,Shooting,Women's skeet,8/4/2024
-Great Britain,Silver,Tommy Fleetwood,Golf,Men's individual,8/4/2024
-Great Britain,Silver,Joe Clarke,Canoeing,Men's KX-1,8/5/2024
-Great Britain,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Cycling,Men's team sprint,8/6/2024
-Great Britain,Silver,Josh Kerr,Athletics,Men's 1500 m,8/6/2024
-Great Britain,Silver,Matthew Hudson-Smith,Athletics,Men's 400 m,8/7/2024
-Great Britain,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Cycling,Men's team pursuit,8/7/2024
-Great Britain,Silver,Elinor Barker Neah Evans,Cycling,Women's madison,8/9/2024
-Great Britain,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Athletics,Women's 4 × 100 m relay,8/9/2024
-Great Britain,Silver,Katarina Johnson-Thompson,Athletics,Women's heptathlon,8/9/2024
-Great Britain,Silver,Kate Shortman Isabelle Thorpe,Artistic swimming,Women's duet,8/10/2024
-Great Britain,Silver,Caden Cunningham,Taekwondo,Men's +80 kg,8/10/2024
-Great Britain,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Diving,Women's 3 m synchronized springboard,7/27/2024
-Great Britain,Bronze,Kimberley Woods,Canoeing,Women's slalom K-1,7/28/2024
-Great Britain,Bronze,Laura Collett,Equestrian,Individual eventing,7/29/2024
-Great Britain,Bronze,Beth Potter,Triathlon,Women's triathlon,7/31/2024
-Great Britain,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Diving,Women's 10 m synchronized platform,7/31/2024
-Great Britain,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Rowing,Women's double sculls,8/1/2024
-Great Britain,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Rowing,Men's four,8/1/2024
-Great Britain,Bronze,Anthony HardingJack Laugher,Diving,Men's 3 m synchronized springboard,8/2/2024
-Great Britain,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Rowing,Women's eight,8/3/2024
-Great Britain,Bronze,Emma Wilson,Sailing,Women's iQFoil,8/3/2024
-Great Britain,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Equestrian,Team dressage,8/3/2024
-Great Britain,Bronze,Jake Jarman,Gymnastics,Men's floor,8/3/2024
-Great Britain,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Athletics,Mixed 4 x 400 m relay,8/3/2024
-Great Britain,Bronze,Lottie Fry,Equestrian,Individual dressage,8/4/2024
-Great Britain,Bronze,Harry Hepworth,Gymnastics,Men's vault,8/4/2024
-Great Britain,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Triathlon,Mixed relay triathlon,8/5/2024
-Great Britain,Bronze,Kimberley Woods,Canoeing,Women's KX-1,8/5/2024
-Great Britain,Bronze,Sky Brown,Skateboarding,Women's park,8/6/2024
-Great Britain,Bronze,Lewis Richardson,Boxing,Men's welterweight,8/6/2024
-Great Britain,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Cycling,Women's team pursuit,8/7/2024
-Great Britain,Bronze,Emma Finucane,Cycling,Women's keirin,8/8/2024
-Great Britain,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Athletics,Men's 4 × 100 m relay,8/9/2024
-Great Britain,Bronze,Jack Carlin,Cycling,Men's sprint,8/9/2024
-Great Britain,Bronze,Noah Williams,Diving,Men's 10 m platform,8/10/2024
-Great Britain,Bronze,Georgia Bell,Athletics,Women's 1500 m,8/10/2024
-Great Britain,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Athletics,Men's 4 × 400m relay,8/10/2024
-Great Britain,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Athletics,Women's 4 × 400m relay,8/10/2024
-Great Britain,Bronze,Emma Finucane,Cycling,Women's sprint,8/11/2024
-Great Britain,Bronze,Emily Campbell,Weightlifting,Women's +81 kg,8/11/2024
-Country,Medal,Name,Sport,Event,Date
-South Korea,Gold,Oh Sang-uk,Fencing,Men's individual sabre,7/27/2024
-South Korea,Gold,Oh Ye-jin,Shooting,Women's 10 m air pistol,7/28/2024
-South Korea,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Archery,Women's team,7/28/2024
-South Korea,Gold,Ban Hyo-jin,Shooting,Women's 10 m air rifle,7/29/2024
-South Korea,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Archery,Men's team,7/29/2024
-South Korea,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Fencing,Men's team sabre,7/31/2024
-South Korea,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Archery,Mixed team,8/2/2024
-South Korea,Gold,Yang Ji-in,Shooting,Women's 25 m pistol,8/3/2024
-South Korea,Gold,Lim Si-hyeon,Archery,Women's individual,8/3/2024
-South Korea,Gold,Kim Woo-jin,Archery,Men's individual,8/4/2024
-South Korea,Gold,An Se-young,Badminton,Women's singles,8/5/2024
-South Korea,Gold,Park Tae-joon,Taekwondo,Men's 58 kg,8/7/2024
-South Korea,Gold,Kim Yu-jin,Taekwondo,Women's 57 kg,8/8/2024
-South Korea,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Shooting,Mixed 10 m air rifle team,7/27/2024
-South Korea,Silver,Kim Ye-ji,Shooting,Women's 10 m air pistol,7/28/2024
-South Korea,Silver,Huh Mi-mi,Judo,Women's ?57 kg,7/29/2024
-South Korea,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Badminton,Mixed doubles,8/2/2024
-South Korea,Silver,Kim Min-jong,Judo,Men's +100 kg,8/2/2024
-South Korea,Silver,Nam Su-hyeon,Archery,Women's individual,8/3/2024
-South Korea,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Fencing,Women's team sabre,8/3/2024
-South Korea,Silver,Cho Yeong-jae,Shooting,Men's 25 m rapid fire pistol,8/5/2024
-South Korea,Silver,Park Hye-jeong,Weightlifting,Women's +81 kg,8/11/2024
-South Korea,Bronze,Kim Woo-min,Swimming,Men's 400 m freestyle,7/27/2024
-South Korea,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Table tennis,Mixed doubles,7/30/2024
-South Korea,Bronze,Lee Joon-hwan,Judo,Men's 81 kg,7/30/2024
-South Korea,Bronze,Kim Ha-yun,Judo,Women's +78 kg,8/2/2024
-South Korea,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Judo,Mixed team,8/3/2024
-South Korea,Bronze,Lee Woo-seok,Archery,Men's individual,8/4/2024
-South Korea,Bronze,Im Ae-ji,Boxing,Women's 54 kg,8/4/2024
-South Korea,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Table tennis,Women's team,8/10/2024
-South Korea,Bronze,Lee Da-bin,Taekwondo,Women's +67 kg,8/10/2024
-South Korea,Bronze,Seong Seung-min,Modern pentathlon,Women's,8/11/2024
-Country,Medal,Name,Sport,Event,Date
-Italy,Gold,Nicolò Martinenghi,Swimming,Men's 100 m breaststroke,7/28/2024
-Italy,Gold,Thomas Ceccon,Swimming,Men's 100 m backstroke,7/29/2024
-Italy,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Fencing,Women's team épée,7/30/2024
-Italy,Gold,Giovanni De Gennaro,Canoeing,Men's slalom K-1,8/1/2024
-Italy,Gold,Alice Bellandi,Judo,Women's 78 kg,8/1/2024
-Italy,Gold,Marta Maggetti,Sailing,Women's IQFoil,8/3/2024
-Italy,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Tennis,Women's doubles,8/4/2024
-Italy,Gold,Alice D'Amato,Gymnastics,Women's balance beam,8/5/2024
-Italy,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Shooting,Mixed skeet team,8/5/2024
-Italy,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Sailing,Mixed Nacra 17,8/8/2024
-Italy,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Cycling,Women's madison,8/9/2024
-Italy,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Volleyball,Women's tournament,8/11/2024
-Italy,Silver,Filippo Ganna,Cycling,Men's road time trial,7/27/2024
-Italy,Silver,Federico Nilo Maldini,Shooting,Men's 10 m air pistol,7/28/2024
-Italy,Silver,Filippo Macchi,Fencing,Men's foil,7/29/2024
-Italy,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Gymnastics,Women's artistic team all-around,7/30/2024
-Italy,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Rowing,Men's quadruple sculls,7/31/2024
-Italy,Silver,Silvana Stanco,Shooting,Women's trap,7/31/2024
-Italy,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Fencing,Women's team foil,8/1/2024
-Italy,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Rowing,Men's lightweight double sculls,8/2/2024
-Italy,Silver,Gregorio Paltrinieri,Swimming,Men's 1500 m freestyle,8/4/2024
-Italy,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Fencing,Men's team foil,8/4/2024
-Italy,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Canoeing,Men's C-2 500 m,8/8/2024
-Italy,Silver,Nadia Battocletti,Athletics,"Women's 10,000 m",8/9/2024
-Italy,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Cycling,Men's madison,8/10/2024
-Italy,Bronze,Luigi Samele,Fencing,Men's sabre,7/27/2024
-Italy,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Swimming,Men's 4 × 100 m freestyle relay,7/27/2024
-Italy,Bronze,Paolo Monna,Shooting,Men's 10 m air pistol,7/28/2024
-Italy,Bronze,Gregorio Paltrinieri,Swimming,Men's 800 m freestyle,7/30/2024
-Italy,Bronze,Lorenzo Musetti,Tennis,Men's singles,8/3/2024
-Italy,Bronze,Manila Esposito,Gymnastics,Women's balance beam,8/5/2024
-Italy,Bronze,Mattia Furlani,Athletics,Men's long jump,8/6/2024
-Italy,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Cycling,Men's team pursuit,8/7/2024
-Italy,Bronze,Ginevra Taddeucci,Swimming,Women's 10 km open water,8/8/2024
-Italy,Bronze,Antonino Pizzolato,Weightlifting,Men's 89 kg,8/9/2024
-Italy,Bronze,Sofia Raffaeli,Gymnastics,Women's rhythmic individual all-around,8/9/2024
-Italy,Bronze,Simone Alessio,Taekwondo,Men's 80 kg,8/9/2024
-Italy,Bronze,Andy Díaz,Athletics,Men's triple jump,8/9/2024
-Italy,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Gymnastics,Women's rhythmic group all-around,8/10/2024
-Italy,Bronze,Giorgio Malan,Modern pentathlon,Men's individual,8/10/2024
-Country,Medal,Name,Sport,Event,Date
-Germany,Gold,Lukas Märtens,Swimming,Men's 400 m freestyle,7/27/2024
-Germany,Gold,Michael Jung,Equestrian,Individual eventing,7/29/2024
-Germany,Gold,Oliver Zeidler,Rowing,Men's single sculls,8/3/2024
-Germany,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Equestrian,Team dressage,8/3/2024
-Germany,Gold,Jessica von Bredow-Werndl,Equestrian,Individual dressage,8/4/2024
-Germany,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Triathlon,Mixed relay triathlon,8/5/2024
-Germany,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Basketball,Women's 3x3 tournament,8/5/2024
-Germany,Gold,Christian Kukuk,Equestrian,Individual jumping,8/6/2024
-Germany,Gold,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Canoeing,Men's K-4 500 m,8/8/2024
-Germany,Gold,Max LemkeJacob Schopf,Canoeing,Men's K-2 500 m,8/9/2024
-Germany,Gold,Darja Varfolomeev,Gymnastics,Women's rhythmic individual all-around,8/9/2024
-Germany,Gold,Yemisi Ogunleye,Athletics,Women's shot put,8/9/2024
-Germany,Silver,Miriam Butkereit,Judo,Women's 70 kg,7/31/2024
-Germany,Silver,Elena Lilik,Canoeing,Women's slalom C-1,7/31/2024
-Germany,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Archery,Mixed team,8/2/2024
-Germany,Silver,Leo Neugebauer,Athletics,Men's decathlon,8/3/2024
-Germany,Silver,Isabell Werth,Equestrian,Individual dressage,8/4/2024
-Germany,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Canoeing,Women's K-4 500 m,8/8/2024
-Germany,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Field hockey,Men's tournament,8/8/2024
-Germany,Silver,Malaika Mihambo,Athletics,Women's long jump,8/8/2024
-Germany,Silver,Oliver Klemet,Swimming,Men's marathon 10 km,8/9/2024
-Germany,Silver,Esther Henseleit,Golf,Women's individual,8/10/2024
-Germany,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Volleyball,Men's beach,8/10/2024
-Germany,Silver,Lea Sophie Friedrich,Cycling,Women's sprint,8/11/2024
-Germany,Silver,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Handball,Men's tournament,8/11/2024
-Germany,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Rowing,Women's quadruple sculls,7/31/2024
-Germany,Bronze,Isabel Gose,Swimming,Women's 1500 m freestyle,7/31/2024
-Germany,Bronze,Noah Hegge,Canoeing,Men's slalom kayak cross,8/5/2024
-Germany,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Cycling,Women's team sprint,8/5/2024
-Germany,Bronze,Nelvie Tiafack,Boxing,Men's +92 kg,8/7/2024
-Germany,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Canoeing,Women's K-2 500 m,8/9/2024
-Germany,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Football,Women's tournament,8/9/2024
-Germany,Bronze,"Lennart van Lierop
-Finn Florijn
-Tone Wieten
-Koen Metsemakers",Athletics,Women's 4 × 100 m relay,8/9/2024
-New Zealand,Gold,"New Zealand women's national rugby sevens team
-Michaela Blyde
-Jazmin Hotham
-Sarah Hirini(c)
-Tyla King
-Jorja Miller
-Manaia Nuku
-Mahina Paul
-Risi Pouri-Lane
-Alena Saili
-Theresa Fitzpatrick
-Stacey Waaka
-Portia Woodman",Rugby sevens,Women's tournament,7/30/2024
-New Zealand,Gold,"Brooke Francis
-Lucy Spoors",Rowing,Women's double sculls,8/1/2024
-New Zealand,Gold,Finn Butcher,Canoeing,Men's kayak cross,8/5/2024
-New Zealand,Gold,"Olivia Brett
-Lisa Carrington
-Alicia Hoskin
-Tara Vaughan",Canoeing,K-4 500 m,8/8/2024
-New Zealand,Gold,Ellesse Andrews,Cycling,Women's keirin,8/8/2024
-New Zealand,Gold,"Lisa Carrington
-Alicia Hoskin",Canoeing,K-2 500 m,8/9/2024
-New Zealand,Gold,Hamish Kerr,Athletics,Men's high jump,8/10/2024
-New Zealand,Gold,Lisa Carrington,Canoeing,K-1 500 m,8/10/2024
-New Zealand,Gold,Lydia Ko,Golf,Women's tournament,8/10/2024
-New Zealand,Gold,Ellesse Andrews,Cycling,Women's sprint,8/11/2024
-New Zealand,Silver,Hayden Wilde,Triathlon,Men's individual,7/31/2024
-New Zealand,Silver,"Matt Macdonald
-Oliver Maclean
-Tom Murray
-Logan Ullrich",Rowing,Men's four,8/1/2024
-New Zealand,Silver,"Isaac McHardie
-William McKenzie",Sailing,49er,8/2/2024
-New Zealand,Silver,Emma Twigg,Rowing,Women's single sculls,8/3/2024
-New Zealand,Silver,"Ellesse Andrews
-Shaane Fulton
-Rebecca Petch",Cycling,Women's team sprint,8/5/2024
-New Zealand,Silver,"Ally Wollaston
-Bryony Botha
-Emily Shearman
-Nicole Shields",Cycling,Women's team pursuit,8/7/2024
-New Zealand,Silver,Maddi Wesche,Athletics,Women's shot put,8/9/2024
-New Zealand,Bronze,"Jackie Gowler
-Phoebe Spoors
-Davina Waddy
-Kerri Williams",Rowing,Women's four,8/1/2024
-New Zealand,Bronze,"Micah Wilkinson
-Erica Dawson",Sailing,Mixed Nacra 17,8/8/2024
-New Zealand,Bronze,Ally Wollaston,Cycling,Women's omnium,8/11/2024
-Spain,Gold,"Diego Botín
-Florián Trittel",Sailing,Men's 49er,8/2/2024
-Spain,Gold,"Álvaro Martín
-María Pérez",Athletics,Mixed marathon walk relay,8/7/2024
-Spain,Gold,"Spain national under-23 football team
-Álex Baena
-Pablo Barrios
-Adrián Bernabé
-Sergio Camello
-Pau Cubarsí
-Eric García
-Joan García
-Sergio Gómez
-Miguel Gutiérrez
-Alejandro Iturbe
-Diego López
-Fermín López
-Juan Miranda
-Cristhian Mosquera
-Samu Omorodion
-Aimar Oroz
-Jon Pacheco
-Marc Pubill
-Abel Ruiz
-Juanlu Sánchez
-Arnau Tenas
-Beñat Turrientes",Football,Men's tournament,8/9/2024
-Spain,Gold,Jordan Díaz,Athletics,Men's triple jump,8/9/2024
-Spain,Gold,"Spain women's national water polo team
-Paula Camus
-Paula Crespí
-Anni Espar
-Laura Ester
-Judith Forca
-Maica García
-Paula Leitón
-Beatriz Ortiz
-Pili Peña
-Nona Pérez
-Isabel Piralkova
-Elena Ruiz
-Martina Terré",Water polo,Women's tournament,8/10/2024
-Spain,Silver,María Pérez,Athletics,Women's 20 km walk,8/1/2024
-Spain,Silver,Carlos Alcaraz,Tennis,Men's singles,8/4/2024
-Spain,Silver,"Spain women's national 3x3 team
-Gracia Alonso de Armiño
-Juana Camilión
-Vega Gimeno
-Sandra Ygueravide",Basketball,Women's 3×3 tournament,8/5/2024
-Spain,Silver,Ayoub Ghadfa,Boxing,Men's super heavyweight,8/10/2024
-Spain,Bronze,Francisco Garrigós,Judo,Men's –60 kg,7/27/2024
-Spain,Bronze,Álvaro Martín,Athletics,Men's 20 km walk,8/1/2024
-Spain,Bronze,Pau Echaniz,Canoeing,Men's slalom K-1,8/1/2024
-Spain,Bronze,"Cristina Buc?a
-Sara Sorribes",Tennis,Women's doubles,8/4/2024
-Spain,Bronze,Enmanuel Reyes,Boxing,Men's heavyweight,8/4/2024
-Spain,Bronze,"Meritxell Ferré
-Marina García Polo
-Lilou Lluis
-Meritxell Mas
-Alisa Ozhogina
-Paula Ramírez
-Iris Tió
-Blanca Toledano",Artistic swimming,Team event,8/7/2024
-Spain,Bronze,"Diego Domínguez
-Joan Antoni Moreno",Canoeing,Men's C-2 500 m,8/8/2024
-Spain,Bronze,"Carlos Arévalo
-Saúl Craviotto
-Rodrigo Germade
-Marcus Walz",Canoeing,Men's K-4 500 m,8/8/2024
-Spain,Bronze,"Spain men's national handball team
-Agustín Casado
-Rodrigo Corrales
-Alex Dujshebaev
-Daniel Dujshebaev
-Daniel Fernández
-Adrià Figueras
-Imanol Garciandia
-Aleix GómezJorge Maqueda
-Kauldi Odriozola
-Gonzalo Pérez de Vargas
-Javier Rodríguez
-Miguel Sánchez-Migallón
-Abel SerdioIan Tarrafeta",Handball,Men's tournament,8/11/2024
-Sweden,Gold,Sarah Sjöström,Swimming,Women's 100 m freestyle,7/31/2024
-Sweden,Gold,Sarah Sjöström,Swimming,Women's 50 m freestyle,8/4/2024
-Sweden,Gold,Armand Duplantis,Athletics,Men's pole vault,8/5/2024
-Sweden,Gold,"Jonatan Hellvig
-David Åhman",Beach volleyball,Men's tournament,8/10/2024
-Sweden,Silver,Victor Lindgren,Shooting,Men's 10 m air rifle,7/29/2024
-Sweden,Silver,"Vilma Bobeck
-Rebecca Netzler",Sailing,Women's 49erFX,8/2/2024
-Sweden,Silver,Truls Möregårdh,Table tennis,Men's singles,8/4/2024
-Sweden,Silver,"Anton Källberg
-Kristian Karlsson
-Truls Möregårdh",Table tennis,Men's team,8/9/2024
-Sweden,Bronze,Tara Babulfath,Judo,Women's –48 kg,7/27/2024
-Sweden,Bronze,Jenny Rissveds,Cycling,Women's cross-country,7/28/2024
-Sweden,Bronze,"Anton Dahlberg
-Lovisa Karlsson",Sailing,Mixed 470,8/8/2024
-Cape Verde,Bronze,Daniel Varela de Pina,Boxing,Men's 51 kg,8/4/2024
-Ivory Coast,Bronze,Cheick Sallah Cissé,Taekwondo,Men's +80 kg,8/10/2024
-Peru,Bronze,Stefano Peschiera,Sailing,Men's ILCA 7,8/7/2024
-Refugee Olympic Team,Bronze,Cindy Ngamba,Boxing,Women's middleweight,8/8/2024
-Qatar,Bronze,Mutaz Essa Barshim,Athletics,Men's high jump,8/10/2024
-Singapore,Max Maeder,Sailing,Men's Formula Kite,Bronze,8/9/2024
-Slovakia,Bronze,Matej Be?uš,Canoeing,Men's slalom C-1,7/29/2024
 Zambia,Bronze,Muzala Samukonga,Athletics,Men's 400 m,8/7/2024
-,Medal,Name,Sport,Event,Date
-Albania,Bronze,Chermen Valiev,Wrestling,Men's freestyle 74 kg,8/10/2024
-Albania,Bronze,Islam Dudaev,Wrestling,Men's freestyle 65 kg,8/11/2024
-Grenada,Bronze,Lindon Victor,Athletics,Men's decathlon,8/3/2024
-Grenada,Bronze,Anderson Peters,Athletics,"Men's javelin throw
-",8/8/2024
-Malaysia,Bronze,Aaron ChiaSoh Wooi Yik,Badminton,Men's doubles,8/4/2024
-Malaysia,Bronze,Lee Zii Jia,Badminton,Men's singles,8/5/2024
-Puerto Rico,Bronze,Jasmine Camacho-Quinn,Athletics,Women's 100 m hurdles,8/10/2024
-Puerto Rico,Bronze,Sebastian Rivera,Wrestling,Men's freestyle 65 kg,8/11/2024
-Tajikistan,Bronze,Somon Makhmadbekov,Judo,Men's 81 kg,7/30/2024
-Tajikistan,Bronze,Temur Rakhimov,Judo,Men's +100 kg,8/2/2024
-Tajikistan,Bronze,Davlat Boltaev,Boxing,Men's 92 kg,8/4/2024
-Cyprus,Silver,Pavlos Kontides,Sailing,Men's ILCA 7,8/7/2024
-Fiji,Silver,"Fiji national rugby sevens team
-Ponepati Loganimasi
-Iosefo MasiJerry Matana
-Sevuloni Mocenacagi
-Waisea NacuquJoji Nasova
-Josaia Raisuqe
-Kaminieli Rasaku
-Selestino Ravutaumada
-Filipe Sauturaga
-Joseva Talacolo
-Terio Tamani
-Iowane Teba
-Jerry Tuwai",Rugby sevens,Men's tournament,7/27/2024
-Jordan,Silver,Zaid Kareem,Taekwondo,Men's 68 kg,8/8/2024
-Mongolia,Silver,Bavuudorjiin Baasankhüü,Judo,Women's –48 kg,7/27/2024
-Panama,Silver,Atheyna Bylon,Boxing,Women's 75 kg,8/10/2024
-Kosovo,Silver,Distria Krasniqi,Judo,Women's 52 kg,7/28/2024
-Kosovo,Bronze,Laura Fazliu,Judo,Women's 63 kg,7/30/2024
-Moldova,Silver,Anastasia Nichita,Wrestling,Women's  –57 kg,8/9/2024
-Moldova,Bronze,Denis Vieru,Judo,Men's –66 kg,7/28/2024
-Moldova,Bronze,Adil Osmanov,Judo,Men's –73 kg,7/29/2024
-Moldova,Bronze,Serghei Tarnovschi,Canoeing,Men's C-1 1000 m,8/9/2024
-India,Silver,Neeraj Chopra,Athletics,Men's javelin throw,8/8/2024
-India,Bronze,Manu Bhaker,Shooting,Women's 10 m air pistol,7/28/2024
-India,Bronze,Manu BhakerSarabjot Singh,,Mixed 10 m air pistol team,7/30/2024
-India,Bronze,Swapnil Kusale,,Men's 50 m rifle three positions,8/1/2024
-India,Bronze,India men's national field hockey team  Jarmanpreet SinghAbhishek NainManpreet SinghHardik SinghGurjant SinghSanjay RanaMandeep SinghHarmanpreet Singh (C)Lalit UpadhyayP. R. SreejeshSumit WalmikiShamsher SinghRaj Kumar PalAmit RohidasVivek PrasadSukhjeet Singh,Field hockey,Men's tournament,8/8/2024
-India,Bronze,Aman Sehrawat,Wrestling,Men's freestyle 57 kg,8/9/2024
-Lithuania,Silver,Mykolas Alekna,Athletics,Men's discus throw,8/7/2024
-Lithuania,Silver,Dominika Banevi?,Breaking,B-Girls,8/9/2024
-Lithuania,Bronze,Viktorija Senkut?,Rowing,Women's single sculls,8/3/2024
-Lithuania,Bronze,Evaldas DžiaugysGintautas MatulisAurelijus PukelisŠar?nas Vingelis,Basketball,Men's 3x3,8/5/2024
-North Korea,Silver,Ri Jong-sikKim Kum-yong,Table tennis,Mixed doubles,7/30/2024
-North Korea,Silver,Kim Mi-raeJo Jin-mi,Diving,Women's synchronized 10 m platform,7/31/2024
-North Korea,Bronze,Pang Chol-mi,Boxing,Women's 54 kg,8/4/2024
-North Korea,Bronze,Kim Mi-rae,Diving,Women's 10 m platform,8/6/2024
-North Korea,Bronze,Ri Se-ung,Wrestling,Men's Greco-Roman –60 kg,8/6/2024
-North Korea,Bronze,Choe Hyo-gyong,Wrestling,Women's freestyle –53 kg,8/8/2024
-Krygyzstan,Silver,Meerim Zhumanazarova,Wrestling,Woman's Freestyle –68 kg,8/6/2024
-Krygyzstan,Silver,Munarbek Seiitbek Uulu,Boxing,Men's 57 kg,8/10/2024
-Krygyzstan,Bronze,Zholaman Sharshenbekov,Wrestling,Men's Greco-Roman –60 kg,8/6/2024
-Krygyzstan,Bronze,Akzhol Makhmudov,Wrestling,Men's Greco-Roman –77 kg,8/7/2024
-Krygyzstan,Bronze,Uzur Dzhuzupbekov,Wrestling,Men's Greco-Roman –97 kg,8/7/2024
-Krygyzstan,Bronze,Aisuluu Tynybekova,Wrestling,Women's Freestyle –62 kg,8/10/2024
-Columbia,Silver,Ángel Barajas,Gymnastics,Men's horizontal bar,8/5/2024
-Columbia,Silver,Yeison López,Weightlifting,Men's 89 kg,8/9/2024
-Columbia,Silver,Mari Sánchez,Weightlifting,Women's 71 kg,8/9/2024
-Columbia,Bronze,Tatiana Rentería,Wrestling,Women's freestyle 76 kg,8/11/2024
-Armenia,Silver,Artur Davtyan,Gymnastics,Men's vault,8/4/2024
-Armenia,Silver,Artur Aleksanyan,Wrestling,Men's Greco-Roman 97 kg,8/7/2024
-Armenia,Silver,Varazdat Lalayan,Weightlifting,Men's +102 kg,8/11/2024
-Armenia,Bronze,Malkhas Amoyan,Wrestling,Men's Greco-Roman 77 kg,8/7/2024
-Mexico,Silver,Prisca Awiti Alcaraz,Judo,Women's 63 kg,7/30/2024
-Mexico,Silver,Osmar OlveraJuan Celaya,Diving,Men's synchronized 3 m springboard,8/2/2024
-Mexico,Silver,Marco Verde,Boxing,Men's 71 kg,8/9/2024
-Mexico,Bronze,Ángela RuizAlejandra ValenciaAna Paula Vázquez,Archery,Women's team,7/28/2024
-Mexico,Bronze,Osmar Olvera,Diving,Men's 3 m springboard,8/8/2024
-Turkey,Silver,Yusuf Dikeç?evval ?layda Tarhan,Shooting,Mixed 10 m air pistol team,7/30/2024
-Turkey,Silver,Hatice Akba?,Boxing,Women's 54 kg,8/8/2024
-Turkey,Silver,Buse Naz Çak?ro?lu,Boxing,Women's 50 kg,8/9/2024
-Turkey,Bronze,Mete GazozBerkim TümerAbdullah Y?ld?rm??,Archery,Men's team,7/29/2024
-Turkey,Bronze,Buse Tosun Çavu?o?lu,Wrestling,Women's 68 kg,8/6/2024
-Turkey,Bronze,Esra Y?ld?z,Boxing,Women's 57 kg,8/7/2024
-Turkey,Bronze,Taha Akgül,Wrestling,Men's freestyle 125 kg,8/10/2024
-Turkey,Bronze,Nafia Ku?,Taekwondo,Women's +67kg,8/10/2024
-Pakistan,Gold,Arshad Nadeem,Athletics,Men's javelin throw,8/8/2024
-Dominica,Gold,Thea LaFond,Athletics,Women's triple jump,8/3/2024
+Zambia,Bronze,Muzala Samukonga,Athletics,Men's 400 m,8/7/2024
