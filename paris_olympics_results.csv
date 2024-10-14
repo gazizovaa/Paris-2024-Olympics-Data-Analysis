@@ -1,4 +1,4 @@
-Country,Medal,Name,Sport,Event,Date
+NOC,Medal,Name,Sport,Event,Date
 Albania,Bronze,Chermen Valiev,Wrestling,Men's freestyle 74 kg,8/10/2024
 Albania,Bronze,Islam Dudaev,Wrestling,Men's freestyle 65 kg,8/11/2024
 Algeria,Gold,Kaylia Nemour,Gymnastics,Women's uneven bars,8/4/2024
@@ -224,123 +224,123 @@ Canada,Bronze,Sloan MacKenzieKatie Vincent,Canoeing,Women's C-2 500 m,8/9/2024
 Cape Verde,Bronze,Daniel Varela de Pina,Boxing,Men's 51 kg,8/4/2024
 Chile,Gold,Francisca Crovetto,Shooting,Women's skeet,8/4/2024
 Chile,Silver,Yasmani Acosta,Wrestling,Men's Greco-Roman 130 kg,8/6/2024
-China,,Cao Liguo,Wrestling,Men's Greco-Roman 60 kg,8/6/2024
-China,,Cao Yuan,Diving,Men's 10 m platform,8/10/2024
-China,,Chang Yani,Diving,Women's 3 m springboard,8/9/2024
-China,,Chang Yuan,Boxing,Women's 54 kg,8/8/2024
-China,,Chen Meng,Table tennis,Women's singles,8/3/2024
-China,,Chen Yiwen,Diving,Women's 3 m springboard,8/9/2024
-China,,Chen Yuxi,Diving,Women's 10 m platform,8/6/2024
-China,,Deng Lijuan,Sport climbing,Women's speed,8/7/2024
-China,,Deng Yawen,Cycling,Women's BMX freestyle,7/31/2024
-China,,Fan Zhendong,Table tennis,Men's singles,8/4/2024
-China,,Feng Bin,Athletics,Women's discus throw,8/5/2024
-China,,Feng Ziqi,Wrestling,Women's freestyle 50 kg,8/7/2024
-China,,Guo Qing,Taekwondo,Women's 49 kg,8/7/2024
-China,,He Bingjiao,Badminton,Women's singles,8/5/2024
-China,,Hong Kexin,Wrestling,Women's freestyle 57 kg,8/9/2024
-China,,Hou Zhihui,Weightlifting,Women's 49 kg,8/7/2024
-China,,Huang Yuting,Shooting,Women's 10 m air rifle,7/29/2024
-China,,"Huang Yuting
+China,Silver,Cao Liguo,Wrestling,Men's Greco-Roman 60 kg,8/6/2024
+China,Gold,Cao Yuan,Diving,Men's 10 m platform,8/10/2024
+China,Bronze,Chang Yani,Diving,Women's 3 m springboard,8/9/2024
+China,Gold,Chang Yuan,Boxing,Women's 54 kg,8/8/2024
+China,Gold,Chen Meng,Table tennis,Women's singles,8/3/2024
+China,Gold,Chen Yiwen,Diving,Women's 3 m springboard,8/9/2024
+China,Silver,Chen Yuxi,Diving,Women's 10 m platform,8/6/2024
+China,Silver,Deng Lijuan,Sport climbing,Women's speed,8/7/2024
+China,Gold,Deng Yawen,Cycling,Women's BMX freestyle,7/31/2024
+China,Gold,Fan Zhendong,Table tennis,Men's singles,8/4/2024
+China,Silver,Feng Bin,Athletics,Women's discus throw,8/5/2024
+China,Bronze,Feng Ziqi,Wrestling,Women's freestyle 50 kg,8/7/2024
+China,Silver,Guo Qing,Taekwondo,Women's 49 kg,8/7/2024
+China,Silver,He Bingjiao,Badminton,Women's singles,8/5/2024
+China,Bronze,Hong Kexin,Wrestling,Women's freestyle 57 kg,8/9/2024
+China,Gold,Hou Zhihui,Weightlifting,Women's 49 kg,8/7/2024
+China,Silver,Huang Yuting,Shooting,Women's 10 m air rifle,7/29/2024
+China,Gold,"Huang Yuting
 Sheng Lihao",Shooting,Mixed 10 m air rifle team,7/27/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Diving,Women's synchronized 3 m springboard,7/27/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Diving,Men's synchronized 10 m platform,7/29/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Table tennis,Mixed doubles,7/30/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Diving,Women's synchronized 10 m platform,7/31/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Diving,Men's synchronized 3 m springboard,8/2/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Badminton,Mixed doubles,8/2/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Badminton,Women's doubles,8/3/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Swimming,Men's 4 × 100 m medley relay,8/4/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Artistic swimming,Team event,8/7/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Canoeing,Women's C-2 500 m,8/9/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Table tennis,Men's team,8/9/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Gymnastics,Women's rhythmic group all-around,8/10/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Table tennis,Women's team,8/10/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Artistic swimming,Duet,8/10/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Archery,Women's team,7/28/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Gymnastics,Men's artistic team all-around,7/29/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Tennis,Mixed doubles,8/2/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Badminton,Women's doubles,8/3/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Swimming,Mixed 4 × 100 m medley relay,8/3/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Badminton,Men's doubles,8/4/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Field hockey,Women's tournament,8/9/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Swimming,Women's 4 × 100 m freestyle relay,7/27/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Swimming,Women's 4 × 200 m freestyle relay,8/1/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Swimming,Women's 4 × 100 m medley relay,8/4/2024
-China,,"Huang Yuting
+China,Gold,"Huang Yuting
 Sheng Lihao",Shooting,Mixed skeet team,8/5/2024
-China,,Li Fabin,Weightlifting,Men's 61 kg,8/7/2024
-China,,Li Qian,Boxing,Women's 75 kg,8/10/2024
-China,,Li Wenwen,Weightlifting,Women's +81 kg,8/11/2024
-China,,Li Yuehong,Shooting,Men's 25 m rapid fire pistol,8/5/2024
-China,,Liang Yushuai,Taekwondo,Men's 68 kg,8/8/2024
-China,,Lin Xiyu,Golf,Women's individual,8/10/2024
+China,Gold,Li Fabin,Weightlifting,Men's 61 kg,8/7/2024
+China,Gold,Li Qian,Boxing,Women's 75 kg,8/10/2024
+China,Gold,Li Wenwen,Weightlifting,Women's +81 kg,8/11/2024
+China,Gold,Li Yuehong,Shooting,Men's 25 m rapid fire pistol,8/5/2024
+China,Bronze,Liang Yushuai,Taekwondo,Men's 68 kg,8/8/2024
+China,Bronze,Lin Xiyu,Golf,Women's individual,8/10/2024
 China,,Liu HaoJi Bowen,Canoeing,Men's C-2 500 m,8/8/2024
-China,,Liu Huanhua,Weightlifting,Men's 102 kg,8/10/2024
-China,,Liu Qingyi,Breaking,B-Girls,8/9/2024
-China,,Liu Yang,Gymnastics,Men's rings,8/4/2024
-China,,Liu Yukun,Shooting,Men's 50 m rifle three positions,8/1/2024
-China,,Luo Shifang,Weightlifting,Women's 59 kg,8/8/2024
-China,,Ma Zhenzhao,Judo,Women's 78 kg,8/1/2024
-China,,Meng Lingzhe,Wrestling,Men's Greco-Roman 130 kg,8/6/2024
-China,,Pan Zhanle,Swimming,Men's 100 m freestyle,7/31/2024
-China,,Pang Qianyu,Wrestling,Women's freestyle 53 kg,8/8/2024
-China,,Qi Ying,Shooting,Men's trap,7/30/2024
-China,,Qiu Qiyuan,Gymnastics,Women's uneven bars,8/4/2024
-China,,Quan Hongchan,Diving,Women's 10 m platform,8/6/2024
-China,,Sheng Lihao,Shooting,Men's 10 m air rifle,7/29/2024
-China,,Song Jiayuan,Athletics,Women's shot put,8/9/2024
-China,,Sun Yingsha,Table tennis,Women's singles,8/3/2024
-China,,Tang Qianting,Swimming,Women's 100 m breaststroke,7/29/2024
-China,,Wang Shun,Swimming,Men's 200 m individual medley,8/2/2024
-China,,Wang Xinjie,Shooting,Men's 25 m rapid fire pistol,8/5/2024
-China,,Wang Zisai,Gymnastics,Men's trampoline,8/2/2024
-China,,Wang Zongyuan,Diving,Men's 3 m springboard,8/8/2024
-China,,Wu Peng,Sport climbing,Men's speed,8/8/2024
-China,,Wu Yu,Boxing,Women's 50 kg,8/9/2024
-China,,Xiao Ruoteng,Gymnastics,Men's artistic individual all-around,7/31/2024
-China,,Xie Siyi,Diving,Men's 3 m springboard,8/8/2024
-China,,Xie Yu,Shooting,Men's 10 m air pistol,7/28/2024
-China,,Xu Jiayu,Swimming,Men's 100 m backstroke,7/29/2024
-China,,Yan Langyu,Gymnastics,Men's trampoline,8/2/2024
-China,,Yang Jiayu,Athletics,Women's 20 km walk,8/1/2024
-China,,Yang Liu,Boxing,Women's 66 kg,8/9/2024
-China,,Yang Wenlu,Boxing,Women's 60 kg,8/6/2024
-China,,Zhang Boheng,Gymnastics,Men's artistic individual all-around,7/31/2024
-China,,Zhang Boheng,Gymnastics,Men's horizontal bar,8/5/2024
-China,,Zhang Qiongyue,Shooting,Women's 50 m rifle three positions,8/2/2024
-China,,Zhang Yufei,Swimming,Women's 100 m butterfly,7/28/2024
-China,,Zhang Yufei,Swimming,Women's 200 m butterfly,8/1/2024
-China,,Zhang Yufei,Swimming,Women's 50 m freestyle,8/4/2024
-China,,Zhao Jie,Athletics,Women's hammer throw,8/6/2024
-China,,Zheng Qinwen,Tennis,Women's singles,8/3/2024
-China,,Zhou Yaqin,Gymnastics,Women's balance beam,8/5/2024
-China,,Zou Jingyuan,Gymnastics,Men's parallel bars,8/5/2024
-China,,Zou Jingyuan,Gymnastics,Men's rings,8/4/2024
+China,Gold,Liu Huanhua,Weightlifting,Men's 102 kg,8/10/2024
+China,Bronze,Liu Qingyi,Breaking,B-Girls,8/9/2024
+China,Gold,Liu Yang,Gymnastics,Men's rings,8/4/2024
+China,Gold,Liu Yukun,Shooting,Men's 50 m rifle three positions,8/1/2024
+China,Gold,Luo Shifang,Weightlifting,Women's 59 kg,8/8/2024
+China,Bronze,Ma Zhenzhao,Judo,Women's 78 kg,8/1/2024
+China,Bronze,Meng Lingzhe,Wrestling,Men's Greco-Roman 130 kg,8/6/2024
+China,Gold,Pan Zhanle,Swimming,Men's 100 m freestyle,7/31/2024
+China,Bronze,Pang Qianyu,Wrestling,Women's freestyle 53 kg,8/8/2024
+China,Silver,Qi Ying,Shooting,Men's trap,7/30/2024
+China,Silver,Qiu Qiyuan,Gymnastics,Women's uneven bars,8/4/2024
+China,Gold,Quan Hongchan,Diving,Women's 10 m platform,8/6/2024
+China,Gold,Sheng Lihao,Shooting,Men's 10 m air rifle,7/29/2024
+China,Bronze,Song Jiayuan,Athletics,Women's shot put,8/9/2024
+China,Silver,Sun Yingsha,Table tennis,Women's singles,8/3/2024
+China,Silver,Tang Qianting,Swimming,Women's 100 m breaststroke,7/29/2024
+China,Bronze,Wang Shun,Swimming,Men's 200 m individual medley,8/2/2024
+China,Bronze,Wang Xinjie,Shooting,Men's 25 m rapid fire pistol,8/5/2024
+China,Silver,Wang Zisai,Gymnastics,Men's trampoline,8/2/2024
+China,Silver,Wang Zongyuan,Diving,Men's 3 m springboard,8/8/2024
+China,Silver,Wu Peng,Sport climbing,Men's speed,8/8/2024
+China,Gold,Wu Yu,Boxing,Women's 50 kg,8/9/2024
+China,Bronze,Xiao Ruoteng,Gymnastics,Men's artistic individual all-around,7/31/2024
+China,Gold,Xie Siyi,Diving,Men's 3 m springboard,8/8/2024
+China,Gold,Xie Yu,Shooting,Men's 10 m air pistol,7/28/2024
+China,Silver,Xu Jiayu,Swimming,Men's 100 m backstroke,7/29/2024
+China,Bronze,Yan Langyu,Gymnastics,Men's trampoline,8/2/2024
+China,Gold,Yang Jiayu,Athletics,Women's 20 km walk,8/1/2024
+China,Silver,Yang Liu,Boxing,Women's 66 kg,8/9/2024
+China,Silver,Yang Wenlu,Boxing,Women's 60 kg,8/6/2024
+China,Bronze,Zhang Boheng,Gymnastics,Men's artistic individual all-around,7/31/2024
+China,Bronze,Zhang Boheng,Gymnastics,Men's horizontal bar,8/5/2024
+China,Bronze,Zhang Qiongyue,Shooting,Women's 50 m rifle three positions,8/2/2024
+China,Bronze,Zhang Yufei,Swimming,Women's 100 m butterfly,7/28/2024
+China,Bronze,Zhang Yufei,Swimming,Women's 200 m butterfly,8/1/2024
+China,Bronze,Zhang Yufei,Swimming,Women's 50 m freestyle,8/4/2024
+China,Bronze,Zhao Jie,Athletics,Women's hammer throw,8/6/2024
+China,Gold,Zheng Qinwen,Tennis,Women's singles,8/3/2024
+China,Silver,Zhou Yaqin,Gymnastics,Women's balance beam,8/5/2024
+China,Silver,Zou Jingyuan,Gymnastics,Men's parallel bars,8/5/2024
+China,Silver,Zou Jingyuan,Gymnastics,Men's rings,8/4/2024
 Chinese Taipei,Gold,Lee YangWang Chi-lin,Badminton,Men's doubles,8/4/2024
 Chinese Taipei,Gold,Lin Yu-ting,Boxing,Women's 57 kg,8/10/2024
 Chinese Taipei,Bronze,Lee Meng-yuan,Shooting,Men's skeet,8/3/2024
@@ -1080,95 +1080,95 @@ Jamaica,Silver,Kishane Thompson,Athletics,Men's 100 m,8/4/2024
 Jamaica,Silver,Wayne Pinnock,Athletics,Men's long jump,8/6/2024
 Jamaica,Bronze,Rajindra Campbell,Athletics,Men's shot put,8/3/2024
 Jamaica,Bronze,Rasheed Broadbell,Athletics,Men's 110 m hurdles,8/8/2024
-Japon,,Akari Fujinami,Wrestling,Women's freestyle 53 kg,8/8/2024
-Japon,,Ami Yuasa,Breaking,B-Girls,8/9/2024
-Japon,,Coco Yoshizawa,Skateboarding,Women's street,7/28/2024
-Japon,,Daichi Takatani,Wrestling,Men's freestyle 74 kg,8/10/2024
-Japon,,Haruka Funakubo,Judo,Women's 57 kg,7/29/2024
-Japon,,Haruka Kitaguchi,Athletics,Women's javelin throw,8/10/2024
-Japon,,Hideki Matsuyama,Golf,Men's individual,8/4/2024
-Japon,,Hifumi Abe,Judo,Men's –66 kg,7/28/2024
-Japon,,Hina Hayata,Table tennis,Women's singles,8/3/2024
-Japon,,Kenichiro Fumita,Wrestling,Men's Greco-Roman 60 kg,8/6/2024
-Japon,,Koki Kano,Fencing,Men's épée,7/28/2024
-Japon,,Kokona Hiraki,Skateboarding,Women's park,8/6/2024
-Japon,,Kotaro Kiyooka,Wrestling,Men's freestyle 65 kg,8/11/2024
-Japon,,Liz Akama,Skateboarding,Women's street,7/28/2024
-Japon,,Nao Kusaka,Wrestling,Men's Greco-Roman 77 kg,8/7/2024
-Japon,,Natsumi Tsunoda,Judo,Women's –48 kg,7/27/2024
-Japon,,Nonoka Ozaki,Wrestling,Women's freestyle 68 kg,8/6/2024
-Japon,,Rei Higuchi,Wrestling,Men's freestyle 57 kg,8/9/2024
-Japon,,Rikuto Tamai,Diving,Men's 10 m platform,8/10/2024
-Japon,,Ryuju Nagayama,Judo,Men's –60 kg,7/27/2024
-Japon,,Sakura Motoki,Wrestling,Women's freestyle 62 kg,8/10/2024
-Japon,,Sanshiro Murao,Judo,Men's 90 kg,7/31/2024
-Japon,,Shinnosuke Oka,Gymnastics,Men's artistic individual all-around,7/31/2024
-Japon,,Shinnosuke Oka,Gymnastics,Men's horizontal bar,8/5/2024
-Japon,,Shinnosuke Oka,Gymnastics,Men's parallel bars,8/5/2024
-Japon,,Soichi Hashimoto,Judo,Men's 73 kg,7/29/2024
-Japon,,Sorato Anraku,Sport climbing,Men's combined,8/9/2024
-Japon,,Taishu Sato,Modern pentathlon,Men's,8/10/2024
-Japon,,"Takaaki Sugino
+Japon,Gold,Akari Fujinami,Wrestling,Women's freestyle 53 kg,8/8/2024
+Japon,Gold,Ami Yuasa,Breaking,B-Girls,8/9/2024
+Japon,Gold,Coco Yoshizawa,Skateboarding,Women's street,7/28/2024
+Japon,Silver,Daichi Takatani,Wrestling,Men's freestyle 74 kg,8/10/2024
+Japon,Bronze,Haruka Funakubo,Judo,Women's 57 kg,7/29/2024
+Japon,Gold,Haruka Kitaguchi,Athletics,Women's javelin throw,8/10/2024
+Japon,Bronze,Hideki Matsuyama,Golf,Men's individual,8/4/2024
+Japon,Gold,Hifumi Abe,Judo,Men's –66 kg,7/28/2024
+Japon,Bronze,Hina Hayata,Table tennis,Women's singles,8/3/2024
+Japon,Gold,Kenichiro Fumita,Wrestling,Men's Greco-Roman 60 kg,8/6/2024
+Japon,Gold,Koki Kano,Fencing,Men's épée,7/28/2024
+Japon,Silver,Kokona Hiraki,Skateboarding,Women's park,8/6/2024
+Japon,Gold,Kotaro Kiyooka,Wrestling,Men's freestyle 65 kg,8/11/2024
+Japon,Silver,Liz Akama,Skateboarding,Women's street,7/28/2024
+Japon,Gold,Nao Kusaka,Wrestling,Men's Greco-Roman 77 kg,8/7/2024
+Japon,Gold,Natsumi Tsunoda,Judo,Women's –48 kg,7/27/2024
+Japon,Bronze,Nonoka Ozaki,Wrestling,Women's freestyle 68 kg,8/6/2024
+Japon,Gold,Rei Higuchi,Wrestling,Men's freestyle 57 kg,8/9/2024
+Japon,Silver,Rikuto Tamai,Diving,Men's 10 m platform,8/10/2024
+Japon,Bronze,Ryuju Nagayama,Judo,Men's –60 kg,7/27/2024
+Japon,Gold,Sakura Motoki,Wrestling,Women's freestyle 62 kg,8/10/2024
+Japon,Silver,Sanshiro Murao,Judo,Men's 90 kg,7/31/2024
+Japon,Bronze,Shinnosuke Oka,Gymnastics,Men's artistic individual all-around,7/31/2024
+Japon,Bronze,Shinnosuke Oka,Gymnastics,Men's horizontal bar,8/5/2024
+Japon,Bronze,Shinnosuke Oka,Gymnastics,Men's parallel bars,8/5/2024
+Japon,Bronze,Soichi Hashimoto,Judo,Men's 73 kg,7/29/2024
+Japon,Silver,Sorato Anraku,Sport climbing,Men's combined,8/9/2024
+Japon,Silver,Taishu Sato,Modern pentathlon,Men's,8/10/2024
+Japon,Gold,"Takaaki Sugino
 Shinnosuke Oka
 Daiki Hashimoto
 Kazuma Kaya
 Wataru Tanigawa",Gymnastics,Men's artistic team all-around,7/29/2024
-Japon,,"Takaaki Sugino
+Japon,Gold,"Takaaki Sugino
 Shinnosuke Oka
 Daiki Hashimoto
 Kazuma Kaya
 Wataru Tanigawa",Fencing,Men's team foil,8/4/2024
-Japon,,"Takaaki Sugino
+Japon,Gold,"Takaaki Sugino
 Shinnosuke Oka
 Daiki Hashimoto
 Kazuma Kaya
 Wataru Tanigawa",Fencing,Men's team épée,8/2/2024
-Japon,,"Takaaki Sugino
+Japon,Gold,"Takaaki Sugino
 Shinnosuke Oka
 Daiki Hashimoto
 Kazuma Kaya
 Wataru Tanigawa",Judo,Mixed team,8/3/2024
-Japon,,"Takaaki Sugino
+Japon,Gold,"Takaaki Sugino
 Shinnosuke Oka
 Daiki Hashimoto
 Kazuma Kaya
 Wataru Tanigawa",Sailing,Mixed 470,8/8/2024
-Japon,,"Takaaki Sugino
+Japon,Gold,"Takaaki Sugino
 Shinnosuke Oka
 Daiki Hashimoto
 Kazuma Kaya
 Wataru Tanigawa",Table tennis,Women's team,8/10/2024
-Japon,,"Takaaki Sugino
+Japon,Gold,"Takaaki Sugino
 Shinnosuke Oka
 Daiki Hashimoto
 Kazuma Kaya
 Wataru Tanigawa",Equestrian,Team eventing,7/29/2024
-Japon,,"Takaaki Sugino
+Japon,Gold,"Takaaki Sugino
 Shinnosuke Oka
 Daiki Hashimoto
 Kazuma Kaya
 Wataru Tanigawa",Fencing,Women's team foil,8/1/2024
-Japon,,"Takaaki Sugino
+Japon,Gold,"Takaaki Sugino
 Shinnosuke Oka
 Daiki Hashimoto
 Kazuma Kaya
 Wataru Tanigawa",Badminton,Mixed doubles,8/2/2024
-Japon,,"Takaaki Sugino
+Japon,Gold,"Takaaki Sugino
 Shinnosuke Oka
 Daiki Hashimoto
 Kazuma Kaya
 Wataru Tanigawa",Badminton,Women's doubles,8/3/2024
-Japon,,"Takaaki Sugino
+Japon,Gold,"Takaaki Sugino
 Shinnosuke Oka
 Daiki Hashimoto
 Kazuma Kaya
 Wataru Tanigawa",Fencing,Women's team sabre,8/3/2024
-Japon,,Takanori Nagase,Judo,Men's 81 kg,7/30/2024
-Japon,,Tomoyuki Matsushita,Swimming,Men's 400 m individual medley,7/28/2024
-Japon,,Tsugumi Sakurai,Wrestling,Women's freestyle 57 kg,8/9/2024
-Japon,,Yui Susaki,Wrestling,Women's freestyle 50 kg,8/7/2024
-Japon,,Yuka Kagami,Wrestling,Women's freestyle 76 kg,8/11/2024
-Japon,,Yuto Horigome,Skateboarding,Men's street,7/29/2024
+Japon,Gold,Takanori Nagase,Judo,Men's 81 kg,7/30/2024
+Japon,Silver,Tomoyuki Matsushita,Swimming,Men's 400 m individual medley,7/28/2024
+Japon,Gold,Tsugumi Sakurai,Wrestling,Women's freestyle 57 kg,8/9/2024
+Japon,Bronze,Yui Susaki,Wrestling,Women's freestyle 50 kg,8/7/2024
+Japon,Gold,Yuka Kagami,Wrestling,Women's freestyle 76 kg,8/11/2024
+Japon,Gold,Yuto Horigome,Skateboarding,Men's street,7/29/2024
 Jordan,Silver,Zaid Kareem,Taekwondo,Men's 68 kg,8/8/2024
 Kazakhstan,Gold,Yeldos Smetov,Judo,Men's 60 kg,7/27/2024
 Kazakhstan,Silver,Nariman Kurbanov,Gymnastics,Men's pommel horse,8/3/2024
