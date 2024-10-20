@@ -29,4 +29,4 @@
 <p>After making the necessary updates, I saved the cleaned dataset back to the original CSV file using the <strong>to_csv()</strong> function in Pandas.</p>
 <hr />
 <h3>Data Analysis</h3>
-Before starting to analyze these datasets, make sure that we must have an installed version of My SQL (Check the official website of <a href="https://www.mysql.com/" target="_blank"></a> for details).
+Before starting to analyze these datasets, make sure that we must have an installed version of My SQL (Check the official website of<a href="https://www.mysql.com/" target="_blank"></a> for details).
