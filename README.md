@@ -29,4 +29,10 @@
 <p>After making the necessary updates, I saved the cleaned dataset back to the original CSV file using the <strong>to_csv()</strong> function in Pandas.</p>
 <hr />
 <h3>Data Analysis</h3>
-Before starting to analyze these datasets, make sure that we must have an installed version of My SQL. Check the official website of [My SQL]("https://www.mysql.com/") for details.
+<p>Before starting to analyze these datasets, make sure that we must have an installed version of My SQL. Check the official website of [MySQL]("https://www.mysql.com/") for details.</p>
+<ul>
+  <li>Open MySQL Workbrench desktop application and click the "+" button from <strong>MySQL Connections</strong> to create a new connection.</li>
+  <li>In a opened window, I completed some information, such as <strong>Connection Name, Connection Method, Hostname, and Port</strong>, then press "OK".</li>
+  <li>It will create a connection set. Once we press in it, this will require to type a password.</li>
+</ul>
+
