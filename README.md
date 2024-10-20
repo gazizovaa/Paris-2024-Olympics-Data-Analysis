@@ -31,8 +31,8 @@
 <h3>Data Analysis</h3>
 <p>Before starting to analyze these datasets, make sure that we must have an installed version of My SQL. Check the official website of [MySQL]("https://www.mysql.com/") for details.</p>
 <ul>
-  <li>Open MySQL Workbrench desktop application and click the "+" button from <strong>MySQL Connections</strong> to create a new connection.</li>
-  <li>In a opened window, I completed some information, such as <strong>Connection Name, Connection Method, Hostname, and Port</strong>, then press "OK".</li>
+  <li>Launch MySQL Workbrench on your desktop or use MySQL Command-Line Shell for your analysis.</li>
+  <li>Under <strong>MySQL Connections</strong>, click on your connection to open it. If you haven't set up a connection yet, then click the "+" button to create a new one and enter your connection details <strong>(Connection Name, Connection Method, Hostname, and Port)</strong>. Press "OK".</li>
   <li>It will create a connection set. Once we press in it, this will require to type a password.</li>
 </ul>
 
