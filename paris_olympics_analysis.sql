@@ -90,15 +90,21 @@ WHERE medal IS NULL;
 UPDATE olympics_results
 SET Gender = "Female"
 WHERE Gender = "1" AND athletes IN("Boryana Kaleyn", "Nikola Ogrodníková", "Anne-Marie Rindom", 
-								   "Sarah Steyaert                                         Charline Picon", 
+								   "Sarah Steyaert                        Charline Picon", 
                                    "Isabell Werth", "Jessica von Bredow-Werndl","Laura Collett", "Lottie Fry", 
                                    "Meerim Zhumanazarova", "Marit Bouwmeester",
                                    "Sharon van Rouwendaal", 
-                                   "Olivia Brett                                         Lisa Carrington                                         Alicia Hoskin                                         Tara Vaughan",
-                                   "Lisa Carringtonn                                         Alicia Hoskin", "Lisa Carrington", "Line Flem Høst");
+                                   "Olivia Brett
+Lisa Carrington
+Alicia Hoskin
+Tara Vaughan",
+                                   "Lisa Carrington
+Alicia Hoskin", "Lisa Carrington", "Line Flem Høst");
                                    
 UPDATE olympics_results
 SET Gender = "Male"
 WHERE Gender = "1" AND athletes IN("Chris Burton", "Michael Jung", "Christian Kukuk", "Nurbek Oralbay", "Maikel van der Vleuten",
-                                   "Isaac McHardie                                         William McKenzie", "Steve Guerdat", 
-                                   "Iona Barrows                                         Hans Henken");
+								   "Isaac McHardie
+William McKenzie",                                 
+								   "Steve Guerdat", 
+                                   "Iona Barrows                                         Hans Henken ");
