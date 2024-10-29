@@ -108,3 +108,17 @@ WHERE Gender = "1" AND athletes IN("Chris Burton", "Michael Jung", "Christian Ku
 William McKenzie",                                 
 								   "Steve Guerdat", 
                                    "Iona Barrows                                         Hans Henken ");
+                                   
+SELECT
+	medals.country_rank,
+    medals.country_name,
+	olympics_results.medal,
+	olympics_results.athletes,
+	olympics_results.sport,
+	olympics_results.event_type,
+	olympics_results.event_date,
+	olympics_results.Gender
+FROM olympics_results 
+RIGHT JOIN medals
+ON medals.country_name = olympics_results.country_name;
+
