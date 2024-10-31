@@ -41,6 +41,9 @@ ALTER TABLE olympics_results
 RENAME COLUMN full_name TO athletes;
 
 ALTER TABLE olympics_results
+MODIFY athletes VARCHAR(1000);
+
+ALTER TABLE olympics_results
 ADD Gender VARCHAR(10);
 
 -- disable safe update mode
@@ -108,17 +111,44 @@ WHERE Gender = "1" AND athletes IN("Chris Burton", "Michael Jung", "Christian Ku
 William McKenzie",                                 
 								   "Steve Guerdat", 
                                    "Iona Barrows                                         Hans Henken ");
-                                   
-SELECT
-	medals.country_rank,
-    medals.country_name,
-	olympics_results.medal,
-	olympics_results.athletes,
-	olympics_results.sport,
-	olympics_results.event_type,
-	olympics_results.event_date,
-	olympics_results.Gender
-FROM olympics_results 
-RIGHT JOIN medals
-ON medals.country_name = olympics_results.country_name;
+								
+CREATE TABLE games_results AS
+	SELECT medals.country_rank, medals.country_name, olympics_results.medal, olympics_results.athletes, olympics_results.sport, 
+           olympics_results.event_type, olympics_results.event_date, olympics_results.Gender
+	FROM olympics_results 
+    CROSS JOIN medals
+    ON medals.country_name = olympics_results.country_name;
+	
+SELECT * FROM games_results;
+
+DELETE FROM games_results
+WHERE country_name = 'China' AND athletes IS NULL;
+
+SELECT country_name,
+	   SUM(CASE WHEN medal = 'Gold' THEN 1 ELSE 0 END) AS count_gold_medals,
+	   SUM(CASE WHEN medal = 'Silver' THEN 1 ELSE 0 END) AS count_silver_medals,
+	   SUM(CASE WHEN medal = 'Bronze' THEN 1 ELSE 0 END) AS count_bronze_medals
+FROM games_results
+GROUP BY country_name;
+
+-- Australia
+INSERT INTO games_results(country_rank, country_name, medal, sport, event_type, event_date, Gender) 
+VALUES(4, 'Australia', 'Silver', 'Water polo', 'Women\'s tournament', '8/10/2024', 'Female'),
+      (4, 'Australia', 'Bronze', 'Swimming', 'Men\'s 4 x 200 m freestyle relay', '7/30/2024', 'Male'),
+      (4, 'Australia', 'Bronze', 'Basketball', 'Women\'s tournament', '8/11/2024', 'Female');
+    
+-- Brazil
+INSERT INTO games_results(country_rank, country_name, medal, sport, event_type, event_date, Gender) 
+VALUES(20, 'Brazil', 'Silver', 'Football', 'Women\'s tournament', '8/10/2024', 'Female'),
+	  (20, 'Brazil', 'Bronze', 'Volleyball', 'Women\'s tournament', '8/10/2024', 'Female');
+      
+-- Canada
+INSERT INTO games_results(country_rank, country_name, medal, sport, event_type, event_date, Gender) 
+VALUES(12, 'Canada', 'Silver', 'Rugby sevens', 'Women\'s tournament', '7/30/2024', 'Female');
+
+-- China
+INSERT INTO games_results(country_rank, country_name, medal, sport, event_type, event_date, Gender) 
+VALUES(2, 'China', 'Silver', 'Field hockey', 'Women\'s tournament', '8/9/2024', 'Female'),
+	  (2, 'China', 'Gold', 'Artistic Swimming', 'Team event', '8/7/2024', 'Female');
+
 
