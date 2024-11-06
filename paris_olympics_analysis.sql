@@ -119,11 +119,6 @@ CREATE TABLE games_results AS
     CROSS JOIN medals
     ON medals.country_name = olympics_results.country_name;
 	
-SELECT * FROM games_results;
-
-DELETE FROM games_results
-WHERE country_name = 'China' AND athletes IS NULL;
-
 SELECT country_name,
 	   SUM(CASE WHEN medal = 'Gold' THEN 1 ELSE 0 END) AS count_gold_medals,
 	   SUM(CASE WHEN medal = 'Silver' THEN 1 ELSE 0 END) AS count_silver_medals,
@@ -131,24 +126,67 @@ SELECT country_name,
 FROM games_results
 GROUP BY country_name;
 
--- Australia
-INSERT INTO games_results(country_rank, country_name, medal, sport, event_type, event_date, Gender) 
-VALUES(4, 'Australia', 'Silver', 'Water polo', 'Women\'s tournament', '8/10/2024', 'Female'),
-      (4, 'Australia', 'Bronze', 'Swimming', 'Men\'s 4 x 200 m freestyle relay', '7/30/2024', 'Male'),
-      (4, 'Australia', 'Bronze', 'Basketball', 'Women\'s tournament', '8/11/2024', 'Female');
-    
--- Brazil
-INSERT INTO games_results(country_rank, country_name, medal, sport, event_type, event_date, Gender) 
-VALUES(20, 'Brazil', 'Silver', 'Football', 'Women\'s tournament', '8/10/2024', 'Female'),
-	  (20, 'Brazil', 'Bronze', 'Volleyball', 'Women\'s tournament', '8/10/2024', 'Female');
-      
--- Canada
-INSERT INTO games_results(country_rank, country_name, medal, sport, event_type, event_date, Gender) 
-VALUES(12, 'Canada', 'Silver', 'Rugby sevens', 'Women\'s tournament', '7/30/2024', 'Female');
+SELECT * FROM games_results;
 
--- China
-INSERT INTO games_results(country_rank, country_name, medal, sport, event_type, event_date, Gender) 
-VALUES(2, 'China', 'Silver', 'Field hockey', 'Women\'s tournament', '8/9/2024', 'Female'),
-	  (2, 'China', 'Gold', 'Artistic Swimming', 'Team event', '8/7/2024', 'Female');
+INSERT INTO games_results(country_rank, country_name, medal, sport, event_type, Gender)
+VALUES(53, 'Argentina', 'Bronze', 'Field hockey', 'Women\'s tournament', 'Female'),
+      (4, 'Australia', 'Silver', 'Water polo', 'Women\'s tournament', 'Female'),
+      (4, 'Australia', 'Bronze', 'Swimming', 'Men\'s 4 x 200 m freestyle relay', 'Male'),
+      (4, 'Australia', 'Bronze', 'Basketball', 'Women\'s tournament', 'Female'),
+      (20, 'Brazil', 'Silver', 'Football', 'Women\'s tournament', 'Female'),
+      (20, 'Brazil', 'Bronze', 'Volleyball', 'Women\'s tournament', 'Female'),
+      (12, 'Canada', 'Silver', 'Rugby sevens', 'Women\'s tournament', 'Female'),
+      (2, 'China', 'Gold', 'Artistic swimming', 'Team event', 'Female'),
+      (2, 'China', 'Silver', 'Field hockey', 'Women\'s tournament', 'Female'),
+      (30, 'Croatia', 'Silver', 'Water polo', 'Men\'s tournament', 'Male'),
+      (29, 'Denmark', 'Gold', 'Handball', 'Men\'s tournament', 'Male'),
+      (29, 'Denmark', 'Bronze', 'Handball', 'Women\'s tournament', 'Female'),
+      (75, 'Fiji', 'Silver', 'Rugby sevens', 'Men\'s tournament', 'Male'),
+      (5, 'France', 'Gold', 'Rugby sevens', 'Men\'s tournament', 'Male'),
+      (5, 'France', 'Gold', 'Judo', 'Mixed Team', 'Mixed'),
+      (5, 'France', 'Gold', 'Volleyball', 'Men\'s tournament', 'Male'),
+      (10, 'Germany', 'Silver', 'Field hockey', 'Men\'s tournament', 'Male'),
+      (10, 'Germany', 'Silver', 'Handball', 'Men\'s tournament', 'Male'),
+      (10, 'Germany', 'Bronze', 'Football', 'Women\'s tournament', 'Female'),
+      (7, 'Great Britain', 'Gold', 'Swimming', 'Men\'s 4 x 200 m freestyle relay', 'Male'),
+      (7, 'Great Britain', 'Gold', 'Rowing', 'Men\'s eight', 'Male'),
+      (7, 'Great Britain', 'Silver', 'Athletics', 'Women\'s 4 x 100 m relay', 'Female'),
+      (7, 'Great Britain', 'Bronze', 'Rowing', 'Women\'s eight', 'Female'),
+      (7, 'Great Britain', 'Bronze', 'Athletics', 'Men\'s 4 x 400m relay', 'Male'),
+      (7, 'Great Britain', 'Bronze', 'Athletics', 'Women\'s 4 x 400m relay', 'Female'),
+      (72, 'India', 'Bronze', 'Field hockey', 'Men\'s tournament', 'Male'),
+      (9, 'Italy', 'Gold', 'Volleyball', 'Women\'s tournament', 'Female'),
+      (6, 'Netherlands', 'Gold', 'Field hockey', 'Men\'s tournament', 'Male'),
+      (6, 'Netherlands', 'Gold', 'Field hockey', 'Women\'s tournament', 'Female'),
+      (6, 'Netherlands', 'Silver', 'Rowing', 'Men\'s eight', 'Male'),
+      (6, 'Netherlands', 'Bronze', 'Water polo', 'Women\'s tournament', 'Female'),
+      (18, 'Norway', 'Gold', 'Handball', 'Women\'s tournament', 'Female'),
+      (42, 'Poland', 'Silver', 'Volleyball', 'Men\'s tournament', 'Male'),
+      (27, 'Serbia', 'Gold', 'Water polo', 'Men\'s tournament', 'Male'),
+      (44, 'South Africa', 'Bronze', 'Rugby sevens', 'Men\'s tournament', 'Male'),
+      (8, 'South Korea', 'Bronze', 'Judo', 'Mixed team', 'Mixed'),
+      (15, 'Spain', 'Bronze', 'Handball', 'Men\'s tournament', 'Male'),
+      (1, 'United States', 'Gold', 'Gymnastics', 'Women\'s artistic team all-around', 'Female'),
+      (1, 'United States', 'Gold', 'Swimming', 'Mixed 4 x 100 m medley relay', 'Mixed'),
+      (1, 'United States', 'Gold', 'Swimming', 'Women\'s 4 x 100 m medley relay', 'Female'),
+      (1, 'United States', 'Gold', 'Athletics', 'Men\'s 4 x 100 m relay', 'Male'),
+      (1, 'United States', 'Gold', 'Athletics', 'Women\'s 4 x 100 m relay', 'Female'),
+      (1, 'United States', 'Gold', 'Basketball', 'Men\'s tournament', 'Male'),
+      (1, 'United States', 'Gold', 'Football', 'Women\'s tournament', 'Female'),
+      (1, 'United States', 'Gold', 'Basketball', 'Women\'s tournament', 'Female'),
+      (1, 'United States', 'Silver', 'Swimming', 'Women\'s 4 x 100 m freestyle relay', 'Female'),
+      (1, 'United States', 'Silver', 'Swimming', 'Men\'s 4 x 200 m freestyle relay', 'Male'),
+      (1, 'United States', 'Silver', 'Swimming', 'Women\'s 4 x 200 m freestyle relay', 'Female'),
+      (1, 'United States', 'Silver', 'Swimming', 'Men\'s 4 x 100 m medley relay', 'Male'),
+      (1, 'United States', 'Silver', 'Artistic swimming', 'Team', 'Female'),
+      (1, 'United States', 'Silver', 'Volleyball', 'Women\'s tournament', 'Female'),
+      (1, 'United States', 'Bronze', 'Gymnastics', 'Men\'s artistic team all-around', 'Male'),
+      (1, 'United States', 'Bronze', 'Rugby sevens', 'Women\'s tournament', 'Female'),
+      (1, 'United States', 'Bronze', 'Rowing', 'Men\'s eight', 'Male'),
+      (1, 'United States', 'Bronze', 'Basketball', 'Women\'s 3x3 tournament', 'Female'),
+      (1, 'United States', 'Bronze', 'Volleyball', 'Men\'s tournament', 'Male'),
+      (1, 'United States', 'Bronze', 'Water polo', 'Men\'s tournament', 'Male');
 
+ALTER TABLE games_results
+RENAME COLUMN Gender TO gender;
 
