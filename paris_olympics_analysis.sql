@@ -190,3 +190,31 @@ VALUES(53, 'Argentina', 'Bronze', 'Field hockey', 'Women\'s tournament', 'Female
 ALTER TABLE games_results
 RENAME COLUMN Gender TO gender;
 
+ALTER TABLE games_results
+ADD record VARCHAR(5);
+
+UPDATE games_results
+SET record = 'WR'
+WHERE athletes = 'Lim Si-hyeon' AND sport = 'Archery' AND event_type = 'Women\'s individual';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE athletes = 'Jeon-Hun young                                           Lim Si-hyeon                                            Nam Su-hyeon' AND sport = 'Archery' AND event_type = 'Women\'s team';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE athletes = 'Kim Woo-jin                                               Lim Si-hyeon' AND sport = 'Archery' AND event_type = 'Mixed team';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'Uganda' AND athletes = 'Joshua Cheptegei' AND sport = 'Athletics' AND event_type = 'Men\'s 10000 m';
+
+UPDATE games_results
+SET record = 'ODB'
+WHERE athletes = 'Lindon Victor' AND sport = 'Athletics' AND event_type = 'Men\'s decathlon';
+
+UPDATE games_results
+SET record = 'ODB'
+WHERE athletes = 'Niklas Kaul' AND sport = 'Athletics' AND event_type = 'Men\'s decathlon';
+
+
