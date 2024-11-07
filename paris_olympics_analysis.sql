@@ -128,93 +128,70 @@ GROUP BY country_name;
 
 SELECT * FROM games_results;
 
-INSERT INTO games_results(country_rank, country_name, medal, sport, event_type, Gender)
-VALUES(53, 'Argentina', 'Bronze', 'Field hockey', 'Women\'s tournament', 'Female'),
-      (4, 'Australia', 'Silver', 'Water polo', 'Women\'s tournament', 'Female'),
-      (4, 'Australia', 'Bronze', 'Swimming', 'Men\'s 4 x 200 m freestyle relay', 'Male'),
-      (4, 'Australia', 'Bronze', 'Basketball', 'Women\'s tournament', 'Female'),
-      (20, 'Brazil', 'Silver', 'Football', 'Women\'s tournament', 'Female'),
-      (20, 'Brazil', 'Bronze', 'Volleyball', 'Women\'s tournament', 'Female'),
-      (12, 'Canada', 'Silver', 'Rugby sevens', 'Women\'s tournament', 'Female'),
-      (2, 'China', 'Gold', 'Artistic swimming', 'Team event', 'Female'),
-      (2, 'China', 'Silver', 'Field hockey', 'Women\'s tournament', 'Female'),
-      (30, 'Croatia', 'Silver', 'Water polo', 'Men\'s tournament', 'Male'),
-      (29, 'Denmark', 'Gold', 'Handball', 'Men\'s tournament', 'Male'),
-      (29, 'Denmark', 'Bronze', 'Handball', 'Women\'s tournament', 'Female'),
-      (75, 'Fiji', 'Silver', 'Rugby sevens', 'Men\'s tournament', 'Male'),
-      (5, 'France', 'Gold', 'Rugby sevens', 'Men\'s tournament', 'Male'),
-      (5, 'France', 'Gold', 'Judo', 'Mixed Team', 'Mixed'),
-      (5, 'France', 'Gold', 'Volleyball', 'Men\'s tournament', 'Male'),
-      (10, 'Germany', 'Silver', 'Field hockey', 'Men\'s tournament', 'Male'),
-      (10, 'Germany', 'Silver', 'Handball', 'Men\'s tournament', 'Male'),
-      (10, 'Germany', 'Bronze', 'Football', 'Women\'s tournament', 'Female'),
-      (7, 'Great Britain', 'Gold', 'Swimming', 'Men\'s 4 x 200 m freestyle relay', 'Male'),
-      (7, 'Great Britain', 'Gold', 'Rowing', 'Men\'s eight', 'Male'),
-      (7, 'Great Britain', 'Silver', 'Athletics', 'Women\'s 4 x 100 m relay', 'Female'),
-      (7, 'Great Britain', 'Bronze', 'Rowing', 'Women\'s eight', 'Female'),
-      (7, 'Great Britain', 'Bronze', 'Athletics', 'Men\'s 4 x 400m relay', 'Male'),
-      (7, 'Great Britain', 'Bronze', 'Athletics', 'Women\'s 4 x 400m relay', 'Female'),
-      (72, 'India', 'Bronze', 'Field hockey', 'Men\'s tournament', 'Male'),
-      (9, 'Italy', 'Gold', 'Volleyball', 'Women\'s tournament', 'Female'),
-      (6, 'Netherlands', 'Gold', 'Field hockey', 'Men\'s tournament', 'Male'),
-      (6, 'Netherlands', 'Gold', 'Field hockey', 'Women\'s tournament', 'Female'),
-      (6, 'Netherlands', 'Silver', 'Rowing', 'Men\'s eight', 'Male'),
-      (6, 'Netherlands', 'Bronze', 'Water polo', 'Women\'s tournament', 'Female'),
-      (18, 'Norway', 'Gold', 'Handball', 'Women\'s tournament', 'Female'),
-      (42, 'Poland', 'Silver', 'Volleyball', 'Men\'s tournament', 'Male'),
-      (27, 'Serbia', 'Gold', 'Water polo', 'Men\'s tournament', 'Male'),
-      (44, 'South Africa', 'Bronze', 'Rugby sevens', 'Men\'s tournament', 'Male'),
-      (8, 'South Korea', 'Bronze', 'Judo', 'Mixed team', 'Mixed'),
-      (15, 'Spain', 'Bronze', 'Handball', 'Men\'s tournament', 'Male'),
-      (1, 'United States', 'Gold', 'Gymnastics', 'Women\'s artistic team all-around', 'Female'),
-      (1, 'United States', 'Gold', 'Swimming', 'Mixed 4 x 100 m medley relay', 'Mixed'),
-      (1, 'United States', 'Gold', 'Swimming', 'Women\'s 4 x 100 m medley relay', 'Female'),
-      (1, 'United States', 'Gold', 'Athletics', 'Men\'s 4 x 100 m relay', 'Male'),
-      (1, 'United States', 'Gold', 'Athletics', 'Women\'s 4 x 100 m relay', 'Female'),
-      (1, 'United States', 'Gold', 'Basketball', 'Men\'s tournament', 'Male'),
-      (1, 'United States', 'Gold', 'Football', 'Women\'s tournament', 'Female'),
-      (1, 'United States', 'Gold', 'Basketball', 'Women\'s tournament', 'Female'),
-      (1, 'United States', 'Silver', 'Swimming', 'Women\'s 4 x 100 m freestyle relay', 'Female'),
-      (1, 'United States', 'Silver', 'Swimming', 'Men\'s 4 x 200 m freestyle relay', 'Male'),
-      (1, 'United States', 'Silver', 'Swimming', 'Women\'s 4 x 200 m freestyle relay', 'Female'),
-      (1, 'United States', 'Silver', 'Swimming', 'Men\'s 4 x 100 m medley relay', 'Male'),
-      (1, 'United States', 'Silver', 'Artistic swimming', 'Team', 'Female'),
-      (1, 'United States', 'Silver', 'Volleyball', 'Women\'s tournament', 'Female'),
-      (1, 'United States', 'Bronze', 'Gymnastics', 'Men\'s artistic team all-around', 'Male'),
-      (1, 'United States', 'Bronze', 'Rugby sevens', 'Women\'s tournament', 'Female'),
-      (1, 'United States', 'Bronze', 'Rowing', 'Men\'s eight', 'Male'),
-      (1, 'United States', 'Bronze', 'Basketball', 'Women\'s 3x3 tournament', 'Female'),
-      (1, 'United States', 'Bronze', 'Volleyball', 'Men\'s tournament', 'Male'),
-      (1, 'United States', 'Bronze', 'Water polo', 'Men\'s tournament', 'Male');
-
 ALTER TABLE games_results
 RENAME COLUMN Gender TO gender;
 
 ALTER TABLE games_results
 ADD record VARCHAR(5);
 
+-- set to None if no records are broken
+UPDATE games_results
+SET record = 'None'
+WHERE country_name in('Albania', 'Algeria', 'Argentina', 'Armenia', 'Austria', 'Azerbaijan', 'Belgium', 'Botswana', 'Brazil', 'Cape Verde', 'Chile');
+-- --------------------------------------------------------------------------------------
+UPDATE games_results
+SET record = 'OB'
+WHERE country_name = 'Australia' AND sport = 'Canoeing' AND event_type = 'Men\'s K-4 500 m';
+
 UPDATE games_results
 SET record = 'WR'
-WHERE athletes = 'Lim Si-hyeon' AND sport = 'Archery' AND event_type = 'Women\'s individual';
+WHERE country_name = 'Australia' AND sport = 'Cycling' AND event_type = 'Men\'s team pursuit';
 
 UPDATE games_results
 SET record = 'OR'
-WHERE athletes = 'Jeon-Hun young                                           Lim Si-hyeon                                            Nam Su-hyeon' AND sport = 'Archery' AND event_type = 'Women\'s team';
+WHERE country_name = 'Australia' AND sport = 'Swimming' AND event_type = 'Women\'s 4 x 100 m freestyle relay';
 
 UPDATE games_results
 SET record = 'OR'
-WHERE athletes = 'Kim Woo-jin                                               Lim Si-hyeon' AND sport = 'Archery' AND event_type = 'Mixed team';
+WHERE country_name = 'Australia' AND sport = 'Swimming' AND event_type = 'Women\'s 200 m freestyle';
 
 UPDATE games_results
 SET record = 'OR'
-WHERE country_name = 'Uganda' AND athletes = 'Joshua Cheptegei' AND sport = 'Athletics' AND event_type = 'Men\'s 10000 m';
+WHERE country_name = 'Australia' AND sport = 'Swimming' AND event_type = 'Women\'s 100 m backstroke';
 
 UPDATE games_results
-SET record = 'ODB'
-WHERE athletes = 'Lindon Victor' AND sport = 'Athletics' AND event_type = 'Men\'s decathlon';
+SET record = 'OR'
+WHERE country_name = 'Australia' AND sport = 'Swimming' AND event_type = 'Women\'s 4 x 200 m freestyle relay';
 
 UPDATE games_results
-SET record = 'ODB'
-WHERE athletes = 'Niklas Kaul' AND sport = 'Athletics' AND event_type = 'Men\'s decathlon';
+SET record = 'OR'
+WHERE country_name = 'Australia' AND sport = 'Swimming' AND event_type = 'Women\'s 200 m backstroke';
 
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'Bahrain' AND sport = 'Athletics' AND event_type = 'Women\'s 3000 m steeplechase';
 
+UPDATE games_results
+SET record = 'WR'
+WHERE country_name = 'Bulgaria' AND sport = 'Weightlifting' AND event_type = 'Men\'s 89 kg';
+
+UPDATE games_results
+SET record = 'OB'
+WHERE country_name = 'Canada' AND sport = 'Canoeing' AND event_type = 'Women\'s C-2 500 m';
+
+UPDATE games_results
+SET record = 'WB'
+WHERE country_name = 'Canada' AND sport = 'Canoeing' AND event_type = 'Women\'s C-1 200 m';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'Canada' AND sport = 'Swimming' AND event_type = 'Women\'s 200 m butterfly';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'Canada' AND sport = 'Swimming' AND event_type = 'Women\'s 200 m individual medley';
+-- --------------------------------------------------------------------------------------
+-- update null rows in needed rows
+-- kknvufvnjkdvlkvvnkjfv
+-- kknvufvnjkdvlkvvnkjfv
+-- kknvufvnjkdvlkvvnkjfv
