@@ -62,31 +62,6 @@ WHERE event_type IS NOT NULL;
 -- enable safe update mode
 SET SQL_SAFE_UPDATES = 1;
 
-INSERT INTO olympics_results(country_name, athletes, sport, event_type, Gender)
-VALUES ("Australia", "Chris Burton", "Equestrian", "Individual eventing", "Male"),
-	   ("Bulgaria", "Boryana Kaleyn", "Gymnastics", "Rhythmic individual all-around", "Female"),
-       ("Czech Republic", "Nikola Ogrodníková", "Athletics", "Javelin throw", "Female"),
-       ("Denmark", "Anne-Marie Rindom", "Sailing", "ILCA 6", "Female"),
-       ("France", "Sarah Steyaert\tCharline Picon", "Sailing", "49er FX", "Female"),
-       ("Germany", "Michael Jung", "Equestrian", "Individual eventing", "Male"),
-       ("Germany", "Isabell Werth", "Equestrian", "Individual dressage", "Female"),
-       ("Germany", "Jessica von Bredow-Werndl", "Equestrian", "Individual dressage", "Female"),
-       ("Germany", "Christian Kukuk", "Equestrian", "Individual jumping", "Male"),
-       ("Great Britain", "Laura Collett", "Equestrian", "Individual eventing", "Female"),
-       ("Great Britain", "Lottie Fry", "Equestrian", "Individual dressage", "Female"),
-       ("Kazakhstan", "Nurbek Oralbay", "Boxing", "Middleweight", "Male"),
-       ("Kyrgyzstan", "Meerim Zhumanazarova", "Wrestling", "Woman's Freestyle -68 kg", "Female"),
-       ("Netherlands", "Maikel van der Vleuten", "Equestrian", "Individual jumping", "Male"),
-       ("Netherlands", "Marit Bouwmeester", "Sailing", "ILCA 6", "Female"),
-       ("Netherlands", "Sharon van Rouwendaal", "Swimming", "10 km open water", "Female"),
-       ("New Zealand", "Isaac McHardie\tWilliam McKenzie", "Sailing", "49er", "Male"),
-       ("New Zealand", "Olivia Brett\tLisa Carrington\tAlicia Hoskin\tTara Vaughan", "Canoeing", "K-4 500 m", "Female"),
-       ("New Zealand", "Lisa Carrington\tAlicia Hoskin", "Canoeing", "K-2 500 m", "Female"),
-       ("New Zealand", "Lisa Carrington", "Canoeing", "K-1 500 m", "Female"),
-       ("Norway", "Line Flem Høst", "Sailing", "ILCA 6", "Female"),
-       ("Switzerland", "Steve Guerdat", "Equestrian", "Individual jumping", "Male"),
-       ("United States", "Iona Barrows\tHans Henken", "Sailing", "49er", "Male");
-
 DELETE FROM olympics_results
 WHERE medal IS NULL;
 
@@ -137,61 +112,25 @@ ADD record VARCHAR(5);
 -- set to None if no records are broken
 UPDATE games_results
 SET record = 'None'
-WHERE country_name in('Albania', 'Algeria', 'Argentina', 'Armenia', 'Austria', 'Azerbaijan', 'Belgium', 'Botswana', 'Brazil', 'Cape Verde', 'Chile');
+WHERE country_name in('Albania', 'Algeria', 'Argentina', 'Armenia', 'Austria', 'Azerbaijan', 'Belgium', 
+                      'Botswana', 'Brazil', 'Cape Verde', 'Chile', 'Chinese Taipei', 'Colombia', 'Croatia',
+                      'Cuba', 'Cyprus', 'Denmark', 'Dominica', 'Ecuador', 'Fiji');
 -- --------------------------------------------------------------------------------------
 UPDATE games_results
 SET record = 'OB'
-WHERE country_name = 'Australia' AND sport = 'Canoeing' AND event_type = 'Men\'s K-4 500 m';
+WHERE country_name = 'Czech Republic' AND sport = 'Canoeing' AND event_type = 'Men\'s C1 1000 m';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'Dominican Republic' AND sport = 'Athletics' AND event_type = 'Women\'s 400 m';
 
 UPDATE games_results
 SET record = 'WR'
-WHERE country_name = 'Australia' AND sport = 'Cycling' AND event_type = 'Men\'s team pursuit';
+WHERE country_name = 'Egypt' AND sport = 'Modern pentathlon' AND event_type = 'Men\'s individual';
 
 UPDATE games_results
 SET record = 'OR'
-WHERE country_name = 'Australia' AND sport = 'Swimming' AND event_type = 'Women\'s 4 x 100 m freestyle relay';
-
-UPDATE games_results
-SET record = 'OR'
-WHERE country_name = 'Australia' AND sport = 'Swimming' AND event_type = 'Women\'s 200 m freestyle';
-
-UPDATE games_results
-SET record = 'OR'
-WHERE country_name = 'Australia' AND sport = 'Swimming' AND event_type = 'Women\'s 100 m backstroke';
-
-UPDATE games_results
-SET record = 'OR'
-WHERE country_name = 'Australia' AND sport = 'Swimming' AND event_type = 'Women\'s 4 x 200 m freestyle relay';
-
-UPDATE games_results
-SET record = 'OR'
-WHERE country_name = 'Australia' AND sport = 'Swimming' AND event_type = 'Women\'s 200 m backstroke';
-
-UPDATE games_results
-SET record = 'OR'
-WHERE country_name = 'Bahrain' AND sport = 'Athletics' AND event_type = 'Women\'s 3000 m steeplechase';
-
-UPDATE games_results
-SET record = 'WR'
-WHERE country_name = 'Bulgaria' AND sport = 'Weightlifting' AND event_type = 'Men\'s 89 kg';
-
-UPDATE games_results
-SET record = 'OB'
-WHERE country_name = 'Canada' AND sport = 'Canoeing' AND event_type = 'Women\'s C-2 500 m';
-
-UPDATE games_results
-SET record = 'WB'
-WHERE country_name = 'Canada' AND sport = 'Canoeing' AND event_type = 'Women\'s C-1 200 m';
-
-UPDATE games_results
-SET record = 'OR'
-WHERE country_name = 'Canada' AND sport = 'Swimming' AND event_type = 'Women\'s 200 m butterfly';
-
-UPDATE games_results
-SET record = 'OR'
-WHERE country_name = 'Canada' AND sport = 'Swimming' AND event_type = 'Women\'s 200 m individual medley';
+WHERE country_name = 'Ethiopia' AND sport = 'Athletics' AND event_type = 'Men\'s marathon';
 -- --------------------------------------------------------------------------------------
 -- update null rows in needed rows
--- kknvufvnjkdvlkvvnkjfv
--- kknvufvnjkdvlkvvnkjfv
--- kknvufvnjkdvlkvvnkjfv
+
