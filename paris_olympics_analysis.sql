@@ -41,10 +41,14 @@ ALTER TABLE olympics_results
 RENAME COLUMN full_name TO athletes;
 
 ALTER TABLE olympics_results
-MODIFY athletes VARCHAR(1000);
+MODIFY COLUMN athletes VARCHAR(2000);
 
 ALTER TABLE olympics_results
 ADD Gender VARCHAR(10);
+
+-- modiy the length of data type in athletes column
+ALTER TABLE games_results
+MODIFY COLUMN athletes VARCHAR(5000);
 
 -- disable safe update mode
 SET SQL_SAFE_UPDATES = 0;
@@ -114,7 +118,13 @@ UPDATE games_results
 SET record = 'None'
 WHERE country_name in('Albania', 'Algeria', 'Argentina', 'Armenia', 'Austria', 'Azerbaijan', 'Belgium', 
                       'Botswana', 'Brazil', 'Cape Verde', 'Chile', 'Chinese Taipei', 'Colombia', 'Croatia',
-                      'Cuba', 'Cyprus', 'Denmark', 'Dominica', 'Ecuador', 'Fiji');
+                      'Cuba', 'Cyprus', 'Denmark', 'Dominica', 'Ecuador', 'Fiji', 'Uzbekistan', 'Zambia', 
+                      'Ukraine', 'Turkey', 'Tunisia', 'Thailand', 'Tajikistan', 'Spain', 'South Africa',
+                      'Slovenia', 'Slovakia', 'Singapore', 'Serbia', 'Saint Lucia', 'Refugee Olympic Team',
+                      'Qatar', 'Puerto Rico', 'Portugal', 'Philippines', 'Peru', 'Panama', 'North Korea',
+                      'Morocco', 'Mongolia', 'Moldova', 'Malaysia', 'Kyrgyzstan', 'Kosovo', 'Kazakhstan',
+                      'Jordan', 'Japan', 'Ivory Coast', 'Israel', 'Iran', 'Individual Neutral Athletes',
+                      'India', 'Hong Kong', 'Greece', 'Georgia');
 -- --------------------------------------------------------------------------------------
 UPDATE games_results
 SET record = 'OB'
@@ -132,5 +142,4 @@ UPDATE games_results
 SET record = 'OR'
 WHERE country_name = 'Ethiopia' AND sport = 'Athletics' AND event_type = 'Men\'s marathon';
 -- --------------------------------------------------------------------------------------
--- update null rows in needed rows
-
+-- update null rows in needed rows      
