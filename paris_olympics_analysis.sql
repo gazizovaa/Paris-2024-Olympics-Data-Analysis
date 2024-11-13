@@ -105,7 +105,7 @@ SELECT country_name,
 FROM games_results
 GROUP BY country_name;
 
-SELECT * FROM games_results;
+SELECT COUNT(*) FROM games_results;
 
 ALTER TABLE games_results
 RENAME COLUMN Gender TO gender;
@@ -116,15 +116,7 @@ ADD record VARCHAR(5);
 -- set to None if no records are broken
 UPDATE games_results
 SET record = 'None'
-WHERE country_name in('Albania', 'Algeria', 'Argentina', 'Armenia', 'Austria', 'Azerbaijan', 'Belgium', 
-                      'Botswana', 'Brazil', 'Cape Verde', 'Chile', 'Chinese Taipei', 'Colombia', 'Croatia',
-                      'Cuba', 'Cyprus', 'Denmark', 'Dominica', 'Ecuador', 'Fiji', 'Uzbekistan', 'Zambia', 
-                      'Ukraine', 'Turkey', 'Tunisia', 'Thailand', 'Tajikistan', 'Spain', 'South Africa',
-                      'Slovenia', 'Slovakia', 'Singapore', 'Serbia', 'Saint Lucia', 'Refugee Olympic Team',
-                      'Qatar', 'Puerto Rico', 'Portugal', 'Philippines', 'Peru', 'Panama', 'North Korea',
-                      'Morocco', 'Mongolia', 'Moldova', 'Malaysia', 'Kyrgyzstan', 'Kosovo', 'Kazakhstan',
-                      'Jordan', 'Japan', 'Ivory Coast', 'Israel', 'Iran', 'Individual Neutral Athletes',
-                      'India', 'Hong Kong', 'Greece', 'Georgia');
+WHERE record IS NULL;
 -- --------------------------------------------------------------------------------------
 UPDATE games_results
 SET record = 'OB'
@@ -141,5 +133,108 @@ WHERE country_name = 'Egypt' AND sport = 'Modern pentathlon' AND event_type = 'M
 UPDATE games_results
 SET record = 'OR'
 WHERE country_name = 'Ethiopia' AND sport = 'Athletics' AND event_type = 'Men\'s marathon';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'United States' AND medal = 'Gold' AND sport = 'Athletics' AND event_type = 'Men\'s 1500 m';
+
+UPDATE games_results
+SET record = 'WR'
+WHERE country_name = 'United States' AND medal = 'Bronze' AND sport = 'Sport climbing' AND event_type = 'Men\'s speed';
+
+UPDATE games_results
+SET record = 'WR'
+WHERE country_name = 'United States' AND medal = 'Gold' AND sport = 'Swimming' AND event_type = 'Men\'s 1500 m freestyle';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'United States' AND medal = 'Gold' AND sport = 'Swimming' AND event_type = 'Women\'s 1500 m freestyle';
+
+UPDATE games_results
+SET record = 'WR'
+WHERE country_name = 'United States' AND medal = 'Gold' AND sport = 'Swimming' AND event_type = 'Women\'s 4 x 100 m medley relay';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'China' AND medal = 'Gold' AND sport = 'Shooting' AND event_type = 'Men\'s 10 m air rifle';
+
+UPDATE games_results
+SET record = 'WR	'
+WHERE country_name = 'China' AND medal = 'Gold' AND sport = 'Swimming' AND event_type = 'Men\'s 100 m freestyle';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'China' AND medal = 'Gold' AND sport = 'Weightlifting' AND event_type = 'Women\'s 59 kg';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'France' AND medal = 'Gold' AND sport = 'Swimming' AND event_type = 'Men\'s 400 m individual medley';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'France' AND medal = 'Gold' AND sport = 'Swimming' AND event_type = 'Men\'s 200 m butterfly';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'France' AND medal = 'Gold' AND sport = 'Swimming' AND event_type = 'Men\'s 200 m breaststroke';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'France' AND medal = 'Gold' AND sport = 'Swimming' AND event_type = 'Men\'s 200 m individual medley';
+
+UPDATE games_results
+SET record = 'WR'
+WHERE country_name = 'Netherlands' AND medal = 'Gold' AND sport = 'Cycling' AND event_type = 'Men\'s team sprint';
+
+UPDATE games_results
+SET record = 'WR'
+WHERE country_name = 'Netherlands' AND medal = 'Gold' AND sport = 'Cycling' AND event_type = 'Men\'s team sprint';
+
+UPDATE games_results
+SET record = 'WR'
+WHERE country_name = 'Great Britain' AND medal = 'Gold' AND sport = 'Cycling' AND event_type = 'Women\'s team sprint';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'Great Britain' AND medal = 'Gold' AND sport = 'Shooting' AND event_type = 'Men\'s trap';
+
+UPDATE games_results
+SET record = 'OB'
+WHERE country_name = 'New Zealand' AND medal = 'Gold' AND sport = 'Canoeing' AND event_type = 'K-1 500 m';
+
+UPDATE games_results
+SET record = 'WR'
+WHERE country_name = 'Sweden' AND medal = 'Gold' AND sport = 'Athletics' AND event_type = 'Men\'s pole vault';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'Kenya' AND medal = 'Gold' AND sport = 'Athletics' AND event_type = 'Women\'s 1500 m';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'Norway' AND medal = 'Gold' AND sport = 'Weightlifting' AND event_type = 'Women\'s 81 kg';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'Ireland' AND medal = 'Gold' AND sport = 'Swimming' AND event_type = 'Men\'s 800 m freestyle';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'Jamaica' AND medal = 'Gold' AND sport = 'Athletics' AND event_type = 'Men\'s Discus throw';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'Guatemala' AND medal = 'Gold' AND sport = 'Shooting' AND event_type = 'Women\'s trap';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'Pakistan' AND medal = 'Gold' AND sport = 'Athletics' AND event_type = 'Men\'s javelin throw';
 -- --------------------------------------------------------------------------------------
--- update null rows in needed rows      
+-- update null rows in needed rows  
+UPDATE games_results
+SET athletes = 'Samuel Reardon\nLaviai Nielsen\nAlex Haydock-Wilson\nAmber Anning\nNicole Yeargin'
+WHERE country_name = 'Great Britain' AND sport = 'Athletics' AND event_type = 'Mixed 4 x 400 m relay';
+
+INSERT INTO games_results(country_rank, country_name, medal, athletes, sport, event_type, event_date, gender, record)
+VALUES(7, 'Great Britain', 'Bronze', 'Lewis Davey\nCharlie Dobson\nToby Harries (h)\nAlex Haydock-Wilson\nMatthew Hudson-Smith\nSamuel Reardon (h)', 'Athletics', 'Men\'s 4 x 400 m relay', '8/10/11', 'Male', 'None'),
+      (7, 'Great Britain', 'Bronze', 'Amber Anning\nYemi Mary John (h)\nHannah Kelly (h)\nLaviai Nielsen\nLina Nielsen (h)\nVictoria Ohuruogu\nJodie Williams (h)\nNicole Yeargin', 'Athletics', 'Women\'s 4 x 400 m relay', '8/10/11', 'Female', 'None');
