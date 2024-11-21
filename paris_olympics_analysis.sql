@@ -66,9 +66,6 @@ WHERE event_type IS NOT NULL;
 -- enable safe update mode
 SET SQL_SAFE_UPDATES = 1;
 
-DELETE FROM olympics_results
-WHERE medal IS NULL;
-
 UPDATE olympics_results
 SET Gender = "Female"
 WHERE Gender = "1" AND athletes IN("Boryana Kaleyn", "Nikola Ogrodníková", "Anne-Marie Rindom", 
@@ -105,7 +102,7 @@ SELECT country_name,
 FROM games_results
 GROUP BY country_name;
 
-SELECT COUNT(*) FROM games_results;
+SELECT * FROM games_results;
 
 ALTER TABLE games_results
 RENAME COLUMN Gender TO gender;
@@ -152,7 +149,7 @@ WHERE country_name = 'United States' AND medal = 'Gold' AND sport = 'Swimming' A
 
 UPDATE games_results
 SET record = 'WR'
-WHERE country_name = 'United States' AND medal = 'Gold' AND sport = 'Swimming' AND event_type = 'Women\'s 4 x 100 m medley relay';
+WHERE country_name = 'United States' AND medal = 'Gold' AND sport = 'Swimming' AND event_type = 'Mixed 4 x 100 m medley relay';
 
 UPDATE games_results
 SET record = 'OR'
@@ -165,6 +162,14 @@ WHERE country_name = 'China' AND medal = 'Gold' AND sport = 'Swimming' AND event
 UPDATE games_results
 SET record = 'OR'
 WHERE country_name = 'China' AND medal = 'Gold' AND sport = 'Weightlifting' AND event_type = 'Women\'s 59 kg';
+
+UPDATE games_results
+SET record = 'OR'
+WHERE country_name = 'China' AND medal = 'Gold' AND sport = 'Weightlifting' AND event_type = 'Women\'s 49 kg';
+
+UPDATE games_results
+SET record = 'WB'
+WHERE country_name = 'China' AND medal = 'Silver' AND sport = 'Shooting' AND event_type = 'Women\'s 10 m air rifle';
 
 UPDATE games_results
 SET record = 'OR'
@@ -229,12 +234,34 @@ WHERE country_name = 'Guatemala' AND medal = 'Gold' AND sport = 'Shooting' AND e
 UPDATE games_results
 SET record = 'OR'
 WHERE country_name = 'Pakistan' AND medal = 'Gold' AND sport = 'Athletics' AND event_type = 'Men\'s javelin throw';
--- --------------------------------------------------------------------------------------
--- update null rows in needed rows  
-UPDATE games_results
-SET athletes = 'Samuel Reardon\nLaviai Nielsen\nAlex Haydock-Wilson\nAmber Anning\nNicole Yeargin'
-WHERE country_name = 'Great Britain' AND sport = 'Athletics' AND event_type = 'Mixed 4 x 400 m relay';
 
-INSERT INTO games_results(country_rank, country_name, medal, athletes, sport, event_type, event_date, gender, record)
-VALUES(7, 'Great Britain', 'Bronze', 'Lewis Davey\nCharlie Dobson\nToby Harries (h)\nAlex Haydock-Wilson\nMatthew Hudson-Smith\nSamuel Reardon (h)', 'Athletics', 'Men\'s 4 x 400 m relay', '8/10/11', 'Male', 'None'),
-      (7, 'Great Britain', 'Bronze', 'Amber Anning\nYemi Mary John (h)\nHannah Kelly (h)\nLaviai Nielsen\nLina Nielsen (h)\nVictoria Ohuruogu\nJodie Williams (h)\nNicole Yeargin', 'Athletics', 'Women\'s 4 x 400 m relay', '8/10/11', 'Female', 'None');
+-- 1. analyze each country in which won the max number of medals per sports
+SELECT country_name, max_medals AS higest_numb_of_medals, sport
+FROM (SELECT country_name, MAX(total_medals) AS max_medals, sport
+      FROM (SELECT country_name, COUNT(medal) AS total_medals, sport 
+			FROM games_results
+			GROUP BY country_name, sport
+	  ) AS derived_table
+      GROUP BY country_name, sport
+) AS subquery_table
+ORDER BY higest_numb_of_medals DESC, sport ASC;
+
+-- 2. group by gender and sport columns to compare the number of medals won by males and females
+SELECT country_name, gender, sport, COUNT(medal) AS total_medals
+FROM games_results
+GROUP BY country_name, gender, sport
+ORDER BY total_medals DESC, sport ASC, gender ASC;
+
+-- 7. find the top athlete(s) who took the most number of medals per each country.
+SELECT country_name, athletes, MAX(total_medals) AS max_medals
+FROM (SELECT country_name, athletes, COUNT(medal) AS total_medals 
+      FROM games_results
+      GROUP BY country_name, athletes
+) AS derived_table
+GROUP BY country_name, athletes
+ORDER BY max_medals DESC;
+
+
+
+
+
