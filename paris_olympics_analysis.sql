@@ -235,7 +235,7 @@ UPDATE games_results
 SET record = 'OR'
 WHERE country_name = 'Pakistan' AND medal = 'Gold' AND sport = 'Athletics' AND event_type = 'Men\'s javelin throw';
 
--- 1. analyze each country in which won the max number of medals per sports
+-- 1. analyze each country in which won the max number of medals per sports.
 SELECT country_name, max_medals AS higest_numb_of_medals, sport
 FROM (SELECT country_name, MAX(total_medals) AS max_medals, sport
       FROM (SELECT country_name, COUNT(medal) AS total_medals, sport 
@@ -246,11 +246,42 @@ FROM (SELECT country_name, MAX(total_medals) AS max_medals, sport
 ) AS subquery_table
 ORDER BY higest_numb_of_medals DESC, sport ASC;
 
--- 2. group by gender and sport columns to compare the number of medals won by males and females
+-- 2. group by gender and sport columns to compare the number of medals won by males and females.
 SELECT country_name, gender, sport, COUNT(medal) AS total_medals
 FROM games_results
 GROUP BY country_name, gender, sport
 ORDER BY total_medals DESC, sport ASC, gender ASC;
+
+-- 3. analyze male or female athletes got highest number of medals and in which sport type.
+SELECT athletes, gender, MAX(total_medals) AS max_medals, sport
+FROM (SELECT athletes, gender, COUNT(medal) AS total_medals, sport
+      FROM games_results
+      GROUP BY athletes, gender, sport
+) AS derived_table
+WHERE gender IN('Male', 'Female')
+GROUP BY athletes, gender, sport
+ORDER BY max_medals DESC;
+
+-- 4. determine the date when the highest number of medals by gender (male and female).
+SELECT country_name, athletes, gender, MAX(total_medals) AS max_medals, event_date
+FROM (SELECT country_name, athletes, gender, COUNT(medal) AS total_medals, event_date
+      FROM games_results
+      GROUP BY country_name, athletes, gender, event_date
+) AS derived_table
+GROUP BY country_name, athletes, gender, event_date
+ORDER BY max_medals DESC, event_date ASC;
+
+-- 5. analyze which country’s athletes broke the records (OR, WR).
+SELECT country_name, athletes, record
+FROM games_results
+WHERE record LIKE '_R'
+ORDER BY country_name, record ASC;
+
+-- 6. discover the first athletes who broke the records at which date. 
+SELECT athletes, record, MIN(event_date)
+FROM games_results
+WHERE record LIKE '_R'
+GROUP BY athletes, record;
 
 -- 7. find the top athlete(s) who took the most number of medals per each country.
 SELECT country_name, athletes, MAX(total_medals) AS max_medals
