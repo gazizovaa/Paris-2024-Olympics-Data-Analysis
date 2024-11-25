@@ -1,6 +1,9 @@
 CREATE DATABASE paris2024;
 USE paris2024;
+
+-- enable write operations for the paris2024 database
 ALTER DATABASE paris2024 READ ONLY = 0;
+
 CREATE TABLE medals (
 	country_rank INT,
     noc VARCHAR(50),
@@ -10,6 +13,7 @@ CREATE TABLE medals (
     total INT
 );
 SELECT * FROM medals;
+
 CREATE TABLE olympics_results (
 	noc VARCHAR(50),
     medal VARCHAR(10),
@@ -19,6 +23,7 @@ CREATE TABLE olympics_results (
     event_date VARCHAR(10)
 );
 SELECT * FROM olympics_results;
+
 ALTER TABLE medals
 RENAME COLUMN noc TO country_name;
 
@@ -46,13 +51,14 @@ MODIFY COLUMN athletes VARCHAR(2000);
 ALTER TABLE olympics_results
 ADD Gender VARCHAR(10);
 
--- modiy the length of data type in athletes column
+-- increase the length of the 'athletes' column to accommodate more data
 ALTER TABLE games_results
 MODIFY COLUMN athletes VARCHAR(5000);
 
 -- disable safe update mode
 SET SQL_SAFE_UPDATES = 0;
 
+-- update the 'Gender' column based on patterns in the 'event_type' column
 UPDATE olympics_results
 SET Gender = 
 	CASE
@@ -66,35 +72,15 @@ WHERE event_type IS NOT NULL;
 -- enable safe update mode
 SET SQL_SAFE_UPDATES = 1;
 
-UPDATE olympics_results
-SET Gender = "Female"
-WHERE Gender = "1" AND athletes IN("Boryana Kaleyn", "Nikola Ogrodníková", "Anne-Marie Rindom", 
-								   "Sarah Steyaert                        Charline Picon", 
-                                   "Isabell Werth", "Jessica von Bredow-Werndl","Laura Collett", "Lottie Fry", 
-                                   "Meerim Zhumanazarova", "Marit Bouwmeester",
-                                   "Sharon van Rouwendaal", 
-                                   "Olivia Brett
-Lisa Carrington
-Alicia Hoskin
-Tara Vaughan",
-                                   "Lisa Carrington
-Alicia Hoskin", "Lisa Carrington", "Line Flem Høst");
-                                   
-UPDATE olympics_results
-SET Gender = "Male"
-WHERE Gender = "1" AND athletes IN("Chris Burton", "Michael Jung", "Christian Kukuk", "Nurbek Oralbay", "Maikel van der Vleuten",
-								   "Isaac McHardie
-William McKenzie",                                 
-								   "Steve Guerdat", 
-                                   "Iona Barrows                                         Hans Henken ");
-								
+-- create the 'games_results' table by joining two tables						
 CREATE TABLE games_results AS
 	SELECT medals.country_rank, medals.country_name, olympics_results.medal, olympics_results.athletes, olympics_results.sport, 
            olympics_results.event_type, olympics_results.event_date, olympics_results.Gender
 	FROM olympics_results 
     CROSS JOIN medals
     ON medals.country_name = olympics_results.country_name;
-	
+
+-- retrieve the total count of gold, silver, and bronze medals for each country	
 SELECT country_name,
 	   SUM(CASE WHEN medal = 'Gold' THEN 1 ELSE 0 END) AS count_gold_medals,
 	   SUM(CASE WHEN medal = 'Silver' THEN 1 ELSE 0 END) AS count_silver_medals,
@@ -110,11 +96,11 @@ RENAME COLUMN Gender TO gender;
 ALTER TABLE games_results
 ADD record VARCHAR(5);
 
--- set to None if no records are broken
+-- update the 'record' column to 'None' for entries where no records were broken
 UPDATE games_results
 SET record = 'None'
 WHERE record IS NULL;
--- --------------------------------------------------------------------------------------
+
 UPDATE games_results
 SET record = 'OB'
 WHERE country_name = 'Czech Republic' AND sport = 'Canoeing' AND event_type = 'Men\'s C1 1000 m';
@@ -235,24 +221,25 @@ UPDATE games_results
 SET record = 'OR'
 WHERE country_name = 'Pakistan' AND medal = 'Gold' AND sport = 'Athletics' AND event_type = 'Men\'s javelin throw';
 
--- 1. analyze each country in which won the max number of medals per sports.
-SELECT country_name, max_medals AS higest_numb_of_medals, sport
-FROM (SELECT country_name, MAX(total_medals) AS max_medals, sport
-      FROM (SELECT country_name, COUNT(medal) AS total_medals, sport 
-			FROM games_results
-			GROUP BY country_name, sport
-	  ) AS derived_table
-      GROUP BY country_name, sport
+-- analysis of Olympic results
+-- analyze which country won the highest number of medals in each sport
+SELECT country_name, max_medals AS highest_number_of_medals, sport
+FROM (
+    SELECT country_name, sport, COUNT(medal) AS total_medals,
+           MAX(COUNT(medal)) OVER (PARTITION BY country_name) AS max_medals
+    FROM games_results
+    GROUP BY country_name, sport
 ) AS subquery_table
-ORDER BY higest_numb_of_medals DESC, sport ASC;
+WHERE total_medals = max_medals
+ORDER BY highest_number_of_medals DESC, country_name ASC, sport ASC;
 
--- 2. group by gender and sport columns to compare the number of medals won by males and females.
+-- compare the number of medals won by male and female athletes for each sport
 SELECT country_name, gender, sport, COUNT(medal) AS total_medals
 FROM games_results
 GROUP BY country_name, gender, sport
 ORDER BY total_medals DESC, sport ASC, gender ASC;
 
--- 3. analyze male or female athletes got highest number of medals and in which sport type.
+-- identify male and female athletes with the highest number of medals in each sport
 SELECT athletes, gender, MAX(total_medals) AS max_medals, sport
 FROM (SELECT athletes, gender, COUNT(medal) AS total_medals, sport
       FROM games_results
@@ -262,35 +249,34 @@ WHERE gender IN('Male', 'Female')
 GROUP BY athletes, gender, sport
 ORDER BY max_medals DESC;
 
--- 4. determine the date when the highest number of medals by gender (male and female).
-SELECT country_name, athletes, gender, MAX(total_medals) AS max_medals, event_date
-FROM (SELECT country_name, athletes, gender, COUNT(medal) AS total_medals, event_date
-      FROM games_results
-      GROUP BY country_name, athletes, gender, event_date
+-- find the date on which the highest number of medals were won by male and female athletes
+SELECT gender, MAX(total_medals) AS max_medals, event_date
+FROM (
+    SELECT gender, COUNT(medal) AS total_medals, event_date
+    FROM games_results
+    GROUP BY gender, event_date
 ) AS derived_table
-GROUP BY country_name, athletes, gender, event_date
+GROUP BY gender, event_date
 ORDER BY max_medals DESC, event_date ASC;
 
--- 5. analyze which country’s athletes broke the records (OR, WR).
+-- identify the countries whose athletes broke Olympic or World Records (OR, WR)
 SELECT country_name, athletes, record
 FROM games_results
 WHERE record LIKE '_R'
 ORDER BY country_name, record ASC;
 
--- 6. discover the first athletes who broke the records at which date. 
+-- find the first athlete to break a record (OR, WR) and the date it occurred 
 SELECT athletes, record, MIN(event_date)
 FROM games_results
 WHERE record LIKE '_R'
 GROUP BY athletes, record;
 
--- 7. find the top athlete(s) who took the most number of medals per each country.
-SELECT country_name, athletes, MAX(total_medals) AS max_medals
-FROM (SELECT country_name, athletes, COUNT(medal) AS total_medals 
-      FROM games_results
-      GROUP BY country_name, athletes
-) AS derived_table
+-- Find the top athlete(s) with the most medals in each country
+SELECT country_name, athletes, COUNT(medal) AS total_medals
+FROM games_results
 GROUP BY country_name, athletes
-ORDER BY max_medals DESC;
+ORDER BY total_medals DESC;
+
 
 
 
