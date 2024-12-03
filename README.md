@@ -17,7 +17,7 @@ This analysis involves two vital datasets containing statistics about medals won
 <hr/>
 <h3>Data Cleaning and Preprocessing</h3>
 
-<h5>medals_table.csv</h5> contains the following details:
+<h5>medals_table.csv contains the following details:</h5>
 
 rank - displays the ranking of each country after the games have concluded;
 
@@ -31,7 +31,7 @@ bronze - indicates the number of bronze medals won by each country;
 
 total - represents the total number of gold, silver and bronze medals for each country.
 
-<h5>paris_olympics_results.csv</h5> contains the following details:
+<h5>paris_olympics_results.csv contains the following details:</h5>
 
 noc - indicates the name of each country representing each of them;
 
