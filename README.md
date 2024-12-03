@@ -1,4 +1,5 @@
 # Paris-2024-Olympics-Data-Analysis
+This analysis involves two vital datasets containing statistics about medals won by each country and their respective rankings. Athletes from each country secured various medals (gold, silver, and bronze) by showcasing their performances during the games, which determined their ranks based on the results.
 <h3>Data Collection</h3>
 <p>The initial step was to implement data extraction process from the official website. Since the official website of Paris 2024 Olympics has been unable to import fast, I decided to import data of medals table from a Wikipedia page through the URL in MS Excel:</p>
 <ul>
@@ -15,14 +16,18 @@
 <p>Once we find the right table, click <strong>Load</strong> button.</p>
 <hr/>
 <h3>Data Cleaning and Preprocessing</h3>
-This analysis involves two vital datasets containing statistics about medals won by each country and their respective rankings. Athletes from each country secured various medals (gold, silver, and bronze) by showcasing their performances during the games, which determined their ranks based on the results.
-
 medals_table.csv contains the following details:
+
 rank - displays the ranking of each country after the games have concluded;
+
 noc - indicates the name of each country representing each of them;
+
 gold - indicates the number of gold medals won by each country;
+
 silver - indicates the number of silver medals won by each country;
+
 bronze - indicates the number of bronze medals won by each country;
+
 total - represents the total number of gold, silver and bronze medals for each country.
 <hr />
 <h3>Data Analysis</h3>
