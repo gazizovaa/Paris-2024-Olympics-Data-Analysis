@@ -30,6 +30,20 @@ silver - indicates the number of silver medals won by each country;
 bronze - indicates the number of bronze medals won by each country;
 
 total - represents the total number of gold, silver and bronze medals for each country.
+
+paris_olympics_results.csv contains the following details:
+
+noc - indicates the name of each country representing each of them;
+
+medal - indicates the type of medal (gold, silver, or bronze) won by each athlete or group of athletes;
+
+name - displays the full name of each athlete who won a medal for their country;
+
+sport - indicates the sport in which each athlete showcased their performance;
+
+event - lists each event type within each sport in which athletes secured their medals;
+
+date - indicates the full date on which each athlete or a group of athletes won their medal.
 <hr />
 <h3>Data Analysis</h3>
 <p>Before starting to analyze these datasets, make sure that we must have an installed version of My SQL. Check the official website of [MySQL]("https://www.mysql.com/") for details.</p>
