@@ -16,6 +16,7 @@ This analysis involves two vital datasets containing statistics about medals won
 <p>Once we find the right table, click <strong>Load</strong> button.</p>
 <hr/>
 <h3>Data Cleaning and Preprocessing</h3>
+The paris2024 database is created and set to allow write operations. The database contains two primary tables, medals and olympics_results, which are later joined to form a comprehensive <strong>games_results</strong> table for analysis. I renamed columns in both tables for clarity (e.g., noc → country_name, gold → gold_medals). I expanded the athletes column to accommodate detailed athlete data. A new column, <strong>Gender</strong>, is added to olympics_results.  The Gender column is updated based on patterns in the event_type column to categorize events as Male, Female, or Mixed. We update <strong>record</strong> column in games_results table to indicated records set during events: WR, O, None. 
 
 <h5>medals_table.csv contains the following details:</h5>
 
@@ -52,5 +53,18 @@ date - indicates the full date on which each athlete or a group of athletes won 
   <li>Under <strong>MySQL Connections</strong>, click on your connection to open it. If you haven't set up a connection yet, then click the "+" button to create a new one and enter your connection details <strong>(Connection Name, Connection Method, Hostname, and Port)</strong>. Press "OK".</li>
   <li>It will create a connection set. Once we press in it, this will require to type a password.</li>
 </ul>
-<p>I created a new database named "paris2024" using the <strong>CREATE DATABASE</strong> statement. After that, I clicked the refresh button under <strong>Schemas</strong> in the <strong>Navigator</strong> panel on the left side, and the newly created database appeared. To set this database as the default, I used the <strong>USE</strong> command followed by the database name. Next, I executed <strong>ALTER DATABASE paris2024 READ ONLY = 1</strong> statement to switch the database to be a read-only state. This means that no user can perform any changes to the data within this database.</p>
+
+<p>The main objectives of my analysis entail in the following way:</p>
+
+<ul>
+  <li>Analysis of Medal Counts by Country and Sport</li>
+  <li>Comparison of Male and Female Athletes' Medals by Sport</li>
+  <li>Athletes with the Highest Number of Medals by Gender and Sport</li>
+  <li>Date of Maximum Medal Wins for Male and Female Athletes</li>
+  <li>Countries Whose Athletes Broke Olympic or World Records (OR, WR)</li>
+  <li>First Athlete to Break a Record (OR, WR) and Date of Achievement</li>
+  <li>Top Athletes with the Most Medals in Each Country</li>
+  <li></li>
+</ul>
+
 
