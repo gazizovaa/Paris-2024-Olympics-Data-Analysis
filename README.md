@@ -64,7 +64,6 @@ date - indicates the full date on which each athlete or a group of athletes won 
   <li>Countries Whose Athletes Broke Olympic or World Records (OR, WR)</li>
   <li>First Athlete to Break a Record (OR, WR) and Date of Achievement</li>
   <li>Top Athletes with the Most Medals in Each Country</li>
-  <li></li>
 </ul>
 
 
