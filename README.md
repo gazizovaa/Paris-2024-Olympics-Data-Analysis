@@ -16,6 +16,7 @@ This analysis involves two vital datasets containing statistics about medals won
 <p>Once we find the right table, click <strong>Load</strong> button.</p>
 <hr/>
 <h3>Data Cleaning and Preprocessing</h3>
+
 medals_table.csv contains the following details:
 
 rank - displays the ranking of each country after the games have concluded;
