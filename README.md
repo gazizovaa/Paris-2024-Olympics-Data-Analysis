@@ -15,18 +15,15 @@
 <p>Once we find the right table, click <strong>Load</strong> button.</p>
 <hr/>
 <h3>Data Cleaning and Preprocessing</h3>
-<p>After collecting data, the next step involving cleaning and preprocessing it to ensure accuracy and consistency. I completed this process using Pandas and the steps followed were:</p>
-<ul>
-  <li>The dataset, named paris_olympics_results, was read into a Pandas DataFrame using the <strong>read_csv()</strong> function.</li>
-  <li>As an initial review of the dataset, I used various methods such as<strong>head(), tail(), info(), describe(), columns()</strong> and <strong>shape, index, values</strong> methods to understand the structure and content of this dataset. They assisted me to identify any potential issues, including missing values, delete duplicates, and irrelevant rows.</li>
-  <li>I renamed the "Country" column to "NOC" using the <strong>rename()</strong> function for consistency with the medals table dataset.</li>
-</ul>
-<p>I observed that some records, particularly from Japan and China, were irrelevant or missing medal values. To address these issues:</p>
-<ul>
-  <li>I created two separate mapping dictionaries for both Japan and China, where the "athlete's name" was mapped to their respective medals.</li>
-  <li>Used the <strong>fillna()</strong> function, combined with the <strong>map()</strong> function, to fill in missing medal values for the relevant athletes.</li>
-</ul>
-<p>After making the necessary updates, I saved the cleaned dataset back to the original CSV file using the <strong>to_csv()</strong> function in Pandas.</p>
+This analysis involves two vital datasets containing statistics about medals won by each country and their respective rankings. Athletes from each country secured various medals (gold, silver, and bronze) by showcasing their performances during the games, which determined their ranks based on the results.
+
+medals_table.csv contains the following details:
+rank - displays the ranking of each country after the games have concluded;
+noc - indicates the name of each country representing each of them;
+gold - indicates the number of gold medals won by each country;
+silver - indicates the number of silver medals won by each country;
+bronze - indicates the number of bronze medals won by each country;
+total - represents the total number of gold, silver and bronze medals for each country.
 <hr />
 <h3>Data Analysis</h3>
 <p>Before starting to analyze these datasets, make sure that we must have an installed version of My SQL. Check the official website of [MySQL]("https://www.mysql.com/") for details.</p>
