@@ -1,5 +1,11 @@
 # Paris-2024-Olympics-Data-Analysis
 ![Max Medals](https://github.com/gazizovaa/Paris-2024-Olympics-Data-Analysis/blob/main/max_medals_per_each_sport.png)
+![Identify Athletes](https://github.com/gazizovaa/Paris-2024-Olympics-Data-Analysis/blob/main/identify_athletes_with_highest_number_of_medals.png)
+![First Record Breaking Athlete](https://github.com/gazizovaa/Paris-2024-Olympics-Data-Analysis/blob/main/first_athlete_who_broke_record.png)
+![Define Countries](https://github.com/gazizovaa/Paris-2024-Olympics-Data-Analysis/blob/main/define_countries_based_on_records.png)
+![Max Medals Dates](https://github.com/gazizovaa/Paris-2024-Olympics-Data-Analysis/blob/main/date_with_highest_number_of_medals.png)
+![Compare Medals Count](https://github.com/gazizovaa/Paris-2024-Olympics-Data-Analysis/blob/main/compare_number_of_medals.png)
+![Top Athletes](https://github.com/gazizovaa/Paris-2024-Olympics-Data-Analysis/blob/main/top_athletes_per_each_country.png)
 
 This analysis involves two vital datasets containing statistics about medals won by each country and their respective rankings. Athletes from each country secured various medals (gold, silver, and bronze) by showcasing their performances during the games, which determined their ranks based on the results.
 <h3>Data Collection</h3>
