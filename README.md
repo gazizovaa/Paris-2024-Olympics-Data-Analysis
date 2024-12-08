@@ -1,5 +1,5 @@
 # Paris-2024-Olympics-Data-Analysis
-![Max Medals](path/to/your/max_medals_per_each_sport.png)
+![Max Medals](path/to/your/https://github.com/gazizovaa/Paris-2024-Olympics-Data-Analysis/blob/main/max_medals_per_each_sport.png)
 
 This analysis involves two vital datasets containing statistics about medals won by each country and their respective rankings. Athletes from each country secured various medals (gold, silver, and bronze) by showcasing their performances during the games, which determined their ranks based on the results.
 <h3>Data Collection</h3>
