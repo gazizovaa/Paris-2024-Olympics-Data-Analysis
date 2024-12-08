@@ -65,5 +65,8 @@ date - indicates the full date on which each athlete or a group of athletes won 
   <li>First Athlete to Break a Record (OR, WR) and Date of Achievement</li>
   <li>Top Athletes with the Most Medals in Each Country</li>
 </ul>
+<hr />
+<h3>Data Visualization</h3>
+First, I imported <strong>inline</strong> package for using Jupyter notebooks to display plots directly within the notebook interface. Then, I installed MySQL Connector with <strong>pip pip install mysqlconnector</strong> so that I could import <strong>mysql.connector</strong> library to create a communication between Python and MySQL databases. Also, I installed SQLAlchemy using <strong>pip install SQLAlchemy</strong> to support this connection. Then, I wrote the code which establishes a connection to a MySQL database using the <strong>mysql.connector.connect()</strong> function: it took the host, user, password and database parameters to interact with the MySQL database for querying or inserting data. 
 
 
