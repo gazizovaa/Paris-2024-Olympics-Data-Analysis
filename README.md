@@ -1,5 +1,4 @@
 # Paris-2024-Olympics-Data-Analysis
-![]("C:\Users\User\Music\img\compare_number_of_medals.png")
 This analysis involves two vital datasets containing statistics about medals won by each country and their respective rankings. Athletes from each country secured various medals (gold, silver, and bronze) by showcasing their performances during the games, which determined their ranks based on the results.
 <h3>Data Collection</h3>
 <p>The initial step was to implement data extraction process from the official website. Since the official website of Paris 2024 Olympics has been unable to import fast, I decided to import data of medals table from a Wikipedia page through the URL in MS Excel:</p>
